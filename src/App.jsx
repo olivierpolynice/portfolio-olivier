@@ -1,12 +1,7 @@
-import Skills from './sections/Skills'
+import Home from './pages/Home'
 
 function App() {
-  return (
-    <main>
-      <h1>Portfolio Olivier Polynice</h1>
-      <Skills />
-    </main>
-  )
+  return <Home />
 }
 
 export default App
