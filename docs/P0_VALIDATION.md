@@ -362,3 +362,34 @@ La phase P0 sera considérée comme terminée lorsque tous les contrôles obliga
 ![Premier commit](./screenshots/p0/P0_08_first_commit.png)
 
 *Figure P0-08 — Historique Git montrant le premier commit d’initialisation du portfolio.*
+
+## 21. Critères de clôture de la phase P0
+
+La phase P0 sera considérée comme terminée lorsque toutes les conditions suivantes seront respectées :
+
+- [ ] Node.js fonctionne ;
+- [ ] npm fonctionne ;
+- [ ] le projet React est créé ;
+- [ ] le projet fonctionne sur `localhost` ;
+- [ ] le projet compile sans erreur ;
+- [ ] les dépendances principales sont installées ;
+- [ ] l’arborescence du projet est créée ;
+- [ ] les fichiers de données sont préparés ;
+- [ ] Git est initialisé ;
+- [ ] le dépôt GitHub existe ;
+- [ ] le code est envoyé sur GitHub ;
+- [ ] le fichier `README.md` est présent ;
+- [ ] la documentation P0 est présente ;
+- [ ] les captures de preuve sont ajoutées ;
+- [ ] une Pull Request P0 est créée ;
+- [ ] aucune erreur importante n’apparaît dans la console.
+
+### Décision finale
+
+- [ ] P0 validée
+- [ ] P0 validée avec réserves
+- [ ] P0 non validée
+
+### Observations
+
+À compléter après les derniers contrôles.
