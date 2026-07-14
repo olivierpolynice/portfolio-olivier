@@ -425,3 +425,49 @@ Les livrables obligatoires de la phase P0 sont les suivants :
 | Compilation | Résultat de `npm run build` | À confirmer |
 
 - [x] la preuve de compilation réussie.
+
+## 22. Livrables de la phase P0
+
+Les livrables obligatoires de la phase P0 sont :
+
+- [x] le dépôt GitHub public du portfolio ;
+- [x] le projet React fonctionnel ;
+- [x] le fichier `README.md` ;
+- [x] le cahier des charges P0 ;
+- [x] le document de validation P0 ;
+- [x] les captures d’écran de preuve ;
+- [x] l’arborescence complète du projet ;
+- [x] les fichiers de données initiaux ;
+- [x] la Pull Request P0 ;
+- [ ] la preuve de compilation réussie.
+
+### Tableau récapitulatif
+
+| Livrable | Emplacement ou preuve | Statut |
+|---|---|---|
+| Dépôt GitHub | Dépôt public `portfolio-olivier` | Validé |
+| Projet React | Dossiers `src`, `public` et configuration Vite | Validé |
+| README | `README.md` | Validé |
+| Cahier des charges P0 | `docs/P0_CAHIER_DES_CHARGES.md` | Validé |
+| Document de validation P0 | `docs/P0_VALIDATION.md` | Validé |
+| Captures d’écran | `docs/screenshots/p0/` | Validé |
+| Arborescence du projet | Capture `P0_05_project_structure.png` | Validé |
+| Fichiers de données initiaux | `src/data/profile.js`, `projects.js`, `skills.js` | Validé |
+| Pull Request P0 | Pull Request vers `main` | Validé |
+| Compilation réussie | Résultat de `npm run build` | À confirmer |
+
+## 23. Résultat attendu à la fin de P0
+
+À la fin de la phase P0, le portfolio ne sera pas encore graphiquement terminé.
+
+Cependant, le projet devra posséder :
+
+- une base React propre ;
+- une structure professionnelle ;
+- un dépôt GitHub organisé ;
+- une documentation claire ;
+- une liste précise des futures fonctionnalités ;
+- les données principales du profil ;
+- une méthode de travail stable.
+
+Le projet sera alors prêt pour la phase P1.
