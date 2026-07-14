@@ -471,3 +471,21 @@ Cependant, le projet devra posséder :
 - une méthode de travail stable.
 
 Le projet sera alors prêt pour la phase P1.
+
+## 24. Préparation de la phase P1
+
+La phase P1 sera consacrée à la création de la première version visuelle du portfolio.
+
+Les objectifs prévus pour P1 seront :
+
+- créer la barre de navigation ;
+- créer la section d’accueil ;
+- définir la palette de couleurs ;
+- définir les polices ;
+- créer les boutons principaux ;
+- rendre la page responsive ;
+- ajouter les premières animations ;
+- créer la section À propos ;
+- intégrer le lien de téléchargement du CV.
+
+La validation complète de la phase P0 est obligatoire avant de commencer la phase P1.
