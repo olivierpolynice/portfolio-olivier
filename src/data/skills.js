@@ -3,102 +3,89 @@ export const skillCategories = [
     id: 'cybersecurity',
     title: 'Cybersécurité',
     description:
-      'Protection des applications, des identités, des données et des infrastructures.',
+      'Sécurisation des accès, des applications, des API et des infrastructures.',
     skills: [
       'JWT',
       'RBAC',
-      'AES-128',
       'Nmap',
       'Wireshark',
-      'Kali Linux',
-      'Analyse de vulnérabilités',
-      'Contrôle des accès',
-      'Journalisation de sécurité',
+      'AES-128',
+      'Audit de sécurité',
+      'Gestion des accès',
+      'Sécurité des API',
     ],
   },
-
-  {
-    id: 'network',
-    title: 'Réseaux et systèmes',
-    description:
-      'Configuration, segmentation, analyse et sécurisation des réseaux informatiques.',
-    skills: [
-      'TCP/IP',
-      'VLAN',
-      'VPN',
-      'DNS',
-      'DHCP',
-      'pfSense',
-      'Linux',
-      'Windows',
-      'Administration système',
-      'Pare-feu',
-    ],
-  },
-
   {
     id: 'cloud-devops',
     title: 'Cloud et DevOps',
     description:
-      'Automatisation, conteneurisation, intégration continue et supervision.',
+      'Conteneurisation, automatisation, intégration continue et infrastructure.',
     skills: [
       'Docker',
       'Docker Compose',
       'Terraform',
       'GitHub Actions',
       'CI/CD',
-      'Prometheus',
-      'Grafana',
       'Infrastructure as Code',
-      'Monitoring',
     ],
   },
-
   {
     id: 'development',
     title: 'Développement',
     description:
-      'Création d’applications web, d’API et d’interfaces utilisateur.',
+      'Développement d’interfaces web, d’API et d’outils techniques.',
     skills: [
       'React',
       'JavaScript',
-      'HTML',
-      'CSS',
       'Python',
       'FastAPI',
-      'Node.js',
+      'HTML',
+      'CSS',
       'API REST',
       'Pydantic',
-    ],
-  },
-
-  {
-    id: 'databases',
-    title: 'Bases de données',
-    description:
-      'Stockage, structuration et exploitation des données applicatives.',
-    skills: [
       'SQLite',
-      'SQL',
-      'Modélisation de données',
-      'Persistance des données',
     ],
   },
-
   {
-    id: 'tools',
-    title: 'Outils et collaboration',
+    id: 'network',
+    title: 'Réseaux',
     description:
-      'Gestion du code source, documentation et travail collaboratif.',
+      'Configuration, segmentation, analyse et sécurisation des réseaux.',
     skills: [
-      'Git',
-      'GitHub',
-      'Visual Studio Code',
-      'Swagger',
-      'Postman',
+      'TCP/IP',
+      'VLAN',
+      'VPN',
+      'pfSense',
+      'Routage',
+      'Pare-feu',
+      'Segmentation réseau',
+    ],
+  },
+  {
+    id: 'monitoring',
+    title: 'Monitoring et supervision',
+    description:
+      'Supervision des applications, des services et des infrastructures.',
+    skills: [
+      'Prometheus',
+      'Grafana',
+      'Métriques',
+      'Alerting',
+      'Dashboards',
+      'Logs',
+    ],
+  },
+  {
+    id: 'systems',
+    title: 'Systèmes',
+    description:
+      'Administration et utilisation des environnements Linux et Windows.',
+    skills: [
+      'Linux',
+      'Windows',
       'PowerShell',
-      'Documentation technique',
-      'Gestion de projet',
+      'Bash',
+      'Administration système',
     ],
   },
 ]

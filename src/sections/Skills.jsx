@@ -1,24 +1,27 @@
-﻿import { skillCategories } from '../data/skills'
+﻿import SectionTitle from '../components/SectionTitle'
+import SkillCard from '../components/SkillCard'
+import { skillCategories } from '../data/skills'
 
 function Skills() {
   return (
-    <section id="skills">
-      <h2>Mes compétences</h2>
+    <section className="section skills" id="competences">
+      <div className="container">
+        <SectionTitle
+          eyebrow="Compétences"
+          title="Technologies et domaines techniques"
+          description="Des compétences développées à travers mes formations, mes laboratoires et plusieurs projets concrets."
+        />
 
-      <div className="skills-grid">
-        {skillCategories.map((category) => (
-          <article key={category.id} className="skill-category">
-            <h3>{category.title}</h3>
-
-            <p>{category.description}</p>
-
-            <ul>
-              {category.skills.map((skill) => (
-                <li key={skill}>{skill}</li>
-              ))}
-            </ul>
-          </article>
-        ))}
+        <div className="skills__grid">
+          {skillCategories.map((category) => (
+            <SkillCard
+              key={category.id}
+              title={category.title}
+              description={category.description}
+              skills={category.skills}
+            />
+          ))}
+        </div>
       </div>
     </section>
   )

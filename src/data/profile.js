@@ -1,32 +1,36 @@
 export const profile = {
   name: 'Olivier Polynice',
 
-  title: 'Étudiant en Master Réseaux, Cybersécurité et Cloud',
+  title:
+    'Étudiant en Master Réseaux, Cybersécurité et Cloud',
 
-  shortTitle: 'Étudiant en cybersécurité, cloud et réseaux',
+  shortTitle:
+    'Cybersécurité, Cloud, Réseaux et DevSecOps',
 
   location: 'Île-de-France, France',
 
   availability:
-    'Recherche d’une alternance en cybersécurité, cloud ou DevSecOps pour septembre 2026.',
+    'Recherche d’un stage de fin de Master 1, puis d’une alternance en cybersécurité, cloud ou DevSecOps pour septembre 2026.',
 
   introduction:
-    'Je développe des projets orientés cybersécurité, cloud, réseaux et DevSecOps.',
+    'Je développe des projets orientés cybersécurité, cloud, réseaux, développement sécurisé et DevSecOps.',
 
   description:
-    'Étudiant en Master Réseaux, Cybersécurité et Cloud, je développe mes compétences à travers des projets combinant sécurité des applications, administration réseau, développement web, conteneurisation, automatisation et supervision.',
+    'Étudiant en Master Réseaux, Cybersécurité et Cloud à ESTIAM Paris, je développe mes compétences à travers des projets combinant sécurité des applications, gestion des accès, administration réseau, développement web, conteneurisation, automatisation, intégration continue et supervision.',
 
-  email: '',
+  email: 'olivierpolynice7@gmail.com',
 
-  github: '',
+  github: 'https://github.com/olivierpolynice',
 
-  linkedin: '',
+  linkedin:
+    'https://www.linkedin.com/in/olivier-polynice/',
 
-  cv: '/cv/cv-olivier-polynice.pdf',
+  cv: '/cv/CV_Olivier_Polynice.pdf',
 
   profileImage: '/images/olivier-polynice.png',
 
-  status: 'Disponible pour une alternance',
+  status:
+    'Stage de fin de Master 1 · Alternance en Master 2',
 
   interests: [
     'Cybersécurité',
