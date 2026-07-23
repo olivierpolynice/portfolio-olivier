@@ -1,0 +1,152 @@
+/* =========================================================
+   Boutons partagés
+   ========================================================= */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 12px 22px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-weight: 700;
+  line-height: 1;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button:focus-visible {
+  outline: 3px solid rgba(56, 189, 248, 0.35);
+  outline-offset: 3px;
+}
+
+.button--primary {
+  background: var(--color-primary);
+  color: #03111c;
+}
+
+.button--primary:hover {
+  background: #7dd3fc;
+}
+
+.button--secondary {
+  border-color: var(--color-border);
+  background: transparent;
+  color: var(--color-text);
+}
+
+.button--secondary:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* =========================================================
+   Titres des sections
+   ========================================================= */
+
+.section-title {
+  max-width: 760px;
+  margin-bottom: 48px;
+}
+
+.section-title__eyebrow {
+  margin-bottom: 10px;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.section-title__heading {
+  color: var(--color-text);
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.15;
+}
+
+.section-title__description {
+  max-width: 680px;
+  margin-top: 18px;
+  color: var(--color-text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   Liens vers les réseaux sociaux
+   ========================================================= */
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+}
+
+.social-links a {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.social-links a:hover {
+  border-color: var(--color-primary);
+  background: var(--color-surface-hover);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.social-links a:focus-visible {
+  outline: 3px solid rgba(56, 189, 248, 0.35);
+  outline-offset: 3px;
+}
+
+/* =========================================================
+   Responsive partagé
+   ========================================================= */
+
+@media (max-width: 480px) {
+  .button {
+    min-height: 46px;
+    padding: 11px 18px;
+  }
+
+  .section-title {
+    margin-bottom: 36px;
+  }
+
+  .section-title__description {
+    font-size: 1rem;
+  }
+}
+
+/* =========================================================
+   Réduction des animations
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .button,
+  .social-links a {
+    transition: none;
+  }
+}

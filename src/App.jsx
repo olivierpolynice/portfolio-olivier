@@ -1,11 +1,26 @@
-import Skills from './sections/Skills'
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+} from 'react-router-dom'
+import Home from './pages/Home'
+import ProjectDetails from './pages/ProjectDetails'
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
-    <main>
-      <h1>Portfolio Olivier Polynice</h1>
-      <Skills />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+        <Route
+          path="/projets/:projectId"
+          element={<ProjectDetails />}
+        />
+
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

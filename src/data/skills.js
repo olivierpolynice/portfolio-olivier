@@ -1,104 +1,84 @@
 export const skillCategories = [
   {
-    id: 'cybersecurity',
-    title: 'Cybersécurité',
+    id: 'systems',
+    icon: 'server',
+    title: 'Systèmes et administration',
     description:
-      'Protection des applications, des identités, des données et des infrastructures.',
+      'Administration des systèmes, gestion des utilisateurs et automatisation des tâches.',
     skills: [
-      'JWT',
-      'RBAC',
-      'AES-128',
-      'Nmap',
-      'Wireshark',
-      'Kali Linux',
-      'Analyse de vulnérabilités',
-      'Contrôle des accès',
-      'Journalisation de sécurité',
-    ],
-  },
-
-  {
-    id: 'network',
-    title: 'Réseaux et systèmes',
-    description:
-      'Configuration, segmentation, analyse et sécurisation des réseaux informatiques.',
-    skills: [
-      'TCP/IP',
-      'VLAN',
-      'VPN',
-      'DNS',
-      'DHCP',
-      'pfSense',
       'Linux',
       'Windows',
-      'Administration système',
-      'Pare-feu',
+      'Windows Server',
+      'PowerShell',
+      'Active Directory',
+      'SSH',
     ],
   },
-
   {
-    id: 'cloud-devops',
-    title: 'Cloud et DevOps',
+    id: 'networks',
+    icon: 'network',
+    title: 'Réseaux et virtualisation',
     description:
-      'Automatisation, conteneurisation, intégration continue et supervision.',
+      'Configuration, analyse et virtualisation des infrastructures réseau.',
+    skills: [
+      'TCP/IP',
+      'DNS',
+      'DHCP',
+      'Cisco',
+      'VMware',
+      'VirtualBox',
+    ],
+  },
+  {
+    id: 'cybersecurity',
+    icon: 'shield',
+    title: 'Cybersécurité',
+    description:
+      'Analyse, protection des systèmes et contrôle sécurisé des accès.',
+    skills: [
+      'Wireshark',
+      'Nmap',
+      'Kali Linux',
+      'RBAC',
+      'JWT',
+      'UFW',
+      'Fail2ban',
+      'Analyse de logs',
+      'Pentest encadré',
+    ],
+  },
+  {
+    id: 'devops',
+    icon: 'infinity',
+    title: 'DevOps et supervision',
+    description:
+      'Conteneurisation, automatisation, intégration continue et observabilité.',
     skills: [
       'Docker',
-      'Docker Compose',
-      'Terraform',
+      'Git',
+      'GitHub',
       'GitHub Actions',
       'CI/CD',
       'Prometheus',
       'Grafana',
-      'Infrastructure as Code',
-      'Monitoring',
     ],
   },
-
   {
     id: 'development',
-    title: 'Développement',
+    icon: 'code',
+    title: 'Développement et données',
     description:
-      'Création d’applications web, d’API et d’interfaces utilisateur.',
+      'Développement d’applications, d’API et traitement des données.',
     skills: [
-      'React',
-      'JavaScript',
-      'HTML',
-      'CSS',
       'Python',
       'FastAPI',
-      'Node.js',
-      'API REST',
-      'Pydantic',
-    ],
-  },
-
-  {
-    id: 'databases',
-    title: 'Bases de données',
-    description:
-      'Stockage, structuration et exploitation des données applicatives.',
-    skills: [
-      'SQLite',
+      'React',
+      'JavaScript',
+      'HTML/CSS',
       'SQL',
-      'Modélisation de données',
-      'Persistance des données',
-    ],
-  },
-
-  {
-    id: 'tools',
-    title: 'Outils et collaboration',
-    description:
-      'Gestion du code source, documentation et travail collaboratif.',
-    skills: [
-      'Git',
-      'GitHub',
-      'Visual Studio Code',
-      'Swagger',
-      'Postman',
-      'PowerShell',
-      'Documentation technique',
-      'Gestion de projet',
+      'SQLite',
+      'Airflow',
+      'dbt',
     ],
   },
 ]
