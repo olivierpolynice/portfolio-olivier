@@ -1,10 +1,15 @@
-﻿import SectionTitle from '../components/SectionTitle'
+﻿import MotionSection from '../components/MotionSection'
+import SectionTitle from '../components/SectionTitle'
 import SkillCard from '../components/SkillCard'
 import { skillCategories } from '../data/skills'
+import './Skills.css'
 
 function Skills() {
   return (
-    <section className="section skills" id="competences">
+    <MotionSection
+      className="section skills"
+      id="competences"
+    >
       <div className="container">
         <SectionTitle
           eyebrow="Compétences"
@@ -13,17 +18,20 @@ function Skills() {
         />
 
         <div className="skills__grid">
-          {skillCategories.map((category) => (
+          {skillCategories.map((category, index) => (
             <SkillCard
               key={category.id}
+              id={category.id}
+              icon={category.icon}
               title={category.title}
               description={category.description}
               skills={category.skills}
+              animationDelay={index * 0.07}
             />
           ))}
         </div>
       </div>
-    </section>
+    </MotionSection>
   )
 }
 

@@ -1,16 +1,33 @@
-﻿import { Code2, Link, Mail } from 'lucide-react'
+﻿import {
+  Code2,
+  Link,
+  Mail,
+} from 'lucide-react'
 
-function SocialLinks({ github, linkedin, email }) {
+function SocialLinks({
+  github,
+  linkedin,
+  email,
+}) {
   return (
-    <div className="social-links">
+    <div
+      className="social-links"
+      role="list"
+      aria-label="Liens professionnels"
+    >
       {github && (
         <a
           href={github}
           target="_blank"
-          rel="noreferrer"
-          aria-label="Consulter le profil GitHub d’Olivier Polynice"
+          rel="noopener noreferrer"
+          role="listitem"
+          aria-label="Consulter le profil GitHub d’Olivier Polynice dans un nouvel onglet"
+          title="GitHub"
         >
-          <Code2 size={22} />
+          <Code2
+            size={22}
+            aria-hidden="true"
+          />
         </a>
       )}
 
@@ -18,19 +35,29 @@ function SocialLinks({ github, linkedin, email }) {
         <a
           href={linkedin}
           target="_blank"
-          rel="noreferrer"
-          aria-label="Consulter le profil LinkedIn d’Olivier Polynice"
+          rel="noopener noreferrer"
+          role="listitem"
+          aria-label="Consulter le profil LinkedIn d’Olivier Polynice dans un nouvel onglet"
+          title="LinkedIn"
         >
-          <Link size={22} />
+          <Link
+            size={22}
+            aria-hidden="true"
+          />
         </a>
       )}
 
       {email && (
         <a
           href={`mailto:${email}`}
-          aria-label="Envoyer un e-mail à Olivier Polynice"
+          role="listitem"
+          aria-label={`Envoyer un e-mail à ${email}`}
+          title="Envoyer un e-mail"
         >
-          <Mail size={22} />
+          <Mail
+            size={22}
+            aria-hidden="true"
+          />
         </a>
       )}
     </div>

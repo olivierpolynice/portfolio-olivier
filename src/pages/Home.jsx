@@ -1,18 +1,29 @@
-﻿import Navbar from '../components/Navbar'
-import Hero from '../sections/Hero'
+﻿import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import About from '../sections/About'
-import Skills from '../sections/Skills'
-import Projects from '../sections/Projects'
-import Experience from '../sections/Experience'
-import Resume from '../sections/Resume'
 import Contact from '../sections/Contact'
-import Footer from '../components/Footer'
+import Experience from '../sections/Experience'
+import Hero from '../sections/Hero'
+import Projects from '../sections/Projects'
+import Resume from '../sections/Resume'
+import Skills from '../sections/Skills'
+
 function Home() {
   return (
     <>
+      <a
+        className="skip-link"
+        href="#contenu-principal"
+      >
+        Aller au contenu principal
+      </a>
+
       <Navbar />
 
-      <main>
+      <main
+        id="contenu-principal"
+        tabIndex="-1"
+      >
         <Hero />
         <About />
         <Skills />
@@ -26,6 +37,5 @@ function Home() {
     </>
   )
 }
-  
 
 export default Home

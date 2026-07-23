@@ -1,7 +1,27 @@
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+} from 'react-router-dom'
 import Home from './pages/Home'
+import ProjectDetails from './pages/ProjectDetails'
+import NotFound from './pages/NotFound'
 
 function App() {
-  return <Home />
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+        <Route
+          path="/projets/:projectId"
+          element={<ProjectDetails />}
+        />
+
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App

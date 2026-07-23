@@ -1,8 +1,23 @@
-﻿import { useState } from 'react'
+﻿import {
+  motion,
+  useReducedMotion,
+} from 'framer-motion'
+import { useState } from 'react'
+import {
+  BriefcaseBusiness,
+  Mail,
+  MapPin,
+  Send,
+} from 'lucide-react'
+import MotionSection from '../components/MotionSection'
+import SectionTitle from '../components/SectionTitle'
+import SocialLinks from '../components/SocialLinks'
 import { profile } from '../data/profile'
 import './Contact.css'
 
 function Contact() {
+  const shouldReduceMotion = useReducedMotion()
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -10,144 +25,280 @@ function Contact() {
     message: '',
   })
 
-  const [error, setError] = useState('')
-
-  function handleChange(event) {
+  const handleChange = (event) => {
     const { name, value } = event.target
 
-    setFormData((currentData) => ({
-      ...currentData,
+    setFormData((current) => ({
+      ...current,
       [name]: value,
     }))
-
-    if (error) {
-      setError('')
-    }
   }
 
-  function handleSubmit(event) {
+  const handleSubmit = (event) => {
     event.preventDefault()
 
-    const name = formData.name.trim()
-    const email = formData.email.trim()
-    const subject = formData.subject.trim()
-    const message = formData.message.trim()
+    const subject =
+      formData.subject.trim() ||
+      `Prise de contact de ${formData.name}`
 
-    if (!name || !email || !subject || !message) {
-      setError('Veuillez remplir tous les champs avant l’envoi.')
-      return
-    }
+    const body = [
+      'Bonjour Olivier,',
+      '',
+      formData.message,
+      '',
+      `Nom : ${formData.name}`,
+      `Adresse e-mail : ${formData.email}`,
+    ].join('\n')
 
-    const emailSubject = encodeURIComponent(
-      `${subject} — Message depuis le portfolio`,
-    )
-
-    const emailBody = encodeURIComponent(
-      `Bonjour Olivier,
-
-Nom : ${name}
-Adresse e-mail : ${email}
-
-Message :
-${message}`,
-    )
-
-    window.location.href =
+    const mailtoLink =
       `mailto:${profile.email}` +
-      `?subject=${emailSubject}` +
-      `&body=${emailBody}`
+      `?subject=${encodeURIComponent(subject)}` +
+      `&body=${encodeURIComponent(body)}`
+
+    window.location.href = mailtoLink
   }
 
+  const leftAnimation = shouldReduceMotion
+    ? {}
+    : {
+        initial: {
+          opacity: 0,
+          x: -20,
+        },
+        whileInView: {
+          opacity: 1,
+          x: 0,
+        },
+        viewport: {
+          once: true,
+          amount: 0.15,
+        },
+        transition: {
+          duration: 0.5,
+          ease: [0.22, 1, 0.36, 1],
+        },
+      }
+
+  const rightAnimation = shouldReduceMotion
+    ? {}
+    : {
+        initial: {
+          opacity: 0,
+          x: 20,
+        },
+        whileInView: {
+          opacity: 1,
+          x: 0,
+        },
+        viewport: {
+          once: true,
+          amount: 0.15,
+        },
+        transition: {
+          duration: 0.5,
+          delay: 0.1,
+          ease: [0.22, 1, 0.36, 1],
+        },
+      }
+
   return (
-    <section className="contact" id="contact">
-      <div className="contact-container">
-        <p className="contact-subtitle">ME CONTACTER</p>
+    <MotionSection
+      className="section contact"
+      id="contact"
+    >
+      <div className="container">
+        <SectionTitle
+          eyebrow="Contact"
+          title="Échangeons sur votre opportunité"
+          description="Je suis disponible pour une alternance en Master 2 à partir de septembre 2026, principalement en cybersécurité, cloud ou DevSecOps."
+        />
 
-        <h2>Travaillons ensemble</h2>
+        <div className="contact__layout">
+          <motion.div
+            className="contact__information"
+            {...leftAnimation}
+          >
+            <div className="contact__intro">
+              <h3>Restons en contact</h3>
 
-        <p className="contact-description">
-          Je recherche un stage de fin d’études pour valider mon
-          Master 1, puis une alternance pour poursuivre mon Master 2.
-          Vous pouvez également me contacter pour un projet ou une
-          collaboration professionnelle.
-        </p>
-
-        <div className="contact-content">
-          <form className="contact-form" onSubmit={handleSubmit}>
-            <div className="contact-form-group">
-              <label htmlFor="contact-name">Nom</label>
-
-              <input
-                id="contact-name"
-                name="name"
-                type="text"
-                value={formData.name}
-                onChange={handleChange}
-                placeholder="Votre nom"
-                autoComplete="name"
-              />
+              <p>
+                Vous pouvez me contacter directement par e-mail,
+                consulter mon profil LinkedIn ou découvrir mes
+                projets sur GitHub.
+              </p>
             </div>
 
-            <div className="contact-form-group">
-              <label htmlFor="contact-email">
-                Adresse e-mail
+            <div className="contact__details">
+              <a
+                className="contact__detail"
+                href={`mailto:${profile.email}`}
+              >
+                <span className="contact__detail-icon">
+                  <Mail size={21} aria-hidden="true" />
+                </span>
+
+                <span>
+                  <small>Adresse e-mail</small>
+                  <strong>{profile.email}</strong>
+                </span>
+              </a>
+
+              <div className="contact__detail">
+                <span className="contact__detail-icon">
+                  <MapPin size={21} aria-hidden="true" />
+                </span>
+
+                <span>
+                  <small>Localisation</small>
+                  <strong>{profile.location}</strong>
+                </span>
+              </div>
+
+              <div className="contact__detail">
+                <span className="contact__detail-icon">
+                  <BriefcaseBusiness
+                    size={21}
+                    aria-hidden="true"
+                  />
+                </span>
+
+                <span>
+                  <small>Disponibilité</small>
+                  <strong>{profile.availability}</strong>
+                </span>
+              </div>
+            </div>
+
+            <div className="contact__social">
+              <p>Retrouvez-moi également sur :</p>
+
+              <SocialLinks
+                github={profile.github}
+                linkedin={profile.linkedin}
+                email={profile.email}
+              />
+            </div>
+          </motion.div>
+
+          <motion.form
+            className="contact__form"
+            onSubmit={handleSubmit}
+            {...rightAnimation}
+          >
+            <div className="contact__form-heading">
+              <Mail size={25} aria-hidden="true" />
+
+              <div>
+                <h3>Envoyer un message</h3>
+
+                <p>
+                  Votre logiciel de messagerie s’ouvrira
+                  automatiquement.
+                </p>
+              </div>
+            </div>
+
+            <div className="contact__form-row">
+              <div className="contact__field">
+                <label htmlFor="contact-name">
+                  Nom
+                </label>
+
+                <input
+                  id="contact-name"
+                  name="name"
+                  type="text"
+                  value={formData.name}
+                  placeholder="Votre nom"
+                  autoComplete="name"
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+
+              <div className="contact__field">
+                <label htmlFor="contact-email">
+                  Adresse e-mail
+                </label>
+
+                <input
+                  id="contact-email"
+                  name="email"
+                  type="email"
+                  value={formData.email}
+                  placeholder="vous@exemple.com"
+                  autoComplete="email"
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+            </div>
+
+            <div className="contact__field">
+              <label htmlFor="contact-subject">
+                Objet
               </label>
-
-              <input
-                id="contact-email"
-                name="email"
-                type="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="votre@email.com"
-                autoComplete="email"
-              />
-            </div>
-
-            <div className="contact-form-group">
-              <label htmlFor="contact-subject">Sujet</label>
 
               <input
                 id="contact-subject"
                 name="subject"
                 type="text"
                 value={formData.subject}
-                onChange={handleChange}
                 placeholder="Objet de votre message"
+                onChange={handleChange}
+                required
               />
             </div>
 
-            <div className="contact-form-group">
-              <label htmlFor="contact-message">Message</label>
+            <div className="contact__field">
+              <label htmlFor="contact-message">
+                Message
+              </label>
 
               <textarea
                 id="contact-message"
                 name="message"
                 value={formData.message}
+                placeholder="Présentez votre message ou votre opportunité..."
+                rows={7}
                 onChange={handleChange}
-                placeholder="Écrivez votre message"
-                rows="7"
+                required
               />
             </div>
 
-            {error && (
-              <p className="contact-form-error" role="alert">
-                {error}
-              </p>
-            )}
+            <motion.button
+              className="contact__submit"
+              type="submit"
+              whileHover={
+                shouldReduceMotion
+                  ? undefined
+                  : {
+                      y: -2,
+                    }
+              }
+              whileTap={
+                shouldReduceMotion
+                  ? undefined
+                  : {
+                      scale: 0.98,
+                    }
+              }
+              transition={{
+                duration: 0.16,
+              }}
+            >
+              Préparer l’e-mail
+              <Send size={18} aria-hidden="true" />
+            </motion.button>
 
-            <button className="contact-submit" type="submit">
-              Préparer le message
-            </button>
-
-            <p className="contact-form-help">
-              Le bouton ouvrira votre application de messagerie avec
-              les informations déjà remplies.
+            <p className="contact__form-note">
+              Aucun message ni aucune donnée ne sont enregistrés
+              sur ce site.
             </p>
-          </form>
+          </motion.form>
         </div>
       </div>
-    </section>
+    </MotionSection>
   )
 }
 
