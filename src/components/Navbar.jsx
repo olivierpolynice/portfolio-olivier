@@ -28,6 +28,11 @@ const navigationLinks = [
     id: 'competences',
   },
   {
+    label: 'Certifications',
+    href: '#certifications',
+    id: 'certifications',
+  },
+  {
     label: 'Projets',
     href: '#projets',
     id: 'projets',

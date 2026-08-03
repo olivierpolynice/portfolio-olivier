@@ -1,4 +1,4 @@
-import profileImage from '../assets/hero.png'
+const profileImage = '/images/olivier-polynice.jpg'
 
 export const profile = {
   name: 'Olivier Polynice',
