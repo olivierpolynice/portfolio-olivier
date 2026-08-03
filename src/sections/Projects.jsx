@@ -18,8 +18,21 @@ const projectFilters = [
   'Data',
 ]
 
+function projectMatchesFilter(project, activeFilter) {
+  if (activeFilter === 'Tous') {
+    return true
+  }
+
+  return (
+    Array.isArray(project.filterCategories) &&
+    project.filterCategories.includes(activeFilter)
+  )
+}
+
 function Projects() {
-  const [activeFilter, setActiveFilter] = useState('Tous')
+  const [activeFilter, setActiveFilter] =
+    useState('Tous')
+
   const shouldReduceMotion = useReducedMotion()
 
   const mainProject = projects.find(
@@ -31,20 +44,16 @@ function Projects() {
       return false
     }
 
-    if (activeFilter === 'Tous') {
-      return true
-    }
-
-    return project.filterCategory === activeFilter
+    return projectMatchesFilter(project, activeFilter)
   })
 
   const showAccessGuard =
     mainProject &&
-    (activeFilter === 'Tous' ||
-      mainProject.filterCategory === activeFilter)
+    projectMatchesFilter(mainProject, activeFilter)
 
   const hasVisibleProjects =
-    showAccessGuard || otherProjects.length > 0
+    Boolean(showAccessGuard) ||
+    otherProjects.length > 0
 
   return (
     <MotionSection
@@ -146,13 +155,15 @@ function Projects() {
             </motion.div>
 
             <div className="projects__grid">
-              {otherProjects.map((project, index) => (
-                <ProjectCard
-                  key={`${activeFilter}-${project.id}`}
-                  project={project}
-                  animationDelay={index * 0.06}
-                />
-              ))}
+              {otherProjects.map(
+                (project, index) => (
+                  <ProjectCard
+                    key={`${activeFilter}-${project.id}`}
+                    project={project}
+                    animationDelay={index * 0.06}
+                  />
+                ),
+              )}
             </div>
           </>
         )}

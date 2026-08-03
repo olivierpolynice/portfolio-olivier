@@ -3,7 +3,11 @@ export const projects = [
     id: 'accessguard',
     title: 'AccessGuard',
     category: 'Cybersécurité et DevSecOps',
-    filterCategory: 'Cybersécurité',
+    filterCategories: [
+      'Cybersécurité',
+      'Cloud et DevOps',
+      'Développement',
+    ],
     status: 'Terminé',
 
     shortDescription:
@@ -100,10 +104,116 @@ export const projects = [
   },
 
   {
+    id: 'sads',
+    title: 'SADS',
+    category: 'Cybersécurité, Data et développement',
+    filterCategories: [
+      'Cybersécurité',
+      'Data',
+      'Développement',
+    ],
+    status: 'Terminé',
+
+    shortDescription:
+      'Plateforme de détection et d’analyse d’événements de sécurité à partir de fichiers de logs CSV.',
+
+    description:
+      'SADS, Security Analysis & Detection System, analyse des journaux de connexion, détecte les comportements suspects et présente les résultats dans une interface sécurisée.',
+
+    context:
+      'SADS est un projet personnel réalisé pour mettre en pratique l’analyse de données de sécurité, le développement full-stack, la persistance des résultats et la gestion sécurisée des accès.',
+
+    problem:
+      'L’analyse manuelle de nombreux événements de connexion est lente et rend difficile l’identification rapide des échecs répétés, des adresses IP suspectes et des comportements inhabituels.',
+
+    objectives: [
+      'Importer et analyser des fichiers de logs CSV',
+      'Détecter les comportements de connexion suspects',
+      'Calculer des indicateurs de risque',
+      'Centraliser les analyses et les alertes',
+      'Sécuriser l’accès aux fonctionnalités selon les rôles',
+      'Présenter les résultats dans une interface claire',
+    ],
+
+    role:
+      'Conception et développement individuel de l’architecture, de l’API, de l’interface, du moteur d’analyse et de la sécurité.',
+
+    architecture:
+      'SADS repose sur une interface React et TypeScript communiquant avec une API FastAPI. Les événements, analyses et alertes sont enregistrés dans PostgreSQL. L’authentification utilise des jetons JWT et les autorisations sont contrôlées selon les rôles viewer, analyst et security_admin. Les services sont exécutés avec Docker.',
+
+    features: [
+      'Import et validation de fichiers CSV',
+      'Analyse automatique des événements de connexion',
+      'Détection des adresses IP suspectes',
+      'Création d’alertes de sécurité',
+      'Historique et détail des analyses',
+      'Tableau de bord avec indicateurs',
+      'Authentification sécurisée avec JWT',
+      'Contrôle des autorisations selon les rôles',
+      'Gestion des utilisateurs par un administrateur',
+    ],
+
+    difficulties: [
+      'Structurer et valider les données provenant des fichiers CSV',
+      'Définir des règles cohérentes de détection',
+      'Enregistrer une analyse et ses événements associés',
+      'Synchroniser le frontend avec les états de l’analyse',
+      'Protéger les pages et les routes sensibles',
+    ],
+
+    solutions: [
+      'Création d’un parseur CSV avec validation des colonnes',
+      'Séparation du moteur d’analyse et du service de persistance',
+      'Utilisation de scores de risque et de niveaux de sévérité',
+      'Création d’une API REST structurée avec FastAPI',
+      'Mise en place de JWT et de routes protégées selon les rôles',
+      'Conteneurisation de PostgreSQL et des services avec Docker',
+    ],
+
+    results: [
+      'Plateforme full-stack fonctionnelle',
+      'Analyse et conservation des journaux de sécurité',
+      'Détection d’événements et d’adresses IP suspects',
+      'Génération d’alertes avec plusieurs niveaux de sévérité',
+      'Interface sécurisée adaptée au rôle de l’utilisateur',
+      'Historique détaillé des analyses réalisées',
+    ],
+
+    technologies: [
+      'FastAPI',
+      'React',
+      'TypeScript',
+      'Python',
+      'PostgreSQL',
+      'SQLAlchemy',
+      'Docker',
+      'JWT',
+      'RBAC',
+      'Analyse de logs',
+      'Cybersécurité',
+      'Git',
+    ],
+
+    image: '/projects/sads-cover.png',
+
+    screenshots: [],
+
+    github:
+      'https://github.com/olivierpolynice/sads',
+
+    demo: '',
+
+    featured: false,
+  },
+
+  {
     id: 'linux-server-security',
     title: 'Sécurisation d’un serveur Linux',
     category: 'Cybersécurité et systèmes',
-    filterCategory: 'Cybersécurité',
+    filterCategories: [
+      'Cybersécurité',
+      'Réseaux',
+    ],
     status: 'Terminé',
 
     shortDescription:
@@ -184,7 +294,11 @@ export const projects = [
     id: 'dataops-airflow-dbt',
     title: 'Pipeline DataOps avec Airflow et dbt',
     category: 'Data et automatisation',
-    filterCategory: 'Data',
+    filterCategories: [
+      'Data',
+      'Cloud et DevOps',
+      'Développement',
+    ],
     status: 'Terminé',
 
     shortDescription:
@@ -265,7 +379,10 @@ export const projects = [
     id: 'tcp-ip-osi-wireshark',
     title: 'Analyse réseau TCP/IP et OSI',
     category: 'Réseaux',
-    filterCategory: 'Réseaux',
+    filterCategories: [
+      'Réseaux',
+      'Cybersécurité',
+    ],
     status: 'Terminé',
 
     shortDescription:
@@ -346,8 +463,11 @@ export const projects = [
     id: 'sentiment-ai',
     title: 'Sentiment AI',
     category: 'Intelligence artificielle',
-    filterCategory: 'Développement',
-    status: 'En développement',
+    filterCategories: [
+      'Développement',
+      'Data',
+    ],
+   status: 'Terminé',
 
     shortDescription:
       'Application Python consacrée à l’analyse automatique du sentiment exprimé dans un texte.',
@@ -422,7 +542,9 @@ export const projects = [
     id: 'linux-bandit',
     title: 'Laboratoire Linux et Bandit',
     category: 'Systèmes et cybersécurité',
-    filterCategory: 'Cybersécurité',
+    filterCategories: [
+      'Cybersécurité',
+    ],
     status: 'Terminé',
 
     shortDescription:
