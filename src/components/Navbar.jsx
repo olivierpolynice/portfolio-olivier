@@ -9,8 +9,7 @@ import {
   X,
 } from 'lucide-react'
 import { profile } from '../data/profile'
-import './navbar.css'
-
+import './Navbar.css'
 const navigationLinks = [
   {
     label: 'Accueil',
