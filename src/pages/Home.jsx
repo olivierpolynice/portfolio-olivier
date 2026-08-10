@@ -8,6 +8,7 @@ import Hero from '../sections/Hero'
 import Projects from '../sections/Projects'
 import Resume from '../sections/Resume'
 import Skills from '../sections/Skills'
+import TechWatch from '../sections/TechWatch'
 
 function Home() {
   return (
@@ -30,6 +31,7 @@ function Home() {
         <Skills />
         <Certifications />
         <Projects />
+        <TechWatch />
         <Experience />
         <Resume />
         <Contact />

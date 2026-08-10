@@ -1,0 +1,41 @@
+name: Mettre à jour la veille technologique
+
+on:
+  schedule:
+    # Exécution toutes les 4 heures (heure UTC)
+    - cron: "0 */4 * * *"
+
+  # Permet aussi de lancer le workflow manuellement
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-tech-watch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Actualiser les articles
+        run: python scripts/update_tech_watch.py
+
+      - name: Enregistrer les changements
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/tech-watch.json
+
+          if git diff --cached --quiet; then
+            echo "Aucune modification à enregistrer."
+          else
+            git commit -m "chore: actualisation automatique de la veille"
+            git push
+          fi
