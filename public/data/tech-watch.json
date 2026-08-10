@@ -1,0 +1,97 @@
+{
+  "updatedAt": "2026-08-10T18:04:04.946325+00:00",
+  "successfulSources": 5,
+  "totalSources": 5,
+  "articles": [
+    {
+      "category": "Cybersécurité",
+      "title": "Vulnérabilité dans LibreNMS (12 mai 2026)",
+      "description": "Une vulnérabilité a été découverte dans LibreNMS. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
+      "source": "CERT-FR",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0562/",
+      "publishedAt": "Tue, 12 May 2026 00:00:00 +0000",
+      "id": 1
+    },
+    {
+      "category": "Cybersécurité",
+      "title": "Vulnérabilité dans LibreNMS (11 juin 2026)",
+      "description": "Une vulnérabilité a été découverte dans LibreNMS. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "source": "CERT-FR",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0732/",
+      "publishedAt": "Thu, 11 Jun 2026 00:00:00 +0000",
+      "id": 2
+    },
+    {
+      "category": "Cloud",
+      "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
+      "description": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering,…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
+      "publishedAt": "Mon, 10 Aug 2026 15:45:03 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
+      "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
+      "description": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+      "publishedAt": "Thu, 06 Aug 2026 22:58:00 +0000",
+      "id": 4
+    },
+    {
+      "category": "Réseaux",
+      "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
+      "description": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
+      "publishedAt": "Mon, 10 Aug 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
+      "title": "Unveiling good and bad behaviors on the Agentic Internet",
+      "description": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+      "publishedAt": "Fri, 07 Aug 2026 13:01:00 GMT",
+      "id": 6
+    },
+    {
+      "category": "DevSecOps",
+      "title": "Copilot on web expands conversation controls",
+      "description": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat… The post Copilot on web expands…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+      "publishedAt": "Mon, 10 Aug 2026 14:27:04 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
+      "title": "Custom thread subscriptions are being deprecated",
+      "description": "You’ll no longer be able to configure custom thread subscriptions for GitHub notifications. What’s changing As part of this rollout, GitHub will remove support for custom thread subscription settings. If… The post…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-08-10-custom-thread-subscriptions-are-being-deprecated",
+      "publishedAt": "Mon, 10 Aug 2026 12:45:49 +0000",
+      "id": 8
+    },
+    {
+      "category": "IA",
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "publishedAt": "Thu, 06 Aug 2026 15:06:15 +0000",
+      "id": 9
+    },
+    {
+      "category": "IA",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "description": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "publishedAt": "Thu, 30 Jul 2026 15:00:59 +0000",
+      "id": 10
+    }
+  ]
+}

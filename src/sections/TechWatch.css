@@ -1,0 +1,232 @@
+.tech-watch {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(56, 189, 248, 0.1),
+      transparent 32%
+    ),
+    #07111f;
+}
+
+.tech-watch__header {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.tech-watch__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.tech-watch__filter {
+  padding: 0.7rem 1.1rem;
+  color: #cbd5e1;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgba(15, 35, 55, 0.75);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 999px;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.tech-watch__filter:hover {
+  color: #f8fafc;
+  background: rgba(56, 189, 248, 0.12);
+  border-color: rgba(56, 189, 248, 0.5);
+  transform: translateY(-2px);
+}
+
+.tech-watch__filter:focus-visible {
+  outline: 3px solid rgba(56, 189, 248, 0.4);
+  outline-offset: 3px;
+}
+
+.tech-watch__filter--active {
+  color: #07111f;
+  background: #38bdf8;
+  border-color: #38bdf8;
+}
+
+.tech-watch__filter--active:hover {
+  color: #07111f;
+  background: #7dd3fc;
+  border-color: #7dd3fc;
+}
+
+.tech-watch__grid {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.tech-watch__card {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  padding: 1.5rem;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(17, 38, 61, 0.96),
+      rgba(10, 25, 42, 0.96)
+    );
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+.tech-watch__card:hover {
+  border-color: rgba(56, 189, 248, 0.42);
+  box-shadow: 0 22px 50px rgba(2, 8, 23, 0.35);
+  transform: translateY(-5px);
+}
+
+.tech-watch__card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.tech-watch__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.22);
+  border-radius: 12px;
+}
+
+.tech-watch__category {
+  padding: 0.4rem 0.75rem;
+  color: #7dd3fc;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 999px;
+}
+
+.tech-watch__card-title {
+  margin: 0 0 0.85rem;
+  color: #f8fafc;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.tech-watch__card-description {
+  margin: 0 0 1.5rem;
+  color: #aebed0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.tech-watch__card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1rem;
+  margin-top: auto;
+  border-top: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.tech-watch__source {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.tech-watch__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #38bdf8;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.tech-watch__link:hover {
+  color: #7dd3fc;
+  transform: translateX(2px);
+}
+
+.tech-watch__link:focus-visible {
+  outline: 3px solid rgba(56, 189, 248, 0.4);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.tech-watch__update {
+  width: fit-content;
+  padding: 0.8rem 1rem;
+  margin: 2rem auto 0;
+  color: #94a3b8;
+  font-size: 0.86rem;
+  text-align: center;
+  background: rgba(15, 35, 55, 0.65);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  .tech-watch__filters {
+    gap: 0.55rem;
+  }
+
+  .tech-watch__filter {
+    padding: 0.6rem 0.85rem;
+    font-size: 0.82rem;
+  }
+
+  .tech-watch__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-watch__card {
+    min-height: auto;
+    padding: 1.25rem;
+  }
+
+  .tech-watch__card-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tech-watch__filter,
+  .tech-watch__card,
+  .tech-watch__link {
+    transition: none;
+  }
+
+  .tech-watch__filter:hover,
+  .tech-watch__card:hover,
+  .tech-watch__link:hover {
+    transform: none;
+  }
+}
