@@ -10,7 +10,6 @@ import {
 } from 'lucide-react'
 import { profile } from '../data/profile'
 import './Navbar.css'
-
 const navigationLinks = [
   {
     label: 'Accueil',
@@ -38,11 +37,6 @@ const navigationLinks = [
     id: 'projets',
   },
   {
-    label: 'Veille',
-    href: '#veille',
-    id: 'veille',
-  },
-  {
     label: 'Parcours',
     href: '#parcours',
     id: 'parcours',
@@ -64,9 +58,7 @@ function Navbar() {
 
   useEffect(() => {
     const sections = navigationLinks
-      .map((link) =>
-        document.getElementById(link.id),
-      )
+      .map((link) => document.getElementById(link.id))
       .filter(Boolean)
 
     const observer = new IntersectionObserver(
@@ -108,10 +100,7 @@ function Navbar() {
       }
     }
 
-    window.addEventListener(
-      'keydown',
-      handleEscape,
-    )
+    window.addEventListener('keydown', handleEscape)
 
     return () => {
       window.removeEventListener(
@@ -134,7 +123,7 @@ function Navbar() {
 
   return (
     <header className="navbar">
-      <div className="navbar__container">
+      <div className="container navbar__content">
         <a
           className="navbar__brand"
           href="#accueil"
@@ -149,40 +138,36 @@ function Navbar() {
         <nav
           id="navigation-principale"
           className={`navbar__menu ${
-            isOpen
-              ? 'navbar__menu--open'
-              : ''
+            isOpen ? 'navbar__menu--open' : ''
           }`}
           aria-label="Navigation principale"
         >
-          {navigationLinks.map(
-            (link, index) => (
-              <a
-                ref={
-                  index === 0
-                    ? firstLinkRef
-                    : undefined
-                }
-                key={link.id}
-                className={
-                  activeSection === link.id
-                    ? 'navbar__link navbar__link--active'
-                    : 'navbar__link'
-                }
-                href={link.href}
-                aria-current={
-                  activeSection === link.id
-                    ? 'location'
-                    : undefined
-                }
-                onClick={() =>
-                  handleNavigation(link.id)
-                }
-              >
-                {link.label}
-              </a>
-            ),
-          )}
+          {navigationLinks.map((link, index) => (
+            <a
+              ref={
+                index === 0
+                  ? firstLinkRef
+                  : undefined
+              }
+              key={link.id}
+              className={
+                activeSection === link.id
+                  ? 'navbar__link navbar__link--active'
+                  : 'navbar__link'
+              }
+              href={link.href}
+              aria-current={
+                activeSection === link.id
+                  ? 'location'
+                  : undefined
+              }
+              onClick={() =>
+                handleNavigation(link.id)
+              }
+            >
+              {link.label}
+            </a>
+          ))}
         </nav>
 
         <div className="navbar__actions">
@@ -196,6 +181,7 @@ function Navbar() {
               size={18}
               aria-hidden="true"
             />
+
             <span>CV</span>
           </a>
 
@@ -211,16 +197,11 @@ function Navbar() {
             aria-expanded={isOpen}
             aria-controls="navigation-principale"
             onClick={() =>
-              setIsOpen(
-                (current) => !current,
-              )
+              setIsOpen((current) => !current)
             }
           >
             {isOpen ? (
-              <X
-                size={26}
-                aria-hidden="true"
-              />
+              <X size={26} aria-hidden="true" />
             ) : (
               <Menu
                 size={26}

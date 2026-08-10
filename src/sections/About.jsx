@@ -28,9 +28,8 @@ const keyInformation = [
   },
   {
     icon: ShieldCheck,
-    value: '5 domaines',
-    label:
-      'Cybersécurité, Cloud, Réseaux, DevSecOps et IA',
+    value: '4 domaines',
+    label: 'Cybersécurité, Cloud, Réseaux et DevSecOps',
   },
   {
     icon: UsersRound,
@@ -51,16 +50,14 @@ function About() {
 
   return (
     <MotionSection
-      className="about section"
+      className="section about"
       id="a-propos"
-      aria-labelledby="about-title"
     >
       <div className="container">
         <SectionTitle
           eyebrow="À propos"
-          title="Un profil orienté cybersécurité, cloud et IA"
-          description="Mon parcours, mes compétences et mon objectif professionnel."
-          id="about-title"
+          title="Des télécommunications à la cybersécurité"
+          description="Un parcours construit autour des réseaux, de la sécurité des systèmes, du cloud et de l’automatisation."
         />
 
         <div className="about__layout">
@@ -92,27 +89,19 @@ function About() {
             }}
           >
             <div className="about__story-icon">
-              <RadioTower
-                size={30}
-                aria-hidden="true"
-              />
+              <RadioTower size={30} aria-hidden="true" />
             </div>
 
             <div className="about__story-content">
-              {aboutParagraphs.map(
-                (paragraph, index) => (
-                  <p key={`${index}-${paragraph}`}>
-                    {paragraph}
-                  </p>
-                ),
-              )}
+              {aboutParagraphs.map((paragraph, index) => (
+                <p key={`${index}-${paragraph}`}>
+                  {paragraph}
+                </p>
+              ))}
             </div>
 
             <div className="about__objective">
-              <CloudCog
-                size={24}
-                aria-hidden="true"
-              />
+              <CloudCog size={24} aria-hidden="true" />
 
               <div>
                 <span>Objectif professionnel</span>
@@ -128,69 +117,59 @@ function About() {
             className="about__stats"
             aria-label="Informations principales"
           >
-            {keyInformation.map(
-              (item, index) => {
-                const Icon = item.icon
+            {keyInformation.map((item, index) => {
+              const Icon = item.icon
 
-                return (
-                  <motion.article
-                    className="about__stat-card"
-                    key={item.value}
-                    initial={
-                      shouldReduceMotion
-                        ? false
-                        : {
-                            opacity: 0,
-                            y: 18,
-                          }
-                    }
-                    whileInView={
-                      shouldReduceMotion
-                        ? undefined
-                        : {
-                            opacity: 1,
-                            y: 0,
-                          }
-                    }
-                    whileHover={
-                      shouldReduceMotion
-                        ? undefined
-                        : {
-                            y: -4,
-                          }
-                    }
-                    viewport={{
-                      once: true,
-                      amount: 0.25,
-                    }}
-                    transition={{
-                      duration: 0.4,
-                      delay: shouldReduceMotion
-                        ? 0
-                        : index * 0.07,
-                      ease: [
-                        0.22,
-                        1,
-                        0.36,
-                        1,
-                      ],
-                    }}
-                  >
-                    <div className="about__stat-icon">
-                      <Icon
-                        size={26}
-                        aria-hidden="true"
-                      />
-                    </div>
+              return (
+                <motion.article
+                  className="about__stat-card"
+                  key={item.value}
+                  initial={
+                    shouldReduceMotion
+                      ? false
+                      : {
+                          opacity: 0,
+                          y: 18,
+                        }
+                  }
+                  whileInView={
+                    shouldReduceMotion
+                      ? undefined
+                      : {
+                          opacity: 1,
+                          y: 0,
+                        }
+                  }
+                  whileHover={
+                    shouldReduceMotion
+                      ? undefined
+                      : {
+                          y: -4,
+                        }
+                  }
+                  viewport={{
+                    once: true,
+                    amount: 0.25,
+                  }}
+                  transition={{
+                    duration: 0.4,
+                    delay: shouldReduceMotion
+                      ? 0
+                      : index * 0.07,
+                    ease: [0.22, 1, 0.36, 1],
+                  }}
+                >
+                  <div className="about__stat-icon">
+                    <Icon size={26} aria-hidden="true" />
+                  </div>
 
-                    <div>
-                      <strong>{item.value}</strong>
-                      <p>{item.label}</p>
-                    </div>
-                  </motion.article>
-                )
-              },
-            )}
+                  <div>
+                    <strong>{item.value}</strong>
+                    <p>{item.label}</p>
+                  </div>
+                </motion.article>
+              )
+            })}
           </div>
         </div>
       </div>
