@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T18:04:04.946325+00:00",
+  "updatedAt": "2026-08-10T20:46:23.722506+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Everything we launched during Agents Week",
+      "description": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made, from Wallets to Radar.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
+      "publishedAt": "Mon, 10 Aug 2026 18:34:10 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
       "description": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
       "publishedAt": "Mon, 10 Aug 2026 13:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Unveiling good and bad behaviors on the Agentic Internet",
-      "description": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-      "publishedAt": "Fri, 07 Aug 2026 13:01:00 GMT",
       "id": 6
     },
     {
@@ -68,11 +68,11 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Custom thread subscriptions are being deprecated",
-      "description": "You’ll no longer be able to configure custom thread subscriptions for GitHub notifications. What’s changing As part of this rollout, GitHub will remove support for custom thread subscription settings. If… The post…",
+      "title": "GitHub billing in India now supports automatic recurring payments",
+      "description": "Customers in India can now use eligible saved credit cards for automatic recurring payments on monthly and annual GitHub bills. This update uses a payment mandate, also known in the… The post GitHub billing in India now…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-10-custom-thread-subscriptions-are-being-deprecated",
-      "publishedAt": "Mon, 10 Aug 2026 12:45:49 +0000",
+      "url": "https://github.blog/changelog/2026-08-10-github-billing-in-india-now-supports-automatic-recurring-payments",
+      "publishedAt": "Mon, 10 Aug 2026 14:00:58 +0000",
       "id": 8
     },
     {
