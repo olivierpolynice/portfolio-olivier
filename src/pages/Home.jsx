@@ -30,8 +30,8 @@ function Home() {
         <About />
         <Skills />
         <Certifications />
-        <Projects />
         <TechWatch />
+        <Projects />
         <Experience />
         <Resume />
         <Contact />

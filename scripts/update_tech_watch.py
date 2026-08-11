@@ -1,6 +1,7 @@
 import html
 import json
 import re
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -130,7 +131,7 @@ def fetch_source_articles(source):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 "
-                "ApplyMatch-Portfolio-TechWatch/1.0"
+                "Olivier-Portfolio-TechWatch/1.0"
             ),
             "Accept": (
                 "application/rss+xml, "
@@ -190,9 +191,7 @@ def fetch_source_articles(source):
             {
                 "category": source["category"],
                 "title": title,
-                "description": shorten_text(
-                    description
-                )
+                "description": shorten_text(description)
                 or (
                     "Consultez cette publication "
                     "pour découvrir les dernières "
@@ -316,11 +315,9 @@ def update_tech_watch():
 
         file.write("\n")
 
+    print(f"\nFichier créé : {OUTPUT_FILE}")
     print(
-        f"\nFichier créé : {OUTPUT_FILE}"
-    )
-    print(
-        f"Nombre total d'articles : "
+        "Nombre total d'articles : "
         f"{len(all_articles)}"
     )
 

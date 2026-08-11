@@ -3,11 +3,11 @@
   useReducedMotion,
 } from 'framer-motion'
 import {
+  BrainCircuit,
   CloudCog,
   FolderKanban,
   GraduationCap,
   RadioTower,
-  ShieldCheck,
   UsersRound,
 } from 'lucide-react'
 import MotionSection from '../components/MotionSection'
@@ -27,10 +27,11 @@ const keyInformation = [
     label: 'Projets techniques réalisés',
   },
   {
-    icon: ShieldCheck,
+    icon: BrainCircuit,
     value: '5 domaines',
     label:
       'Cybersécurité, Cloud, Réseaux, DevSecOps et IA',
+    featured: true,
   },
   {
     icon: UsersRound,
@@ -58,9 +59,9 @@ function About() {
       <div className="container">
         <SectionTitle
           eyebrow="À propos"
-          title="Un profil orienté cybersécurité, cloud et IA"
-          description="Mon parcours, mes compétences et mon objectif professionnel."
-          id="about-title"
+          title="Mon parcours et mes objectifs"
+          description="Un profil orienté cybersécurité, cloud, réseaux, DevSecOps et intelligence artificielle."
+          titleId="about-title"
         />
 
         <div className="about__layout">
@@ -128,69 +129,72 @@ function About() {
             className="about__stats"
             aria-label="Informations principales"
           >
-            {keyInformation.map(
-              (item, index) => {
-                const Icon = item.icon
+            {keyInformation.map((item, index) => {
+              const Icon = item.icon
 
-                return (
-                  <motion.article
-                    className="about__stat-card"
-                    key={item.value}
-                    initial={
-                      shouldReduceMotion
-                        ? false
-                        : {
-                            opacity: 0,
-                            y: 18,
-                          }
-                    }
-                    whileInView={
-                      shouldReduceMotion
-                        ? undefined
-                        : {
-                            opacity: 1,
-                            y: 0,
-                          }
-                    }
-                    whileHover={
-                      shouldReduceMotion
-                        ? undefined
-                        : {
-                            y: -4,
-                          }
-                    }
-                    viewport={{
-                      once: true,
-                      amount: 0.25,
-                    }}
-                    transition={{
-                      duration: 0.4,
-                      delay: shouldReduceMotion
-                        ? 0
-                        : index * 0.07,
-                      ease: [
-                        0.22,
-                        1,
-                        0.36,
-                        1,
-                      ],
-                    }}
-                  >
-                    <div className="about__stat-icon">
-                      <Icon
-                        size={26}
-                        aria-hidden="true"
-                      />
-                    </div>
+              const cardClassName = item.featured
+                ? 'about__stat-card about__stat-card--featured'
+                : 'about__stat-card'
 
-                    <div>
-                      <strong>{item.value}</strong>
-                      <p>{item.label}</p>
-                    </div>
-                  </motion.article>
-                )
-              },
-            )}
+              return (
+                <motion.article
+                  className={cardClassName}
+                  key={item.value}
+                  initial={
+                    shouldReduceMotion
+                      ? false
+                      : {
+                          opacity: 0,
+                          y: 18,
+                        }
+                  }
+                  whileInView={
+                    shouldReduceMotion
+                      ? undefined
+                      : {
+                          opacity: 1,
+                          y: 0,
+                        }
+                  }
+                  whileHover={
+                    shouldReduceMotion
+                      ? undefined
+                      : {
+                          y: -4,
+                        }
+                  }
+                  viewport={{
+                    once: true,
+                    amount: 0.25,
+                  }}
+                  transition={{
+                    duration: 0.4,
+                    delay: shouldReduceMotion
+                      ? 0
+                      : index * 0.07,
+                    ease: [0.22, 1, 0.36, 1],
+                  }}
+                >
+                  {item.featured && (
+                    <span className="about__stat-badge">
+                      Compétences clés
+                    </span>
+                  )}
+
+                  <div className="about__stat-icon">
+                    <Icon
+                      size={26}
+                      aria-hidden="true"
+                    />
+                  </div>
+
+                  <div className="about__stat-content">
+                    <strong>{item.value}</strong>
+                    <p>{item.label}</p>
+                  </div>
+                </motion.article>
+              )
+            })}
           </div>
         </div>
       </div>

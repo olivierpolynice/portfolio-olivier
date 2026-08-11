@@ -11,19 +11,16 @@
 .navbar__content {
   position: relative;
   display: flex;
-  width: min(calc(100% - 32px), 1400px);
-  max-width: 1400px;
   min-height: 72px;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  margin: 0 auto;
+  gap: 24px;
 }
 
 .navbar__brand {
   display: inline-flex;
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
@@ -31,7 +28,7 @@
   border-radius: 12px;
   background: var(--color-surface);
   color: var(--color-primary);
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 900;
   letter-spacing: 0.04em;
   transition:
@@ -48,23 +45,18 @@
 
 .navbar__menu {
   display: flex;
-  flex: 1;
   align-items: center;
-  justify-content: center;
-  gap: 2px;
-  min-width: 0;
+  gap: 8px;
   margin-left: auto;
 }
 
 .navbar__link {
   position: relative;
-  flex-shrink: 0;
-  padding: 10px 8px;
+  padding: 10px 12px;
   border-radius: 8px;
   color: var(--color-text-secondary);
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  white-space: nowrap;
   transition:
     color 0.2s ease,
     background-color 0.2s ease;
@@ -72,9 +64,9 @@
 
 .navbar__link::after {
   position: absolute;
-  right: 8px;
+  right: 12px;
   bottom: 4px;
-  left: 8px;
+  left: 12px;
   height: 2px;
   border-radius: 999px;
   background: var(--color-primary);
@@ -105,23 +97,21 @@
   display: flex;
   flex-shrink: 0;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .navbar__cv {
   display: inline-flex;
   min-height: 42px;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  padding: 9px 12px;
+  gap: 8px;
+  padding: 9px 15px;
   border: 1px solid var(--color-primary);
   border-radius: 10px;
   color: var(--color-primary);
-  font-size: 0.88rem;
+  font-size: 0.92rem;
   font-weight: 700;
-  white-space: nowrap;
   transition:
     background-color 0.2s ease,
     color 0.2s ease,
@@ -138,7 +128,6 @@
   display: none;
   width: 44px;
   height: 44px;
-  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--color-border);
@@ -161,13 +150,12 @@
   outline-offset: 3px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .navbar__toggle {
     display: inline-flex;
   }
 
   .navbar__menu {
-__menu {
     position: absolute;
     top: calc(100% + 10px);
     right: 0;
@@ -196,7 +184,7 @@ __menu {
   }
 
   .navbar__menu--open {
-    max-height: 600px;
+    max-height: 500px;
     padding: 16px;
     border-color: var(--color-border);
     opacity: 1;
@@ -207,7 +195,6 @@ __menu {
   .navbar__link {
     width: 100%;
     padding: 13px 14px;
-    font-size: 0.95rem;
   }
 
   .navbar__link::after {
@@ -227,9 +214,8 @@ __menu {
 
 @media (max-width: 480px) {
   .navbar__content {
-    width: min(calc(100% - 24px), 1400px);
     min-height: 66px;
-    gap: 10px;
+    gap: 12px;
   }
 
   .navbar__brand {
@@ -239,7 +225,7 @@ __menu {
 
   .navbar__cv {
     min-height: 40px;
-    padding: 8px 11px;
+    padding: 8px 12px;
   }
 
   .navbar__toggle {
@@ -260,5 +246,4 @@ __menu {
   .navbar__menu {
     transition: none;
   }
-
-   }
+}

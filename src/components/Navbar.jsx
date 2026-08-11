@@ -33,14 +33,14 @@ const navigationLinks = [
     id: 'certifications',
   },
   {
-    label: 'Projets',
-    href: '#projets',
-    id: 'projets',
-  },
-  {
     label: 'Veille',
     href: '#veille',
     id: 'veille',
+  },
+  {
+    label: 'Projets',
+    href: '#projets',
+    id: 'projets',
   },
   {
     label: 'Parcours',
@@ -134,7 +134,7 @@ function Navbar() {
 
   return (
     <header className="navbar">
-      <div className="navbar__container">
+      <div className="container navbar__container">
         <a
           className="navbar__brand"
           href="#accueil"
@@ -196,6 +196,7 @@ function Navbar() {
               size={18}
               aria-hidden="true"
             />
+
             <span>CV</span>
           </a>
 
