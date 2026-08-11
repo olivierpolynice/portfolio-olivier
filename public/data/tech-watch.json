@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T16:59:46.386251+00:00",
+  "updatedAt": "2026-08-11T20:50:34.224962+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Per-model token breakdown in the usage report",
-      "description": "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache… The post Per-model token breakdown in the usage report…",
+      "title": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
+      "description": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers,… The…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
-      "publishedAt": "Tue, 11 Aug 2026 14:41:52 +0000",
+      "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+      "publishedAt": "Tue, 11 Aug 2026 20:15:55 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Copilot on web expands conversation controls",
-      "description": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat… The post Copilot on web expands…",
+      "title": "Automatically migrate branch protection rules to repository rulesets",
+      "description": "You can now convert your existing branch protection rules to repository rulesets directly from your repository settings. This helps you migrate to GitHub’s more flexible and scalable policy framework without… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-      "publishedAt": "Mon, 10 Aug 2026 14:27:04 +0000",
+      "url": "https://github.blog/changelog/2026-08-11-automatically-migrate-branch-protection-rules-to-repository-rulesets",
+      "publishedAt": "Tue, 11 Aug 2026 19:03:57 +0000",
       "id": 8
     },
     {
