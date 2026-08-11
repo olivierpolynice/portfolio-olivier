@@ -3,11 +3,11 @@
   useReducedMotion,
 } from 'framer-motion'
 import {
+  BrainCircuit,
   CloudCog,
   FolderKanban,
   GraduationCap,
   RadioTower,
-  ShieldCheck,
   UsersRound,
 } from 'lucide-react'
 import MotionSection from '../components/MotionSection'
@@ -27,9 +27,11 @@ const keyInformation = [
     label: 'Projets techniques réalisés',
   },
   {
-    icon: ShieldCheck,
-    value: '4 domaines',
-    label: 'Cybersécurité, Cloud, Réseaux et DevSecOps',
+    icon: BrainCircuit,
+    value: '5 domaines',
+    label:
+      'Cybersécurité, Cloud, Réseaux, DevSecOps et IA',
+    featured: true,
   },
   {
     icon: UsersRound,
@@ -50,14 +52,16 @@ function About() {
 
   return (
     <MotionSection
-      className="section about"
+      className="about section"
       id="a-propos"
+      aria-labelledby="about-title"
     >
       <div className="container">
         <SectionTitle
           eyebrow="À propos"
-          title="Des télécommunications à la cybersécurité"
-          description="Un parcours construit autour des réseaux, de la sécurité des systèmes, du cloud et de l’automatisation."
+          title="Mon parcours et mes objectifs"
+          description="Un profil orienté cybersécurité, cloud, réseaux, DevSecOps et intelligence artificielle."
+          titleId="about-title"
         />
 
         <div className="about__layout">
@@ -89,19 +93,27 @@ function About() {
             }}
           >
             <div className="about__story-icon">
-              <RadioTower size={30} aria-hidden="true" />
+              <RadioTower
+                size={30}
+                aria-hidden="true"
+              />
             </div>
 
             <div className="about__story-content">
-              {aboutParagraphs.map((paragraph, index) => (
-                <p key={`${index}-${paragraph}`}>
-                  {paragraph}
-                </p>
-              ))}
+              {aboutParagraphs.map(
+                (paragraph, index) => (
+                  <p key={`${index}-${paragraph}`}>
+                    {paragraph}
+                  </p>
+                ),
+              )}
             </div>
 
             <div className="about__objective">
-              <CloudCog size={24} aria-hidden="true" />
+              <CloudCog
+                size={24}
+                aria-hidden="true"
+              />
 
               <div>
                 <span>Objectif professionnel</span>
@@ -120,9 +132,13 @@ function About() {
             {keyInformation.map((item, index) => {
               const Icon = item.icon
 
+              const cardClassName = item.featured
+                ? 'about__stat-card about__stat-card--featured'
+                : 'about__stat-card'
+
               return (
                 <motion.article
-                  className="about__stat-card"
+                  className={cardClassName}
                   key={item.value}
                   initial={
                     shouldReduceMotion
@@ -159,11 +175,20 @@ function About() {
                     ease: [0.22, 1, 0.36, 1],
                   }}
                 >
+                  {item.featured && (
+                    <span className="about__stat-badge">
+                      Compétences clés
+                    </span>
+                  )}
+
                   <div className="about__stat-icon">
-                    <Icon size={26} aria-hidden="true" />
+                    <Icon
+                      size={26}
+                      aria-hidden="true"
+                    />
                   </div>
 
-                  <div>
+                  <div className="about__stat-content">
                     <strong>{item.value}</strong>
                     <p>{item.label}</p>
                   </div>

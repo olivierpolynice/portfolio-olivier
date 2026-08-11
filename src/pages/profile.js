@@ -7,20 +7,21 @@ export const profile = {
     'Étudiant en Master Réseaux, Cybersécurité et Cloud',
 
   headline:
-    'Cybersécurité, Cloud, Réseaux et DevSecOps',
+    'Cybersécurité, Cloud, Réseaux, DevSecOps et IA',
 
   specialties: [
     'Cybersécurité',
     'Cloud',
     'Réseaux',
     'DevSecOps',
+    'IA',
   ],
 
   introduction:
-    'Je développe mes compétences à travers des projets techniques associant sécurité des applications, administration réseau, cloud, automatisation et supervision.',
+    'Je développe mes compétences à travers des projets techniques associant sécurité des applications, administration réseau, cloud, automatisation, supervision et intelligence artificielle.',
 
   about:
-    'Étudiant en Master Réseaux, Cybersécurité et Cloud à ESTIAM Paris, j’ai développé des compétences en cybersécurité, cloud, réseaux, développement, automatisation et supervision. Mes projets m’ont permis de travailler sur la gestion sécurisée des accès, la sécurité des API, le chiffrement de flux vidéo, la segmentation réseau, la conteneurisation, le monitoring et l’intégration continue. Je recherche actuellement une alternance en cybersécurité, cloud ou DevSecOps pour effectuer ma cinquième année.',
+    'Étudiant en Master Réseaux, Cybersécurité et Cloud à ESTIAM Paris, j’ai développé des compétences en cybersécurité, cloud, réseaux, développement, automatisation, supervision et intelligence artificielle. Mes projets m’ont permis de travailler sur la gestion sécurisée des accès, la sécurité des API, le chiffrement de flux vidéo, la segmentation réseau, la conteneurisation, le monitoring, l’intégration continue et le développement d’un outil intelligent de matching d’offres. Je recherche actuellement une alternance en cybersécurité, cloud ou DevSecOps pour effectuer ma cinquième année.',
 
   location: 'Île-de-France, France',
 
