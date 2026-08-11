@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T09:01:47.661298+00:00",
+  "updatedAt": "2026-08-11T13:12:29.213888+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+      "description": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+      "publishedAt": "Tue, 11 Aug 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Everything we launched during Agents Week",
       "description": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made, from Wallets to Radar.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
       "publishedAt": "Mon, 10 Aug 2026 18:34:10 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
-      "description": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
-      "publishedAt": "Mon, 10 Aug 2026 13:00:00 GMT",
       "id": 6
     },
     {
