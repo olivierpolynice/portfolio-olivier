@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:16:24.555932+00:00",
+  "updatedAt": "2026-08-12T16:59:00.671386+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -77,20 +77,20 @@
     },
     {
       "category": "IA",
+      "title": "Putting sign language AI into users’ hands",
+      "description": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "publishedAt": "Wed, 12 Aug 2026 14:01:59 +0000",
+      "id": 9
+    },
+    {
+      "category": "IA",
       "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
       "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
       "publishedAt": "Thu, 06 Aug 2026 15:06:15 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "description": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "publishedAt": "Thu, 30 Jul 2026 15:00:59 +0000",
       "id": 10
     }
   ]
