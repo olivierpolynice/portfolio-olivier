@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T16:58:39.811539+00:00",
+  "updatedAt": "2026-08-13T20:48:06.629566+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,39 +41,48 @@
     },
     {
       "category": "Réseaux",
+      "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+      "description": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+      "publishedAt": "Thu, 13 Aug 2026 19:58:01 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Certificate Transparency Monitoring is now generally available",
       "description": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
       "publishedAt": "Thu, 13 Aug 2026 13:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
-      "description": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
-      "publishedAt": "Tue, 11 Aug 2026 13:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
-      "description": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.… The post Agent Plugins 1.0 in VS Code,…",
+      "title": "License data quality improvements",
+      "description": "GitHub now uses package registries like npmjs.org and PyPI to determine license information for software components in the dependency graph. This improves the accuracy and completeness of the licenses shown… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
-      "publishedAt": "Wed, 12 Aug 2026 18:39:11 +0000",
+      "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
+      "publishedAt": "Thu, 13 Aug 2026 19:14:12 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Rule insights for organizations in public preview",
-      "description": "The rule insights dashboard is now in public preview at the organization level. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository rulesets, so… The post Rule insights for…",
+      "title": "Block users from comments in personal repositories",
+      "description": "You can now block or unblock users directly from comments on pull requests and issues in repositories owned by personal GitHub accounts. To block or unblock a user: Open the… The post Block users from comments in…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-12-rule-insights-for-organizations-in-public-preview",
-      "publishedAt": "Wed, 12 Aug 2026 18:30:28 +0000",
+      "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
+      "publishedAt": "Thu, 13 Aug 2026 19:02:46 +0000",
       "id": 8
+    },
+    {
+      "category": "IA",
+      "title": "Introducing Gemini 3.7 Flash",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "publishedAt": "Thu, 13 Aug 2026 17:04:18 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
       "publishedAt": "Wed, 12 Aug 2026 14:01:59 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "publishedAt": "Thu, 06 Aug 2026 15:06:15 +0000",
       "id": 10
     }
   ]
