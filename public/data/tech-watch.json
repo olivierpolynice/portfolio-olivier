@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-08-14T13:13:12.830189+00:00",
+  "updatedAt": "2026-08-14T16:57:18.797137+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Vulnérabilité dans LibreNMS (12 mai 2026)",
-      "description": "Une vulnérabilité a été découverte dans LibreNMS. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
+      "title": "Multiples vulnérabilités dans les produits Mattermost (19 mai 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0562/",
-      "publishedAt": "Tue, 12 May 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0610/",
+      "publishedAt": "Tue, 19 May 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Vulnérabilité dans LibreNMS (11 juin 2026)",
-      "description": "Une vulnérabilité a été découverte dans LibreNMS. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "title": "Multiples vulnérabilités dans les produits Mattermost (22 mai 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0732/",
-      "publishedAt": "Thu, 11 Jun 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0632/",
+      "publishedAt": "Fri, 22 May 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "How Cloudflare detects MCP traffic and helps secure it",
+      "description": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/mcp-security-updates/",
+      "publishedAt": "Fri, 14 Aug 2026 13:12:12 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Secure all your internal vibe-coded applications — in one click",
       "description": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/workers-protected-by-access/",
       "publishedAt": "Fri, 14 Aug 2026 13:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
-      "description": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
-      "publishedAt": "Thu, 13 Aug 2026 19:58:01 GMT",
       "id": 6
     },
     {
