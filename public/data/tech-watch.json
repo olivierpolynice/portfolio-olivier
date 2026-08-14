@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T16:57:18.797137+00:00",
+  "updatedAt": "2026-08-14T20:34:11.412152+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "License data quality improvements",
-      "description": "GitHub now uses package registries like npmjs.org and PyPI to determine license information for software components in the dependency graph. This improves the accuracy and completeness of the licenses shown… The post…",
+      "title": "Grok 4.6 is now available in GitHub Copilot",
+      "description": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed… The post Grok 4.6 is now…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-      "publishedAt": "Thu, 13 Aug 2026 19:14:12 +0000",
+      "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+      "publishedAt": "Fri, 14 Aug 2026 16:17:46 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Block users from comments in personal repositories",
-      "description": "You can now block or unblock users directly from comments on pull requests and issues in repositories owned by personal GitHub accounts. To block or unblock a user: Open the… The post Block users from comments in…",
+      "title": "GitHub Copilot weekly releases — August 10",
+      "description": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general… The post GitHub…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-      "publishedAt": "Thu, 13 Aug 2026 19:02:46 +0000",
+      "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+      "publishedAt": "Fri, 14 Aug 2026 03:15:56 +0000",
       "id": 8
     },
     {
