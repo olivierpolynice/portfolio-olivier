@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T09:10:40.081652+00:00",
+  "updatedAt": "2026-08-14T13:13:12.830189+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Secure all your internal vibe-coded applications — in one click",
+      "description": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-protected-by-access/",
+      "publishedAt": "Fri, 14 Aug 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
       "description": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
       "publishedAt": "Thu, 13 Aug 2026 19:58:01 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Certificate Transparency Monitoring is now generally available",
-      "description": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-      "publishedAt": "Thu, 13 Aug 2026 13:00:00 GMT",
       "id": 6
     },
     {
