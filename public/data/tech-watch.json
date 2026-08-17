@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T16:31:04.400112+00:00",
+  "updatedAt": "2026-08-17T20:30:08.788497+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -24,7 +24,7 @@
     {
       "category": "Cloud",
       "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
-      "description": "Last week, the OpenSearch and Valkey teams visited Seoul to meet open source developers and contributors in the Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026. At the four-day event, community leaders and…",
+      "description": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
       "publishedAt": "Mon, 17 Aug 2026 16:02:36 +0000",
