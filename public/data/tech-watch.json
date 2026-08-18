@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T12:52:27.291572+00:00",
+  "updatedAt": "2026-08-18T16:35:09.518746+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,21 +23,30 @@
     },
     {
       "category": "Cloud",
+      "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
+      "description": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
+      "publishedAt": "Tue, 18 Aug 2026 13:58:41 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026)",
       "description": "Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/",
       "publishedAt": "Mon, 17 Aug 2026 16:02:36 +0000",
-      "id": 3
+      "id": 4
     },
     {
-      "category": "Cloud",
-      "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
-      "description": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering,…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
-      "publishedAt": "Mon, 10 Aug 2026 15:45:03 +0000",
-      "id": 4
+      "category": "Réseaux",
+      "title": "BGP Role model: tracking the adoption of RFC 9234",
+      "description": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
+      "publishedAt": "Tue, 18 Aug 2026 15:21:32 GMT",
+      "id": 5
     },
     {
       "category": "Réseaux",
@@ -46,15 +55,6 @@
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/mcp-security-updates/",
       "publishedAt": "Fri, 14 Aug 2026 13:12:12 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Secure all your internal vibe-coded applications — in one click",
-      "description": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-protected-by-access/",
-      "publishedAt": "Fri, 14 Aug 2026 13:00:00 GMT",
       "id": 6
     },
     {
