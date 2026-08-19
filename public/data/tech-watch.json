@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T12:53:02.465080+00:00",
+  "updatedAt": "2026-08-19T16:34:59.572844+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+      "description": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+      "publishedAt": "Wed, 19 Aug 2026 16:00:28 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "BGP Role model: tracking the adoption of RFC 9234",
       "description": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
       "publishedAt": "Tue, 18 Aug 2026 15:21:32 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "How Cloudflare detects MCP traffic and helps secure it",
-      "description": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/mcp-security-updates/",
-      "publishedAt": "Fri, 14 Aug 2026 13:12:12 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Track organization code quality trends",
+      "description": "The organization-level Code Quality dashboard now includes a Trends tab that shows how code quality has changed across your repositories over time. Instead of a point-in-time snapshot, you can see… The post Track…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
+      "publishedAt": "Wed, 19 Aug 2026 12:56:57 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
       "publishedAt": "Tue, 18 Aug 2026 23:33:07 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Credential revocation and deauthorization by token type",
-      "description": "Building on our self-service credential revocation experiences for incident response, you can now take token-type and user-specific actions to deauthorize and revoke user credentials during a security incident. This…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
-      "publishedAt": "Tue, 18 Aug 2026 21:57:30 +0000",
       "id": 8
     },
     {
