@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T20:27:33.407078+00:00",
+  "updatedAt": "2026-08-19T01:24:51.714066+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Multiple redirect URIs and token refresh for OAuth apps",
-      "description": "We’ve released multiple updates to the OAuth app and GitHub App platforms to support more secure app development: OAuth apps can opt in to expiring access tokens and refresh tokens.… The post Multiple redirect URIs and…",
+      "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
+      "description": "GitHub Copilot for JetBrains now supports enterprise managed settings for plugin governance, MCP server access, OpenTelemetry, and permission modes. Administrators can now apply consistent controls for everyone on your…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
-      "publishedAt": "Fri, 14 Aug 2026 22:43:44 +0000",
+      "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+      "publishedAt": "Tue, 18 Aug 2026 23:33:07 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Grok 4.6 is now available in GitHub Copilot",
-      "description": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed… The post Grok 4.6 is now…",
+      "title": "Credential revocation and deauthorization by token type",
+      "description": "Building on our self-service credential revocation experiences for incident response, you can now take token-type and user-specific actions to deauthorize and revoke user credentials during a security incident. This…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-      "publishedAt": "Fri, 14 Aug 2026 16:17:46 +0000",
+      "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
+      "publishedAt": "Tue, 18 Aug 2026 21:57:30 +0000",
       "id": 8
     },
     {
