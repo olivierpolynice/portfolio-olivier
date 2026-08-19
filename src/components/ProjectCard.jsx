@@ -96,7 +96,7 @@ function ProjectCard({
 
         {isFeatured && (
           <span className="project-card__featured-badge">
-            Projet principal
+            Projet phare
           </span>
         )}
       </div>

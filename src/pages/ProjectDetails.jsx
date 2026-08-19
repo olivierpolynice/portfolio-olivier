@@ -107,7 +107,7 @@ function ProjectDetails() {
 
                 {project.featured && (
                   <span className="project-details__featured">
-                    Projet principal
+                    Projet phare
                   </span>
                 )}
               </div>

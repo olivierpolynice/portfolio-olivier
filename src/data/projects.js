@@ -1,5 +1,110 @@
 export const projects = [
   {
+    id: 'applymatch-ai',
+    title: 'ApplyMatch AI',
+    category: 'Intelligence artificielle et développement full-stack',
+    filterCategories: [
+      'Intelligence artificielle',
+      'Cloud et DevOps',
+      'Développement',
+      'Data',
+    ],
+    status: 'Terminé',
+
+    shortDescription:
+      'Assistant intelligent qui analyse des offres d’alternance, calcule leur compatibilité avec un profil candidat et aide à prioriser les candidatures.',
+
+    description:
+      'ApplyMatch AI centralise les offres d’alternance, les compare au profil du candidat et produit un score détaillé pour identifier rapidement les opportunités les plus pertinentes, tout en laissant la décision finale à l’utilisateur.',
+
+    context:
+      'ApplyMatch AI est un projet personnel né d’un besoin concret : rendre la recherche d’alternance plus structurée, plus rapide et plus pertinente. L’application transforme les informations d’un profil candidat et d’une offre en recommandations directement exploitables.',
+
+    problem:
+      'Comparer manuellement de nombreuses offres avec son CV demande beaucoup de temps et rend difficile l’identification des opportunités réellement adaptées à ses compétences, à son rythme d’alternance et à sa localisation.',
+
+    objectives: [
+      'Centraliser un profil candidat unique et réutilisable',
+      'Importer et organiser les offres d’alternance',
+      'Mesurer la compatibilité entre un profil et une offre',
+      'Expliquer les critères qui influencent chaque score',
+      'Prioriser les opportunités les plus pertinentes',
+      'Conserver une validation humaine avant toute candidature',
+    ],
+
+    role:
+      'Conception et développement individuel du produit, de l’architecture full-stack, du moteur de matching, de la base de données, de la sécurité et des tests automatisés.',
+
+    architecture:
+      'ApplyMatch AI utilise une interface React et TypeScript communiquant avec une API REST FastAPI. Les profils, offres et résultats de matching sont enregistrés dans PostgreSQL avec SQLAlchemy et Alembic. L’accès administrateur est protégé par mot de passe chiffré et jetons JWT. Le moteur calcule des sous-scores explicables sur les compétences, le métier, le contrat et la localisation.',
+
+    features: [
+      'Profil candidat centralisé et synchronisé depuis YAML',
+      'Import et gestion des offres d’alternance',
+      'Score de compatibilité global et détaillé',
+      'Classement et filtrage des meilleures offres',
+      'Recommandations personnalisées en français',
+      'Historique des résultats de matching',
+      'Authentification administrateur sécurisée avec JWT',
+      'Validation manuelle avant toute candidature',
+      'Suite complète de tests automatisés',
+    ],
+
+    difficulties: [
+      'Transformer des données hétérogènes en critères comparables',
+      'Construire un score utile, cohérent et compréhensible',
+      'Maintenir un profil candidat unique entre les composants',
+      'Sécuriser l’administration et les données applicatives',
+      'Passer d’une base locale à PostgreSQL en ligne',
+    ],
+
+    solutions: [
+      'Normalisation des compétences et mots-clés du candidat',
+      'Décomposition du matching en sous-scores explicables',
+      'Synchronisation du profil depuis une source YAML centrale',
+      'Protection des accès avec hachage des mots de passe et JWT',
+      'Gestion du schéma de données avec SQLAlchemy et Alembic',
+      'Validation continue grâce aux tests automatisés',
+    ],
+
+    results: [
+      'Application full-stack fonctionnelle et déployable',
+      'Classement automatique des offres par pertinence',
+      'Scores détaillés facilitant la prise de décision',
+      'Base PostgreSQL hébergée avec Neon',
+      'Administration sécurisée de l’application',
+      '130 tests automatisés validés',
+      'Aucune candidature envoyée sans validation humaine',
+    ],
+
+    technologies: [
+      'React',
+      'TypeScript',
+      'Python',
+      'FastAPI',
+      'PostgreSQL',
+      'Neon',
+      'SQLAlchemy',
+      'Alembic',
+      'JWT',
+      'Pytest',
+      'TanStack Query',
+      'GitHub Actions',
+    ],
+
+    image: '/projects/applymatch-ai-cover.png',
+
+    screenshots: [],
+
+    github:
+      'https://github.com/olivierpolynice/applymatch-ai',
+
+    demo: '',
+
+    featured: true,
+  },
+
+  {
     id: 'accessguard',
     title: 'AccessGuard',
     category: 'Cybersécurité et DevSecOps',

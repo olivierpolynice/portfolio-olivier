@@ -16,6 +16,7 @@ const projectFilters = [
   'Réseaux',
   'Développement',
   'Data',
+  'Intelligence artificielle',
 ]
 
 function projectMatchesFilter(project, activeFilter) {
@@ -36,23 +37,23 @@ function Projects() {
   const shouldReduceMotion = useReducedMotion()
 
   const mainProject = projects.find(
-    (project) => project.id === 'accessguard',
+    (project) => project.id === 'applymatch-ai',
   )
 
   const otherProjects = projects.filter((project) => {
-    if (project.id === 'accessguard') {
+    if (project.id === mainProject?.id) {
       return false
     }
 
     return projectMatchesFilter(project, activeFilter)
   })
 
-  const showAccessGuard =
+  const showMainProject =
     mainProject &&
     projectMatchesFilter(mainProject, activeFilter)
 
   const hasVisibleProjects =
-    Boolean(showAccessGuard) ||
+    Boolean(showMainProject) ||
     otherProjects.length > 0
 
   return (
@@ -64,7 +65,7 @@ function Projects() {
         <SectionTitle
           eyebrow="Projets"
           title="Des projets techniques concrets"
-          description="Une sélection de projets réalisés en cybersécurité, réseaux, développement, DevOps et ingénierie des données."
+          description="Une sélection de projets réalisés en cybersécurité, intelligence artificielle, réseaux, développement, DevOps et ingénierie des données."
         />
 
         <div
@@ -105,7 +106,7 @@ function Projects() {
           ))}
         </div>
 
-        {showAccessGuard && (
+        {showMainProject && (
           <div className="projects__featured">
             <ProjectCard
               key={mainProject.id}
