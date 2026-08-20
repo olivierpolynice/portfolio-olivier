@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-08-20T12:55:07.578129+00:00",
+  "updatedAt": "2026-08-20T16:38:33.812500+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans les produits Mattermost (19 mai 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et…",
+      "title": "Multiples vulnérabilités dans Mattermost Desktop App (18 juin 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Desktop App. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur.",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0610/",
-      "publishedAt": "Tue, 19 May 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0777/",
+      "publishedAt": "Thu, 18 Jun 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans les produits Mattermost (22 mai 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par…",
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-034 (10 août 2026)",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0632/",
-      "publishedAt": "Fri, 22 May 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-034/",
+      "publishedAt": "Mon, 10 Aug 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-      "description": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning, which helps… The post…",
+      "title": "Code scanning adds a mitigated alert dismissal reason",
+      "description": "You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network… The post Code scanning adds a mitigated…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-      "publishedAt": "Wed, 19 Aug 2026 21:09:30 +0000",
+      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+      "publishedAt": "Thu, 20 Aug 2026 15:14:31 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Track organization code quality trends",
-      "description": "The organization-level Code Quality dashboard now includes a Trends tab that shows how code quality has changed across your repositories over time. Instead of a point-in-time snapshot, you can see… The post Track…",
+      "title": "Separate GitHub Actions path for GitHub Code Quality",
+      "description": "A dedicated workflow path for code quality CodeQL actions workflows is now generally available. Your workflow run history and your Actions usage reports now tell GitHub Code Quality runs apart… The post Separate GitHub…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
-      "publishedAt": "Wed, 19 Aug 2026 12:56:57 +0000",
+      "url": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
+      "publishedAt": "Thu, 20 Aug 2026 14:29:27 +0000",
       "id": 8
     },
     {
