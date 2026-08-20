@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T16:38:33.812500+00:00",
+  "updatedAt": "2026-08-20T20:31:44.717576+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "From all-or-nothing to task-based OAuth consent",
+      "description": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
+      "publishedAt": "Thu, 20 Aug 2026 17:03:03 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
       "description": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
       "publishedAt": "Wed, 19 Aug 2026 16:00:28 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "BGP Role model: tracking the adoption of RFC 9234",
-      "description": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-      "publishedAt": "Tue, 18 Aug 2026 15:21:32 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Windows 11 arm64 VS2026 image generally available",
+      "description": "The Windows 11 arm64 image with Visual Studio 2026 is now generally available on standard and larger GitHub-hosted runners. To use it in GitHub Actions, update your workflow file to… The post Windows 11 arm64 VS2026…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
+      "publishedAt": "Thu, 20 Aug 2026 17:52:38 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
       "publishedAt": "Thu, 20 Aug 2026 15:14:31 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Separate GitHub Actions path for GitHub Code Quality",
-      "description": "A dedicated workflow path for code quality CodeQL actions workflows is now generally available. Your workflow run history and your Actions usage reports now tell GitHub Code Quality runs apart… The post Separate GitHub…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
-      "publishedAt": "Thu, 20 Aug 2026 14:29:27 +0000",
       "id": 8
     },
     {
