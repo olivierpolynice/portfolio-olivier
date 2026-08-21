@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T08:44:13.951524+00:00",
+  "updatedAt": "2026-08-21T12:53:53.778508+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -77,20 +77,20 @@
     },
     {
       "category": "IA",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "description": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "publishedAt": "Fri, 21 Aug 2026 11:59:48 +0000",
+      "id": 9
+    },
+    {
+      "category": "IA",
       "title": "Introducing Gemini 3.7 Flash",
       "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
       "publishedAt": "Thu, 13 Aug 2026 17:04:18 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Putting sign language AI into users’ hands",
-      "description": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "publishedAt": "Wed, 12 Aug 2026 14:01:59 +0000",
       "id": 10
     }
   ]
