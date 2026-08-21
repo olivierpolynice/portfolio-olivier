@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T20:31:44.717576+00:00",
+  "updatedAt": "2026-08-21T01:27:33.980541+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Pinning saved views to the repository issues sidebar is generally available and more",
+      "description": "Pinning saved views to the repository issues sidebar You can now pin saved views⁠ to the repository issues sidebar, making the views you use most just one click away, even… The post Pinning saved views to the repository…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
+      "publishedAt": "Thu, 20 Aug 2026 23:29:34 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Windows 11 arm64 VS2026 image generally available",
       "description": "The Windows 11 arm64 image with Visual Studio 2026 is now generally available on standard and larger GitHub-hosted runners. To use it in GitHub Actions, update your workflow file to… The post Windows 11 arm64 VS2026…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
       "publishedAt": "Thu, 20 Aug 2026 17:52:38 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Code scanning adds a mitigated alert dismissal reason",
-      "description": "You can now dismiss a code scanning alert with the reason Mitigated when a vulnerability remains in the code but external controls, such as a web application firewall or network… The post Code scanning adds a mitigated…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
-      "publishedAt": "Thu, 20 Aug 2026 15:14:31 +0000",
       "id": 8
     },
     {
