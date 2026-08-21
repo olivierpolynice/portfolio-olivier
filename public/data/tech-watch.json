@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T12:53:53.778508+00:00",
+  "updatedAt": "2026-08-21T16:38:17.925727+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -14,11 +14,11 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-034 (10 août 2026)",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le…",
+      "title": "Multiples vulnérabilités dans GitLab (18 août 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données et une injection de requêtes illégitimes par rebond…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-034/",
-      "publishedAt": "Mon, 10 Aug 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1037/",
+      "publishedAt": "Tue, 18 Aug 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Pinning saved views to the repository issues sidebar is generally available and more",
-      "description": "Pinning saved views to the repository issues sidebar You can now pin saved views⁠ to the repository issues sidebar, making the views you use most just one click away, even… The post Pinning saved views to the repository…",
+      "title": "The new GitHub Copilot experience in Slack",
+      "description": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to… The post The new GitHub Copilot experience…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-20-pin-projects-views-and-milestones-to-the-repository-sidebar",
-      "publishedAt": "Thu, 20 Aug 2026 23:29:34 +0000",
+      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+      "publishedAt": "Fri, 21 Aug 2026 16:07:15 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Windows 11 arm64 VS2026 image generally available",
-      "description": "The Windows 11 arm64 image with Visual Studio 2026 is now generally available on standard and larger GitHub-hosted runners. To use it in GitHub Actions, update your workflow file to… The post Windows 11 arm64 VS2026…",
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+      "description": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot… The post Shared agentic work with…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
-      "publishedAt": "Thu, 20 Aug 2026 17:52:38 +0000",
+      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "publishedAt": "Fri, 21 Aug 2026 16:03:36 +0000",
       "id": 8
     },
     {
