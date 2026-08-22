@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T12:44:42.811759+00:00",
+  "updatedAt": "2026-08-22T16:28:09.906925+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -24,7 +24,7 @@
     {
       "category": "Cloud",
       "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
-      "description": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
+      "description": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
       "publishedAt": "Fri, 21 Aug 2026 18:53:26 +0000",
