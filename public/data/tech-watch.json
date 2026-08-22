@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T20:29:06.597266+00:00",
+  "updatedAt": "2026-08-22T01:23:08.698025+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Say it once: introducing Bot Preference SynC",
+      "description": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/bot-preference-sync/",
+      "publishedAt": "Fri, 21 Aug 2026 23:19:57 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "From all-or-nothing to task-based OAuth consent",
       "description": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
       "publishedAt": "Thu, 20 Aug 2026 17:03:03 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
-      "description": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
-      "publishedAt": "Wed, 19 Aug 2026 16:00:28 GMT",
       "id": 6
     },
     {
