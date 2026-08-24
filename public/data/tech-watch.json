@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T12:56:07.508961+00:00",
+  "updatedAt": "2026-08-24T16:41:27.463599+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,20 +23,20 @@
     },
     {
       "category": "Cloud",
+      "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
+      "description": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator.…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
+      "publishedAt": "Mon, 24 Aug 2026 16:20:15 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
       "description": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
       "publishedAt": "Fri, 21 Aug 2026 18:53:26 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
-      "description": "Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/",
-      "publishedAt": "Tue, 18 Aug 2026 13:58:41 +0000",
       "id": 4
     },
     {
