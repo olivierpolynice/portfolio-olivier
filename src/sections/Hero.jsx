@@ -1,4 +1,4 @@
-﻿import {
+import {
   motion,
   useReducedMotion,
 } from 'framer-motion'
@@ -11,11 +11,16 @@ import {
 import Button from '../components/Button'
 import MotionSection from '../components/MotionSection'
 import SocialLinks from '../components/SocialLinks'
-import { profile } from '../data/profile'
+import { getLocalizedProfile } from '../data/profile'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
 import './Hero.css'
 
 function Hero() {
   const shouldReduceMotion = useReducedMotion()
+  const { language } = useLanguage()
+  const profile = getLocalizedProfile(language)
+  const text = strings[language].hero
 
   const specialties = Array.isArray(profile.specialties)
     ? profile.specialties
@@ -96,7 +101,7 @@ function Hero() {
           </div>
 
           <p className="hero__introduction">
-            Bonjour, je suis
+            {text.greeting}
           </p>
 
           <h1>{profile.name}</h1>
@@ -126,12 +131,12 @@ function Hero() {
 
           <div className="hero__actions">
             <Button href="#projets">
-              Voir mes projets
+              {text.viewProjects}
               <ArrowDown size={18} aria-hidden="true" />
             </Button>
 
             <Button href="#contact" variant="secondary">
-              Me contacter
+              {text.contactMe}
 
               <MessageCircle
                 size={18}
@@ -159,7 +164,11 @@ function Hero() {
             <img
               className="hero__image"
               src={profile.profileImage}
-              alt={`Portrait professionnel de ${profile.name}`}
+              alt={`${
+                language === 'en'
+                  ? 'Professional portrait of'
+                  : 'Portrait professionnel de'
+              } ${profile.name}`}
             />
 
             <div className="hero__image-badge">
@@ -168,7 +177,7 @@ function Hero() {
                 aria-hidden="true"
               />
 
-              <span>Disponible</span>
+              <span>{text.available}</span>
             </div>
           </div>
         </motion.div>

@@ -1,4 +1,4 @@
-﻿import {
+import {
   useEffect,
   useRef,
   useState,
@@ -9,55 +9,44 @@ import {
   X,
 } from 'lucide-react'
 import { profile } from '../data/profile'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
+import LanguageToggle from './LanguageToggle'
 import './Navbar.css'
 
-const navigationLinks = [
-  {
-    label: 'Accueil',
-    href: '#accueil',
-    id: 'accueil',
-  },
-  {
-    label: 'À propos',
-    href: '#a-propos',
-    id: 'a-propos',
-  },
-  {
-    label: 'Compétences',
-    href: '#competences',
-    id: 'competences',
-  },
-  {
-    label: 'Certifications',
-    href: '#certifications',
-    id: 'certifications',
-  },
-  {
-    label: 'Veille',
-    href: '#veille',
-    id: 'veille',
-  },
-  {
-    label: 'Projets',
-    href: '#projets',
-    id: 'projets',
-  },
-  {
-    label: 'Parcours',
-    href: '#parcours',
-    id: 'parcours',
-  },
-  {
-    label: 'Contact',
-    href: '#contact',
-    id: 'contact',
-  },
-]
+function getNavigationLinks(text) {
+  return [
+    { label: text.accueil, href: '#accueil', id: 'accueil' },
+    { label: text.aPropos, href: '#a-propos', id: 'a-propos' },
+    {
+      label: text.competences,
+      href: '#competences',
+      id: 'competences',
+    },
+    {
+      label: text.certifications,
+      href: '#certifications',
+      id: 'certifications',
+    },
+    { label: text.veille, href: '#veille', id: 'veille' },
+    { label: text.projets, href: '#projets', id: 'projets' },
+    {
+      label: text.parcours,
+      href: '#parcours',
+      id: 'parcours',
+    },
+    { label: text.contact, href: '#contact', id: 'contact' },
+  ]
+}
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [activeSection, setActiveSection] =
     useState('accueil')
+
+  const { language } = useLanguage()
+  const text = strings[language].nav
+  const navigationLinks = getNavigationLinks(text)
 
   const toggleButtonRef = useRef(null)
   const firstLinkRef = useRef(null)
@@ -98,7 +87,8 @@ function Navbar() {
     return () => {
       observer.disconnect()
     }
-  }, [])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [language])
 
   useEffect(() => {
     const handleEscape = (event) => {
@@ -141,7 +131,7 @@ function Navbar() {
           onClick={() =>
             handleNavigation('accueil')
           }
-          aria-label="Retour à l’accueil"
+          aria-label={text.homeAriaLabel}
         >
           OP
         </a>
@@ -153,7 +143,7 @@ function Navbar() {
               ? 'navbar__menu--open'
               : ''
           }`}
-          aria-label="Navigation principale"
+          aria-label={text.accueil}
         >
           {navigationLinks.map(
             (link, index) => (
@@ -186,18 +176,20 @@ function Navbar() {
         </nav>
 
         <div className="navbar__actions">
+          <LanguageToggle />
+
           <a
             className="navbar__cv"
             href={profile.cv}
             download="CV_Olivier_Polynice.pdf"
-            aria-label="Télécharger le CV d’Olivier Polynice au format PDF"
+            aria-label={text.cvAriaLabel}
           >
             <Download
               size={18}
               aria-hidden="true"
             />
 
-            <span>CV</span>
+            <span>{text.cv}</span>
           </a>
 
           <button
@@ -206,8 +198,8 @@ function Navbar() {
             type="button"
             aria-label={
               isOpen
-                ? 'Fermer le menu de navigation'
-                : 'Ouvrir le menu de navigation'
+                ? text.closeMenu
+                : text.openMenu
             }
             aria-expanded={isOpen}
             aria-controls="navigation-principale"

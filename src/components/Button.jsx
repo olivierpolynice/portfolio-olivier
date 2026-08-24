@@ -1,4 +1,4 @@
-﻿function Button({
+function Button({
   children,
   href,
   variant = 'primary',

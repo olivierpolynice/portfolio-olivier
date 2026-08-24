@@ -1,10 +1,15 @@
-﻿import MotionSection from '../components/MotionSection'
+import MotionSection from '../components/MotionSection'
 import SectionTitle from '../components/SectionTitle'
 import SkillCard from '../components/SkillCard'
 import { skillCategories } from '../data/skills'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
 import './Skills.css'
 
 function Skills() {
+  const { language } = useLanguage()
+  const text = strings[language].skills
+
   return (
     <MotionSection
       className="section skills"
@@ -12,9 +17,9 @@ function Skills() {
     >
       <div className="container">
         <SectionTitle
-          eyebrow="Compétences"
-          title="Technologies et domaines techniques"
-          description="Des compétences développées à travers mes formations, mes laboratoires et plusieurs projets concrets."
+          eyebrow={text.eyebrow}
+          title={text.title}
+          description={text.description}
         />
 
         <div className="skills__grid">
@@ -23,8 +28,16 @@ function Skills() {
               key={category.id}
               id={category.id}
               icon={category.icon}
-              title={category.title}
-              description={category.description}
+              title={
+                language === 'en'
+                  ? category.title_en
+                  : category.title
+              }
+              description={
+                language === 'en'
+                  ? category.description_en
+                  : category.description
+              }
               skills={category.skills}
               animationDelay={index * 0.07}
             />

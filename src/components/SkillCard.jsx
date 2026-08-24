@@ -1,4 +1,4 @@
-﻿import {
+import {
   motion,
   useReducedMotion,
 } from 'framer-motion'

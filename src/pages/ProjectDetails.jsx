@@ -1,4 +1,4 @@
-﻿import {
+import {
   ArrowLeft,
   CheckCircle2,
   Code2,
@@ -9,10 +9,15 @@
 } from 'lucide-react'
 import { Link, useParams } from 'react-router-dom'
 import { projects } from '../data/projects'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
 import './ProjectDetails.css'
 
 function ProjectDetails() {
   const { projectId } = useParams()
+  const { language } = useLanguage()
+  const isEn = language === 'en'
+  const text = strings[language].projects
 
   const project = projects.find(
     (item) => item.id === projectId,
@@ -23,14 +28,19 @@ function ProjectDetails() {
       <main className="project-details project-details--empty">
         <div className="container">
           <p className="project-details__eyebrow">
-            Projet introuvable
+            {isEn ? 'Project not found' : 'Projet introuvable'}
           </p>
 
-          <h1>Ce projet n’existe pas.</h1>
+          <h1>
+            {isEn
+              ? 'This project does not exist.'
+              : 'Ce projet n’existe pas.'}
+          </h1>
 
           <p>
-            Le projet demandé est indisponible ou son adresse est
-            incorrecte.
+            {isEn
+              ? 'The requested project is unavailable or its address is incorrect.'
+              : 'Le projet demandé est indisponible ou son adresse est incorrecte.'}
           </p>
 
           <Link
@@ -38,12 +48,26 @@ function ProjectDetails() {
             to="/#projets"
           >
             <ArrowLeft size={18} aria-hidden="true" />
-            Retour aux projets
+            {isEn ? 'Back to projects' : 'Retour aux projets'}
           </Link>
         </div>
       </main>
     )
   }
+
+  const category = isEn
+    ? project.category_en || project.category
+    : project.category
+
+  const status = isEn
+    ? project.status_en || project.status
+    : project.status
+
+  const introduction = isEn
+    ? project.shortDescription_en ||
+      project.description ||
+      project.shortDescription
+    : project.description || project.shortDescription
 
   const objectives = Array.isArray(project.objectives)
     ? project.objectives
@@ -82,32 +106,37 @@ function ProjectDetails() {
             to="/#projets"
           >
             <ArrowLeft size={18} aria-hidden="true" />
-            Retour aux projets
+            {isEn ? 'Back to projects' : 'Retour aux projets'}
           </Link>
 
           <div className="project-details__heading">
             <div>
               <p className="project-details__category">
-                {project.category}
+                {category}
               </p>
 
               <h1>{project.title}</h1>
 
               <p className="project-details__introduction">
-                {project.description ||
-                  project.shortDescription}
+                {introduction}
               </p>
 
+              {isEn && (
+                <p className="project-details__language-note">
+                  {text.detailsNote}
+                </p>
+              )}
+
               <div className="project-details__badges">
-                {project.status && (
+                {status && (
                   <span className="project-details__status">
-                    {project.status}
+                    {status}
                   </span>
                 )}
 
                 {project.featured && (
                   <span className="project-details__featured">
-                    Projet phare
+                    {text.featuredBadge}
                   </span>
                 )}
               </div>
@@ -117,7 +146,11 @@ function ProjectDetails() {
               <div className="project-details__cover">
                 <img
                   src={project.image}
-                  alt={`Aperçu du projet ${project.title}`}
+                  alt={
+                    isEn
+                      ? `Preview of the ${project.title} project`
+                      : `Aperçu du projet ${project.title}`
+                  }
                 />
               </div>
             )}
@@ -309,7 +342,7 @@ function ProjectDetails() {
                   rel="noreferrer"
                 >
                   <Code2 size={19} aria-hidden="true" />
-                  Voir sur GitHub
+                  {isEn ? 'View on GitHub' : 'Voir sur GitHub'}
                   <ExternalLink
                     size={16}
                     aria-hidden="true"
@@ -323,7 +356,9 @@ function ProjectDetails() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Voir la démonstration
+                  {isEn
+                    ? 'View the demo'
+                    : 'Voir la démonstration'}
                   <ExternalLink
                     size={16}
                     aria-hidden="true"

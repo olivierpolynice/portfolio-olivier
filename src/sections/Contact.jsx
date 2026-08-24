@@ -1,4 +1,4 @@
-﻿import {
+import {
   motion,
   useReducedMotion,
 } from 'framer-motion'
@@ -13,10 +13,14 @@ import MotionSection from '../components/MotionSection'
 import SectionTitle from '../components/SectionTitle'
 import SocialLinks from '../components/SocialLinks'
 import { profile } from '../data/profile'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
 import './Contact.css'
 
 function Contact() {
   const shouldReduceMotion = useReducedMotion()
+  const { language } = useLanguage()
+  const text = strings[language].contact
 
   const [formData, setFormData] = useState({
     name: '',
@@ -39,15 +43,25 @@ function Contact() {
 
     const subject =
       formData.subject.trim() ||
-      `Prise de contact de ${formData.name}`
+      (language === 'en'
+        ? `Message from ${formData.name}`
+        : `Prise de contact de ${formData.name}`)
+
+    const greeting =
+      language === 'en' ? 'Hi Olivier,' : 'Bonjour Olivier,'
+
+    const nameLabel = language === 'en' ? 'Name' : 'Nom'
+
+    const emailLabel =
+      language === 'en' ? 'Email address' : 'Adresse e-mail'
 
     const body = [
-      'Bonjour Olivier,',
+      greeting,
       '',
       formData.message,
       '',
-      `Nom : ${formData.name}`,
-      `Adresse e-mail : ${formData.email}`,
+      `${nameLabel} : ${formData.name}`,
+      `${emailLabel} : ${formData.email}`,
     ].join('\n')
 
     const mailtoLink =
@@ -108,9 +122,9 @@ function Contact() {
     >
       <div className="container">
         <SectionTitle
-          eyebrow="Contact"
-          title="Échangeons sur votre opportunité"
-          description="Je suis disponible pour une alternance en Master 2 à partir de septembre 2026, principalement en cybersécurité, cloud ou DevSecOps."
+          eyebrow={text.eyebrow}
+          title={text.title}
+          description={text.description}
         />
 
         <div className="contact__layout">
@@ -119,13 +133,9 @@ function Contact() {
             {...leftAnimation}
           >
             <div className="contact__intro">
-              <h3>Restons en contact</h3>
+              <h3>{text.stayInTouch}</h3>
 
-              <p>
-                Vous pouvez me contacter directement par e-mail,
-                consulter mon profil LinkedIn ou découvrir mes
-                projets sur GitHub.
-              </p>
+              <p>{text.intro}</p>
             </div>
 
             <div className="contact__details">
@@ -138,7 +148,7 @@ function Contact() {
                 </span>
 
                 <span>
-                  <small>Adresse e-mail</small>
+                  <small>{text.email}</small>
                   <strong>{profile.email}</strong>
                 </span>
               </a>
@@ -149,7 +159,7 @@ function Contact() {
                 </span>
 
                 <span>
-                  <small>Localisation</small>
+                  <small>{text.location}</small>
                   <strong>{profile.location}</strong>
                 </span>
               </div>
@@ -163,14 +173,14 @@ function Contact() {
                 </span>
 
                 <span>
-                  <small>Disponibilité</small>
+                  <small>{text.availability}</small>
                   <strong>{profile.availability}</strong>
                 </span>
               </div>
             </div>
 
             <div className="contact__social">
-              <p>Retrouvez-moi également sur :</p>
+              <p>{text.findMeAlso}</p>
 
               <SocialLinks
                 github={profile.github}
@@ -189,19 +199,16 @@ function Contact() {
               <Mail size={25} aria-hidden="true" />
 
               <div>
-                <h3>Envoyer un message</h3>
+                <h3>{text.sendMessage}</h3>
 
-                <p>
-                  Votre logiciel de messagerie s’ouvrira
-                  automatiquement.
-                </p>
+                <p>{text.mailNote}</p>
               </div>
             </div>
 
             <div className="contact__form-row">
               <div className="contact__field">
                 <label htmlFor="contact-name">
-                  Nom
+                  {text.name}
                 </label>
 
                 <input
@@ -209,7 +216,7 @@ function Contact() {
                   name="name"
                   type="text"
                   value={formData.name}
-                  placeholder="Votre nom"
+                  placeholder={text.namePlaceholder}
                   autoComplete="name"
                   onChange={handleChange}
                   required
@@ -218,7 +225,7 @@ function Contact() {
 
               <div className="contact__field">
                 <label htmlFor="contact-email">
-                  Adresse e-mail
+                  {text.emailField}
                 </label>
 
                 <input
@@ -226,7 +233,7 @@ function Contact() {
                   name="email"
                   type="email"
                   value={formData.email}
-                  placeholder="vous@exemple.com"
+                  placeholder={text.emailPlaceholder}
                   autoComplete="email"
                   onChange={handleChange}
                   required
@@ -236,7 +243,7 @@ function Contact() {
 
             <div className="contact__field">
               <label htmlFor="contact-subject">
-                Objet
+                {text.subject}
               </label>
 
               <input
@@ -244,7 +251,7 @@ function Contact() {
                 name="subject"
                 type="text"
                 value={formData.subject}
-                placeholder="Objet de votre message"
+                placeholder={text.subjectPlaceholder}
                 onChange={handleChange}
                 required
               />
@@ -252,14 +259,14 @@ function Contact() {
 
             <div className="contact__field">
               <label htmlFor="contact-message">
-                Message
+                {text.message}
               </label>
 
               <textarea
                 id="contact-message"
                 name="message"
                 value={formData.message}
-                placeholder="Présentez votre message ou votre opportunité..."
+                placeholder={text.messagePlaceholder}
                 rows={7}
                 onChange={handleChange}
                 required
@@ -287,13 +294,12 @@ function Contact() {
                 duration: 0.16,
               }}
             >
-              Préparer l’e-mail
+              {text.submit}
               <Send size={18} aria-hidden="true" />
             </motion.button>
 
             <p className="contact__form-note">
-              Aucun message ni aucune donnée ne sont enregistrés
-              sur ce site.
+              {text.formNote}
             </p>
           </motion.form>
         </div>

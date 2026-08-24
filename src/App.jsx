@@ -3,24 +3,27 @@ import {
   Route,
   Routes,
 } from 'react-router-dom'
+import { LanguageProvider } from './i18n/LanguageContext'
 import Home from './pages/Home'
 import ProjectDetails from './pages/ProjectDetails'
 import NotFound from './pages/NotFound'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
+    <LanguageProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
 
-        <Route
-          path="/projets/:projectId"
-          element={<ProjectDetails />}
-        />
+          <Route
+            path="/projets/:projectId"
+            element={<ProjectDetails />}
+          />
 
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </BrowserRouter>
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </LanguageProvider>
   )
 }
 

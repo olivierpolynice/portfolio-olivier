@@ -94,6 +94,13 @@
   line-height: 1.7;
 }
 
+.resume__language-note {
+  margin-top: 10px;
+  color: var(--color-text-secondary);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 /* Format et date */
 
 .resume__metadata {

@@ -5,6 +5,9 @@ export const skillCategories = [
     title: 'Systèmes et administration',
     description:
       'Administration des systèmes, gestion des utilisateurs et automatisation des tâches.',
+    title_en: 'Systems and administration',
+    description_en:
+      'System administration, user management, and task automation.',
     skills: [
       'Linux',
       'Windows',
@@ -20,6 +23,9 @@ export const skillCategories = [
     title: 'Réseaux et virtualisation',
     description:
       'Configuration, analyse et virtualisation des infrastructures réseau.',
+    title_en: 'Networking and virtualization',
+    description_en:
+      'Configuring, analyzing, and virtualizing network infrastructure.',
     skills: [
       'TCP/IP',
       'DNS',
@@ -35,6 +41,9 @@ export const skillCategories = [
     title: 'Cybersécurité',
     description:
       'Analyse, protection des systèmes et contrôle sécurisé des accès.',
+    title_en: 'Cybersecurity',
+    description_en:
+      'Analysis, system protection, and secure access control.',
     skills: [
       'Wireshark',
       'Nmap',
@@ -53,6 +62,9 @@ export const skillCategories = [
     title: 'DevOps et supervision',
     description:
       'Conteneurisation, automatisation, intégration continue et observabilité.',
+    title_en: 'DevOps and monitoring',
+    description_en:
+      'Containerization, automation, continuous integration, and observability.',
     skills: [
       'Docker',
       'Git',
@@ -69,6 +81,9 @@ export const skillCategories = [
     title: 'Développement et données',
     description:
       'Développement d’applications, d’API et traitement des données.',
+    title_en: 'Development and data',
+    description_en:
+      'Building applications and APIs, and processing data.',
     skills: [
       'Python',
       'FastAPI',
@@ -87,6 +102,9 @@ export const skillCategories = [
     title: 'Intelligence artificielle',
     description:
       'Conception de systèmes de scoring intelligents et exploration des modèles de langage appliqués à des cas concrets.',
+    title_en: 'Artificial intelligence',
+    description_en:
+      'Designing intelligent scoring systems and exploring language models applied to real use cases.',
     skills: [
       'IBM AI Fundamentals',
       'Prompt engineering',

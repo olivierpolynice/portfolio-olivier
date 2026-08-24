@@ -1,4 +1,4 @@
-﻿import {
+import {
   motion,
   useReducedMotion,
 } from 'framer-motion'
@@ -12,37 +12,73 @@ import {
 } from 'lucide-react'
 import MotionSection from '../components/MotionSection'
 import SectionTitle from '../components/SectionTitle'
-import { profile } from '../data/profile'
+import { getLocalizedProfile } from '../data/profile'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
 import './About.css'
 
-const keyInformation = [
-  {
-    icon: GraduationCap,
-    value: 'Master',
-    label: 'Réseaux, Cybersécurité et Cloud',
-  },
-  {
-    icon: FolderKanban,
-    value: '5+',
-    label: 'Projets techniques réalisés',
-  },
-  {
-    icon: BrainCircuit,
-    value: '5 domaines',
-    label:
-      'Cybersécurité, Cloud, Réseaux, DevSecOps et IA',
-    featured: true,
-  },
-  {
-    icon: UsersRound,
-    value: 'Esprit d’équipe',
-    label:
-      'Organisation, réactivité et gestion de la pression',
-  },
-]
+function getKeyInformation(language) {
+  if (language === 'en') {
+    return [
+      {
+        icon: GraduationCap,
+        value: 'Master’s',
+        label: 'Networking, Cybersecurity and Cloud',
+      },
+      {
+        icon: FolderKanban,
+        value: '5+',
+        label: 'Technical projects completed',
+      },
+      {
+        icon: BrainCircuit,
+        value: '5 domains',
+        label:
+          'Cybersecurity, Cloud, Networking, DevSecOps and AI',
+        featured: true,
+      },
+      {
+        icon: UsersRound,
+        value: 'Team spirit',
+        label:
+          'Organization, responsiveness, and handling pressure',
+      },
+    ]
+  }
+
+  return [
+    {
+      icon: GraduationCap,
+      value: 'Master',
+      label: 'Réseaux, Cybersécurité et Cloud',
+    },
+    {
+      icon: FolderKanban,
+      value: '5+',
+      label: 'Projets techniques réalisés',
+    },
+    {
+      icon: BrainCircuit,
+      value: '5 domaines',
+      label:
+        'Cybersécurité, Cloud, Réseaux, DevSecOps et IA',
+      featured: true,
+    },
+    {
+      icon: UsersRound,
+      value: 'Esprit d’équipe',
+      label:
+        'Organisation, réactivité et gestion de la pression',
+    },
+  ]
+}
 
 function About() {
   const shouldReduceMotion = useReducedMotion()
+  const { language } = useLanguage()
+  const profile = getLocalizedProfile(language)
+  const text = strings[language].about
+  const keyInformation = getKeyInformation(language)
 
   const aboutParagraphs = Array.isArray(
     profile.aboutParagraphs,
@@ -58,9 +94,9 @@ function About() {
     >
       <div className="container">
         <SectionTitle
-          eyebrow="À propos"
-          title="Mon parcours et mes objectifs"
-          description="Un profil orienté cybersécurité, cloud, réseaux, DevSecOps et intelligence artificielle."
+          eyebrow={text.eyebrow}
+          title={text.title}
+          description={text.description}
           titleId="about-title"
         />
 
@@ -116,7 +152,11 @@ function About() {
               />
 
               <div>
-                <span>Objectif professionnel</span>
+                <span>
+                  {language === 'en'
+                    ? 'Professional objective'
+                    : 'Objectif professionnel'}
+                </span>
 
                 <strong>
                   {profile.alternanceObjective}
@@ -127,7 +167,11 @@ function About() {
 
           <div
             className="about__stats"
-            aria-label="Informations principales"
+            aria-label={
+              language === 'en'
+                ? 'Key information'
+                : 'Informations principales'
+            }
           >
             {keyInformation.map((item, index) => {
               const Icon = item.icon
@@ -177,7 +221,9 @@ function About() {
                 >
                   {item.featured && (
                     <span className="about__stat-badge">
-                      Compétences clés
+                      {language === 'en'
+                        ? 'Key skills'
+                        : 'Compétences clés'}
                     </span>
                   )}
 

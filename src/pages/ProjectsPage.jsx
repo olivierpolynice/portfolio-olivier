@@ -1,4 +1,4 @@
-﻿function ProjectsPage() {
+function ProjectsPage() {
   return <main>Page des projets</main>
 }
 

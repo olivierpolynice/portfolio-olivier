@@ -10,10 +10,14 @@ import {
 import Button from '../components/Button'
 import MotionSection from '../components/MotionSection'
 import { profile } from '../data/profile'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
 import './Resume.css'
 
 function Resume() {
   const shouldReduceMotion = useReducedMotion()
+  const { language } = useLanguage()
+  const text = strings[language].resume
 
   return (
     <MotionSection
@@ -82,17 +86,13 @@ function Resume() {
 
           <div className="resume__information">
             <p className="resume__eyebrow">
-              Curriculum vitæ
+              {text.eyebrow}
             </p>
 
-            <h2>
-              Retrouvez mon parcours et mes compétences
-            </h2>
+            <h2>{text.title}</h2>
 
             <p className="resume__description">
-              Une présentation synthétique de ma formation, de mes
-              expériences, de mes projets et de mes compétences
-              techniques.
+              {text.description}
             </p>
 
             <div className="resume__metadata">
@@ -102,14 +102,20 @@ function Resume() {
                   aria-hidden="true"
                 />
 
-                CV mis à jour en juillet 2026
+                {text.updated}
               </span>
 
               <span>
                 <FileText size={17} aria-hidden="true" />
-                Format PDF
+                {text.pdfFormat}
               </span>
             </div>
+
+            {language === 'en' && (
+              <p className="resume__language-note">
+                {text.cvLanguageNote}
+              </p>
+            )}
           </div>
 
           <motion.div
@@ -144,13 +150,11 @@ function Resume() {
               href={profile.cv}
               download="CV_Olivier_Polynice.pdf"
             >
-              Télécharger mon CV
+              {text.download}
               <Download size={19} aria-hidden="true" />
             </Button>
 
-            <small>
-              Téléchargement direct au format PDF
-            </small>
+            <small>{text.downloadNote}</small>
           </motion.div>
         </motion.div>
       </div>

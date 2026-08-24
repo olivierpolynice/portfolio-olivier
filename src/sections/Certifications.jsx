@@ -6,9 +6,17 @@ import {
 import MotionSection from '../components/MotionSection'
 import SectionTitle from '../components/SectionTitle'
 import { certifications } from '../data/certifications'
+import { useLanguage } from '../i18n/LanguageContext'
+import {
+  strings,
+  translateMonthYear,
+} from '../i18n/strings'
 import './Certifications.css'
 
 function Certifications() {
+  const { language } = useLanguage()
+  const text = strings[language].certifications
+
   return (
     <MotionSection
       className="section certifications"
@@ -16,9 +24,9 @@ function Certifications() {
     >
       <div className="container">
         <SectionTitle
-          eyebrow="Certifications"
-          title="Formations et compétences certifiées"
-          description="Des certifications obtenues auprès d’organismes reconnus afin de consolider mes compétences en cybersécurité, réseaux et systèmes."
+          eyebrow={text.eyebrow}
+          title={text.title}
+          description={text.description}
         />
 
         <div className="certifications__grid">
@@ -33,7 +41,7 @@ function Certifications() {
             >
               {certification.featured && (
                 <span className="certification-card__featured">
-                  Certification récente
+                  {text.recentBadge}
                 </span>
               )}
 
@@ -65,7 +73,11 @@ function Certifications() {
                 </h3>
 
                 <p className="certification-card__date">
-                  Obtenue en {certification.issuedAt}
+                  {text.obtainedIn}{' '}
+                  {translateMonthYear(
+                    certification.issuedAt,
+                    language,
+                  )}
                 </p>
 
                 <div className="certification-card__actions">
@@ -76,7 +88,7 @@ function Certifications() {
                     rel="noreferrer"
                   >
                     <FileText size={18} />
-                    Voir le certificat
+                    {text.viewCertificate}
                   </a>
 
                   {certification.verification && (
@@ -87,7 +99,7 @@ function Certifications() {
                       rel="noreferrer"
                     >
                       <ExternalLink size={18} />
-                      Vérifier sur Credly
+                      {text.verifyOnCredly}
                     </a>
                   )}
                 </div>
