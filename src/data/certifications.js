@@ -97,4 +97,17 @@ export const certifications = [
     verification: null,
     featured: false,
   },
+    {
+    id: 'ibm-cloud-computing-fundamentals',
+    title: 'Cloud Computing Fundamentals',
+    issuer: 'IBM SkillsBuild',
+    issuedAt: 'Août 2026',
+    badge:
+      '/certifications/ibm-cloud-computing-fundamentals.png',
+    certificate:
+      '/certifications/ibm-cloud-computing-fundamentals.pdf',
+    verification:
+      'https://www.credly.com/badges/3341ba6d-9f22-406f-8160-0e06ee3a23e2/public_url',
+    featured: true,
+  },
 ]
