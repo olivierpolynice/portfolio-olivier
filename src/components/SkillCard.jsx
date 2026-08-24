@@ -4,6 +4,7 @@
 } from 'framer-motion'
 import {
   Braces,
+  BrainCircuit,
   Infinity as InfinityIcon,
   Network,
   ServerCog,
@@ -16,6 +17,7 @@ const categoryIcons = {
   shield: ShieldCheck,
   infinity: InfinityIcon,
   code: Braces,
+  brain: BrainCircuit,
 }
 
 function SkillCard({
