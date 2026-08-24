@@ -10,6 +10,11 @@ import {
   RefreshCw,
   ShieldCheck,
 } from 'lucide-react'
+import { useLanguage } from '../i18n/LanguageContext'
+import {
+  strings,
+  translateCategory,
+} from '../i18n/strings'
 import './TechWatch.css'
 
 const categories = [
@@ -37,7 +42,7 @@ function normalizeUrl(url = '') {
   return markdownUrl ? markdownUrl[1] : url
 }
 
-function formatDate(dateValue) {
+function formatDate(dateValue, language = 'fr') {
   if (!dateValue) {
     return null
   }
@@ -48,14 +53,20 @@ function formatDate(dateValue) {
     return null
   }
 
-  return new Intl.DateTimeFormat('fr-FR', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  }).format(date)
+  return new Intl.DateTimeFormat(
+    language === 'en' ? 'en-US' : 'fr-FR',
+    {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    },
+  ).format(date)
 }
 
 function TechWatch() {
+  const { language } = useLanguage()
+  const text = strings[language].techWatch
+
   const [activeCategory, setActiveCategory] =
     useState('Tous')
   const [watchItems, setWatchItems] = useState([])
@@ -135,29 +146,30 @@ function TechWatch() {
       <div className="container">
         <header className="section__header">
           <span className="section__eyebrow">
-            Veille technologique
+            {text.eyebrow}
           </span>
 
           <h2
             className="section__title"
             id="tech-watch-title"
           >
-            Je reste informé des évolutions
-            technologiques
+            {text.title}
           </h2>
 
           <p className="section__description">
-            Je suis régulièrement les actualités
-            liées à la cybersécurité, au cloud, aux
-            réseaux, au DevSecOps et à
-            l’intelligence artificielle à partir de
-            sources officielles et spécialisées.
+            {text.description}
           </p>
+
+          {language === 'en' && (
+            <p className="tech-watch__language-note">
+              {text.note}
+            </p>
+          )}
         </header>
 
         <div
           className="tech-watch__filters"
-          aria-label="Filtrer les actualités"
+          aria-label={text.filterAriaLabel}
         >
           {categories.map((category) => (
             <button
@@ -175,7 +187,7 @@ function TechWatch() {
                 setActiveCategory(category)
               }
             >
-              {category}
+              {translateCategory(category, language)}
             </button>
           ))}
         </div>
@@ -185,7 +197,9 @@ function TechWatch() {
             className="tech-watch__status"
             role="status"
           >
-            Chargement des actualités…
+            {language === 'en'
+              ? 'Loading news…'
+              : 'Chargement des actualités…'}
           </p>
         )}
 
@@ -207,6 +221,7 @@ function TechWatch() {
 
               const publicationDate = formatDate(
                 item.publishedAt,
+                language,
               )
 
               return (
@@ -223,7 +238,10 @@ function TechWatch() {
                     </span>
 
                     <span className="tech-watch__category">
-                      {item.category}
+                      {translateCategory(
+                        item.category,
+                        language,
+                      )}
                     </span>
                   </div>
 
@@ -256,9 +274,17 @@ function TechWatch() {
                       href={normalizeUrl(item.url)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label={`Consulter ${item.title} sur ${item.source}`}
+                      aria-label={`${
+                        language === 'en'
+                          ? 'Read'
+                          : 'Consulter'
+                      } ${item.title} ${
+                        language === 'en' ? 'on' : 'sur'
+                      } ${item.source}`}
                     >
-                      Consulter
+                      {language === 'en'
+                        ? 'Read'
+                        : 'Consulter'}
 
                       <ExternalLink
                         size={16}
@@ -276,16 +302,18 @@ function TechWatch() {
           !error &&
           filteredItems.length === 0 && (
             <p className="tech-watch__status">
-              Aucun article disponible dans cette
-              catégorie.
+              {language === 'en'
+                ? 'No article available in this category.'
+                : 'Aucun article disponible dans cette catégorie.'}
             </p>
           )}
 
         {updatedAt && (
           <p className="tech-watch__update">
-            Veille actualisée automatiquement.
-            Dernière mise à jour :{' '}
-            {formatDate(updatedAt)}.
+            {language === 'en'
+              ? 'News updates automatically. Last updated: '
+              : 'Veille actualisée automatiquement. Dernière mise à jour : '}
+            {formatDate(updatedAt, language)}.
           </p>
         )}
       </div>

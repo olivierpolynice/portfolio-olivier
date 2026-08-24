@@ -1,4 +1,4 @@
-﻿import {
+import {
   motion,
   useReducedMotion,
 } from 'framer-motion'
@@ -11,10 +11,15 @@ import {
 import MotionSection from '../components/MotionSection'
 import SectionTitle from '../components/SectionTitle'
 import { experiences } from '../data/experiences'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
 import './Experience.css'
 
 function Experience() {
   const shouldReduceMotion = useReducedMotion()
+  const { language } = useLanguage()
+  const isEn = language === 'en'
+  const text = strings[language].experience
 
   return (
     <MotionSection
@@ -23,9 +28,9 @@ function Experience() {
     >
       <div className="container">
         <SectionTitle
-          eyebrow="Parcours"
-          title="Mon parcours académique et professionnel"
-          description="Une chronologie associant formation en télécommunications, informatique, cybersécurité et expériences professionnelles."
+          eyebrow={text.eyebrow}
+          title={text.title}
+          description={text.description}
         />
 
         <div className="experience__timeline">
@@ -38,15 +43,21 @@ function Experience() {
               : BriefcaseBusiness
 
             const skills = Array.isArray(
-              experience.skills,
+              isEn ? experience.skills_en : experience.skills,
             )
-              ? experience.skills
+              ? isEn
+                ? experience.skills_en
+                : experience.skills
               : []
 
             const missions = Array.isArray(
-              experience.missions,
+              isEn
+                ? experience.missions_en
+                : experience.missions,
             )
-              ? experience.missions
+              ? isEn
+                ? experience.missions_en
+                : experience.missions
               : []
 
             const animationDelay = index * 0.08
@@ -124,13 +135,21 @@ function Experience() {
                   <div className="experience__header">
                     <div>
                       <p className="experience__type">
-                        {experience.type}
+                        {isEn
+                          ? experience.type_en
+                          : experience.type}
                       </p>
 
-                      <h3>{experience.title}</h3>
+                      <h3>
+                        {isEn
+                          ? experience.title_en
+                          : experience.title}
+                      </h3>
 
                       <p className="experience__organisation">
-                        {experience.organisation}
+                        {isEn && experience.organisation_en
+                          ? experience.organisation_en
+                          : experience.organisation}
                       </p>
                     </div>
 
@@ -151,7 +170,9 @@ function Experience() {
                             aria-hidden="true"
                           />
 
-                          {experience.location}
+                          {isEn && experience.location_en
+                            ? experience.location_en
+                            : experience.location}
                         </span>
                       )}
                     </div>
@@ -159,13 +180,19 @@ function Experience() {
 
                   {experience.description && (
                     <p className="experience__description">
-                      {experience.description}
+                      {isEn
+                        ? experience.description_en
+                        : experience.description}
                     </p>
                   )}
 
                   {missions.length > 0 && (
                     <div className="experience__missions">
-                      <h4>Principales missions</h4>
+                      <h4>
+                        {isEn
+                          ? 'Main responsibilities'
+                          : 'Principales missions'}
+                      </h4>
 
                       <ul>
                         {missions.map((mission) => (
@@ -179,7 +206,11 @@ function Experience() {
 
                   {skills.length > 0 && (
                     <div className="experience__skills">
-                      <h4>Compétences acquises</h4>
+                      <h4>
+                        {isEn
+                          ? 'Skills gained'
+                          : 'Compétences acquises'}
+                      </h4>
 
                       <ul>
                         {skills.map((skill) => (

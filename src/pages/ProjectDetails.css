@@ -96,6 +96,14 @@
   line-height: 1.8;
 }
 
+.project-details__language-note {
+  max-width: 760px;
+  margin-top: 10px;
+  color: var(--color-text-secondary);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 .project-details__badges {
   display: flex;
   flex-wrap: wrap;

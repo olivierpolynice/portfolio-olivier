@@ -3,6 +3,7 @@ export const projects = [
     id: 'applymatch-ai',
     title: 'ApplyMatch AI',
     category: 'Intelligence artificielle et développement full-stack',
+    category_en: 'Artificial intelligence and full-stack development',
     filterCategories: [
       'Intelligence artificielle',
       'Cloud et DevOps',
@@ -10,9 +11,12 @@ export const projects = [
       'Data',
     ],
     status: 'Terminé',
+    status_en: 'Completed',
 
     shortDescription:
       'Assistant intelligent qui analyse des offres d’alternance, calcule leur compatibilité avec un profil candidat et aide à prioriser les candidatures.',
+    shortDescription_en:
+      'An intelligent assistant that analyzes work-study job postings, scores their fit against a candidate profile, and helps prioritize applications.',
 
     description:
       'ApplyMatch AI centralise les offres d’alternance, les compare au profil du candidat et produit un score détaillé pour identifier rapidement les opportunités les plus pertinentes, tout en laissant la décision finale à l’utilisateur.',
@@ -22,6 +26,8 @@ export const projects = [
 
     problem:
       'Comparer manuellement de nombreuses offres avec son CV demande beaucoup de temps et rend difficile l’identification des opportunités réellement adaptées à ses compétences, à son rythme d’alternance et à sa localisation.',
+    problem_en:
+      'Manually comparing many job postings against a résumé takes a lot of time and makes it hard to spot the opportunities that truly match one’s skills, schedule, and location.',
 
     objectives: [
       'Centraliser un profil candidat unique et réutilisable',
@@ -34,6 +40,8 @@ export const projects = [
 
     role:
       'Conception et développement individuel du produit, de l’architecture full-stack, du moteur de matching, de la base de données, de la sécurité et des tests automatisés.',
+    role_en:
+      'Solo design and development of the product, the full-stack architecture, the matching engine, the database, security, and automated tests.',
 
     architecture:
       'ApplyMatch AI utilise une interface React et TypeScript communiquant avec une API REST FastAPI. Les profils, offres et résultats de matching sont enregistrés dans PostgreSQL avec SQLAlchemy et Alembic. L’accès administrateur est protégé par mot de passe chiffré et jetons JWT. Le moteur calcule des sous-scores explicables sur les compétences, le métier, le contrat et la localisation.',
@@ -48,6 +56,17 @@ export const projects = [
       'Authentification administrateur sécurisée avec JWT',
       'Validation manuelle avant toute candidature',
       'Suite complète de tests automatisés',
+    ],
+    features_en: [
+      'Centralized candidate profile synced from YAML',
+      'Import and management of work-study job postings',
+      'Overall and detailed compatibility score',
+      'Ranking and filtering of the best offers',
+      'Personalized recommendations',
+      'History of matching results',
+      'Secure admin authentication with JWT',
+      'Manual validation before any application',
+      'Full suite of automated tests',
     ],
 
     difficulties: [
@@ -108,15 +127,19 @@ export const projects = [
     id: 'accessguard',
     title: 'AccessGuard',
     category: 'Cybersécurité et DevSecOps',
+    category_en: 'Cybersecurity and DevSecOps',
     filterCategories: [
       'Cybersécurité',
       'Cloud et DevOps',
       'Développement',
     ],
     status: 'Terminé',
+    status_en: 'Completed',
 
     shortDescription:
       'Plateforme de gestion sécurisée des demandes et des droits d’accès au sein d’une entreprise fictive.',
+    shortDescription_en:
+      'A secure platform for managing access requests and permissions within a fictitious company.',
 
     description:
       'AccessGuard centralise la gestion des demandes d’accès, leur validation, l’attribution des droits et la traçabilité des actions dans une architecture sécurisée et supervisée.',
@@ -212,15 +235,19 @@ export const projects = [
     id: 'sads',
     title: 'SADS',
     category: 'Cybersécurité, Data et développement',
+    category_en: 'Cybersecurity, data, and development',
     filterCategories: [
       'Cybersécurité',
       'Data',
       'Développement',
     ],
     status: 'Terminé',
+    status_en: 'Completed',
 
     shortDescription:
       'Plateforme de détection et d’analyse d’événements de sécurité à partir de fichiers de logs CSV.',
+    shortDescription_en:
+      'A platform for detecting and analyzing security events from CSV log files.',
 
     description:
       'SADS, Security Analysis & Detection System, analyse des journaux de connexion, détecte les comportements suspects et présente les résultats dans une interface sécurisée.',
@@ -315,14 +342,18 @@ export const projects = [
     id: 'linux-server-security',
     title: 'Sécurisation d’un serveur Linux',
     category: 'Cybersécurité et systèmes',
+    category_en: 'Cybersecurity and systems',
     filterCategories: [
       'Cybersécurité',
       'Réseaux',
     ],
     status: 'Terminé',
+    status_en: 'Completed',
 
     shortDescription:
       'Laboratoire de sécurisation d’un serveur Ubuntu avec SSH, UFW, Fail2ban et analyse des journaux.',
+    shortDescription_en:
+      'A lab hardening an Ubuntu server with SSH, UFW, Fail2ban, and log analysis.',
 
     description:
       'Ce laboratoire met en œuvre plusieurs mesures de durcissement d’un serveur Linux : sécurisation des connexions SSH, configuration du pare-feu UFW, protection contre les tentatives de connexion avec Fail2ban, analyse des logs et application du principe du moindre privilège.',
@@ -399,15 +430,19 @@ export const projects = [
     id: 'dataops-airflow-dbt',
     title: 'Pipeline DataOps avec Airflow et dbt',
     category: 'Data et automatisation',
+    category_en: 'Data and automation',
     filterCategories: [
       'Data',
       'Cloud et DevOps',
       'Développement',
     ],
     status: 'Terminé',
+    status_en: 'Completed',
 
     shortDescription:
       'Pipeline DataOps réalisé avec Apache Airflow, dbt, SQLite et Azurite pour orchestrer et transformer des données.',
+    shortDescription_en:
+      'A DataOps pipeline built with Apache Airflow, dbt, SQLite, and Azurite to orchestrate and transform data.',
 
     description:
       'Ce projet DataOps regroupe plusieurs travaux pratiques consacrés à l’orchestration de pipelines, à la transformation des données et à leur stockage. Apache Airflow pilote les traitements tandis que dbt organise les transformations et les validations.',
@@ -484,14 +519,18 @@ export const projects = [
     id: 'tcp-ip-osi-wireshark',
     title: 'Analyse réseau TCP/IP et OSI',
     category: 'Réseaux',
+    category_en: 'Networking',
     filterCategories: [
       'Réseaux',
       'Cybersécurité',
     ],
     status: 'Terminé',
+    status_en: 'Completed',
 
     shortDescription:
       'Laboratoire d’analyse des protocoles réseau et des communications avec Wireshark.',
+    shortDescription_en:
+      'A lab analyzing network protocols and communications with Wireshark.',
 
     description:
       'Ce laboratoire permet d’étudier le fonctionnement des modèles TCP/IP et OSI à travers la capture et l’analyse de paquets réseau. Il met en évidence les protocoles, les ports, les adresses et les différentes couches de communication.',
@@ -568,14 +607,18 @@ export const projects = [
     id: 'sentiment-ai',
     title: 'Sentiment AI',
     category: 'Intelligence artificielle',
+    category_en: 'Artificial intelligence',
     filterCategories: [
       'Développement',
       'Data',
     ],
    status: 'Terminé',
+   status_en: 'Completed',
 
     shortDescription:
       'Application Python consacrée à l’analyse automatique du sentiment exprimé dans un texte.',
+    shortDescription_en:
+      'A Python application dedicated to automatic sentiment analysis of text.',
 
     description:
       'Sentiment AI explore l’analyse de texte et la classification des émotions ou opinions. Le projet permet de mettre en pratique Python, le traitement des données textuelles et l’intégration d’un modèle d’analyse de sentiments.',
@@ -647,13 +690,17 @@ export const projects = [
     id: 'linux-bandit',
     title: 'Laboratoire Linux et Bandit',
     category: 'Systèmes et cybersécurité',
+    category_en: 'Systems and cybersecurity',
     filterCategories: [
       'Cybersécurité',
     ],
     status: 'Terminé',
+    status_en: 'Completed',
 
     shortDescription:
       'Apprentissage pratique des commandes Linux et résolution des niveaux 0 à 10 d’OverTheWire Bandit.',
+    shortDescription_en:
+      'Hands-on practice with Linux commands, solving levels 0 through 10 of OverTheWire Bandit.',
 
     description:
       'Ce laboratoire documente les commandes essentielles de Linux et leur utilisation dans les premiers niveaux du challenge OverTheWire Bandit. Il développe la maîtrise du terminal, de SSH, des permissions et de la recherche de fichiers.',

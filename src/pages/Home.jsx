@@ -1,4 +1,4 @@
-﻿import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import About from '../sections/About'
 import Certifications from '../sections/Certifications'

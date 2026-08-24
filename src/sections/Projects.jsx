@@ -1,4 +1,4 @@
-﻿import {
+import {
   motion,
   useReducedMotion,
 } from 'framer-motion'
@@ -7,6 +7,11 @@ import MotionSection from '../components/MotionSection'
 import ProjectCard from '../components/ProjectCard'
 import SectionTitle from '../components/SectionTitle'
 import { projects } from '../data/projects'
+import { useLanguage } from '../i18n/LanguageContext'
+import {
+  strings,
+  translateCategory,
+} from '../i18n/strings'
 import './Projects.css'
 
 const projectFilters = [
@@ -35,6 +40,8 @@ function Projects() {
     useState('Tous')
 
   const shouldReduceMotion = useReducedMotion()
+  const { language } = useLanguage()
+  const text = strings[language].projects
 
   const mainProject = projects.find(
     (project) => project.id === 'applymatch-ai',
@@ -63,14 +70,14 @@ function Projects() {
     >
       <div className="container">
         <SectionTitle
-          eyebrow="Projets"
-          title="Des projets techniques concrets"
-          description="Une sélection de projets réalisés en cybersécurité, intelligence artificielle, réseaux, développement, DevOps et ingénierie des données."
+          eyebrow={text.eyebrow}
+          title={text.title}
+          description={text.description}
         />
 
         <div
           className="projects__filters"
-          aria-label="Filtrer les projets par catégorie"
+          aria-label={text.filterAriaLabel}
         >
           {projectFilters.map((filter) => (
             <motion.button
@@ -101,7 +108,7 @@ function Projects() {
                 duration: 0.16,
               }}
             >
-              {filter}
+              {translateCategory(filter, language)}
             </motion.button>
           ))}
         </div>
@@ -144,14 +151,22 @@ function Projects() {
             >
               <span>
                 {activeFilter === 'Tous'
-                  ? 'Autres réalisations'
-                  : activeFilter}
+                  ? text.otherWorks
+                  : translateCategory(
+                      activeFilter,
+                      language,
+                    )}
               </span>
 
               <h3>
                 {activeFilter === 'Tous'
-                  ? 'Découvrez également mes autres projets'
-                  : `Projets en ${activeFilter}`}
+                  ? text.discoverOthers
+                  : text.projectsIn(
+                      translateCategory(
+                        activeFilter,
+                        language,
+                      ),
+                    )}
               </h3>
             </motion.div>
 
@@ -193,8 +208,7 @@ function Projects() {
               duration: 0.3,
             }}
           >
-            Aucun projet n’est encore disponible dans cette
-            catégorie.
+            {text.empty}
           </motion.p>
         )}
       </div>

@@ -67,4 +67,66 @@ export const profile = {
     'Réseaux',
     'Développement sécurisé',
   ],
+
+  en: {
+    title:
+      'Master’s student in Networking, Cybersecurity and Cloud',
+
+    shortTitle:
+      'Master’s student in Networking, Cybersecurity and Cloud',
+
+    headline:
+      'Cybersecurity, Cloud, Networking and DevSecOps',
+
+    specialties: [
+      'Cybersecurity',
+      'Cloud',
+      'Networking',
+      'DevSecOps',
+    ],
+
+    location: 'Île-de-France, France',
+
+    availability:
+      'Available for a Master’s 2 work-study program from September 2026',
+
+    introduction:
+      'I build my skills through technical projects combining application security, network administration, cloud, automation, and monitoring.',
+
+    description:
+      'A Master’s student in Networking, Cybersecurity and Cloud at ESTIAM Paris, I build my skills through projects combining application security, access management, network administration, web development, containerization, automation, continuous integration, and monitoring. I’m looking for a work-study program in cybersecurity, cloud, or DevSecOps for my fifth year.',
+
+    about:
+      'My background spans telecommunications, networking, cybersecurity, cloud, and DevSecOps. My studies, technical projects, and professional experience have helped me develop technical and interpersonal skills suited to working in a company.',
+
+    aboutParagraphs: [
+      'My background started in telecommunications, where I built a solid foundation in networking, data transmission, and how infrastructure works.',
+
+      'I then continued my studies in computer science, followed by a Master’s in Networking, Cybersecurity and Cloud. This progression let me broaden my skills into systems security, secure development, containerization, automation, and monitoring.',
+
+      'Through several technical projects, notably AccessGuard, I strengthened my interest in secure access management, application protection, and building reliable infrastructure.',
+
+      'Alongside my studies, my experience as a multi-skilled crew member at Burger King taught me to work effectively as part of a team, follow precise procedures, and stay organized in a fast-paced environment. It also helped me develop my responsiveness, punctuality, and ability to handle pressure during busy periods.',
+    ],
+
+    alternanceObjective:
+      'Join a company in a work-study program for my fifth year and contribute to cybersecurity, cloud, or DevSecOps work starting September 2026.',
+
+    status:
+      'Available for a Master’s 2 work-study program from September 2026',
+  },
+}
+
+// Returns the profile with its French fields overridden by the
+// English counterparts for the requested language. Fields without
+// an English counterpart (name, contact links, cv, image…) are
+// shared across both languages.
+export function getLocalizedProfile(language) {
+  if (language !== 'en') {
+    return profile
+  }
+
+  const { en, ...base } = profile
+
+  return { ...base, ...en }
 }

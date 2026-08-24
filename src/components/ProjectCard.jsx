@@ -1,4 +1,4 @@
-﻿import {
+import {
   motion,
   useReducedMotion,
 } from 'framer-motion'
@@ -10,6 +10,8 @@ import {
   UserRound,
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
 
 function ProjectCard({
   project,
@@ -18,13 +20,42 @@ function ProjectCard({
 }) {
   const shouldReduceMotion = useReducedMotion()
   const isFeatured = variant === 'featured'
+  const { language } = useLanguage()
+  const isEn = language === 'en'
+  const text = strings[language].projects
+
+  const category = isEn
+    ? project.category_en || project.category
+    : project.category
+
+  const status = isEn
+    ? project.status_en || project.status
+    : project.status
+
+  const shortDescription = isEn
+    ? project.shortDescription_en ||
+      project.shortDescription
+    : project.shortDescription
+
+  const problem = isEn
+    ? project.problem_en || project.problem
+    : project.problem
+
+  const role = isEn
+    ? project.role_en || project.role
+    : project.role
 
   const technologies = Array.isArray(project.technologies)
     ? project.technologies
     : []
 
-  const features = Array.isArray(project.features)
-    ? project.features
+  const rawFeatures =
+    isEn && project.features_en
+      ? project.features_en
+      : project.features
+
+  const features = Array.isArray(rawFeatures)
+    ? rawFeatures
     : []
 
   return (
@@ -75,7 +106,11 @@ function ProjectCard({
         <motion.img
           className="project-card__image"
           src={project.image}
-          alt={`Aperçu du projet ${project.title}`}
+          alt={
+            isEn
+              ? `Preview of the ${project.title} project`
+              : `Aperçu du projet ${project.title}`
+          }
           whileHover={
             shouldReduceMotion
               ? undefined
@@ -88,22 +123,22 @@ function ProjectCard({
           }}
         />
 
-        {project.status && (
+        {status && (
           <span className="project-card__status">
-            {project.status}
+            {status}
           </span>
         )}
 
         {isFeatured && (
           <span className="project-card__featured-badge">
-            Projet phare
+            {text.featuredBadge}
           </span>
         )}
       </div>
 
       <div className="project-card__content">
         <p className="project-card__category">
-          {project.category}
+          {category}
         </p>
 
         <h3 className="project-card__title">
@@ -111,33 +146,33 @@ function ProjectCard({
         </h3>
 
         <p className="project-card__description">
-          {project.shortDescription}
+          {shortDescription}
         </p>
 
-        {isFeatured && project.problem && (
+        {isFeatured && problem && (
           <div className="project-card__problem">
             <ShieldAlert size={22} aria-hidden="true" />
 
             <div>
-              <span>Problème traité</span>
-              <p>{project.problem}</p>
+              <span>{text.problemHandled}</span>
+              <p>{problem}</p>
             </div>
           </div>
         )}
 
-        {isFeatured && project.role && (
+        {isFeatured && role && (
           <div className="project-card__role">
             <UserRound size={20} aria-hidden="true" />
 
             <p>
-              <span>Rôle :</span> {project.role}
+              <span>{text.role}</span> {role}
             </p>
           </div>
         )}
 
         {isFeatured && features.length > 0 && (
           <div className="project-card__features">
-            <h4>Fonctionnalités principales</h4>
+            <h4>{text.mainFeatures}</h4>
 
             <ul>
               {features.map((feature) => (
@@ -155,7 +190,7 @@ function ProjectCard({
         )}
 
         <div className="project-card__stack">
-          {isFeatured && <h4>Technologies utilisées</h4>}
+          {isFeatured && <h4>{text.technologiesUsed}</h4>}
 
           <ul className="project-card__technologies">
             {(isFeatured
@@ -173,9 +208,13 @@ function ProjectCard({
           <Link
             className="project-card__primary-link"
             to={`/projets/${project.id}`}
-            aria-label={`Voir les détails du projet ${project.title}`}
+            aria-label={
+              isEn
+                ? `View details of the ${project.title} project`
+                : `Voir les détails du projet ${project.title}`
+            }
           >
-            Voir les détails
+            {text.viewDetails}
 
             <ArrowUpRight
               size={17}
@@ -189,7 +228,11 @@ function ProjectCard({
               href={project.github}
               target="_blank"
               rel="noreferrer"
-              aria-label={`Voir le projet ${project.title} sur GitHub`}
+              aria-label={
+                isEn
+                  ? `View the ${project.title} project on GitHub`
+                  : `Voir le projet ${project.title} sur GitHub`
+              }
             >
               <Code2 size={18} aria-hidden="true" />
               GitHub

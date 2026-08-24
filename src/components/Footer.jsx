@@ -1,4 +1,6 @@
-﻿import { profile } from '../data/profile'
+import { profile } from '../data/profile'
+import { useLanguage } from '../i18n/LanguageContext'
+import { strings } from '../i18n/strings'
 import './Footer.css'
 
 function GithubIcon() {
@@ -80,6 +82,9 @@ function ArrowUpIcon() {
 
 function Footer() {
   const currentYear = new Date().getFullYear()
+  const { language } = useLanguage()
+  const navText = strings[language].nav
+  const text = strings[language].footer
 
   return (
     <footer className="footer">
@@ -91,31 +96,40 @@ function Footer() {
             </a>
 
             <p className="footer-description">
-              Portfolio orienté cybersécurité, cloud, réseaux et
-              DevSecOps.
+              {text.description}
             </p>
           </div>
 
           <nav
             className="footer-links"
-            aria-label="Navigation du pied de page"
+            aria-label={
+              language === 'en'
+                ? 'Footer navigation'
+                : 'Navigation du pied de page'
+            }
           >
-            <a href="#a-propos">À propos</a>
-            <a href="#competences">Compétences</a>
-            <a href="#projets">Projets</a>
-            <a href="#parcours">Parcours</a>
-            <a href="#contact">Contact</a>
+            <a href="#a-propos">{navText.aPropos}</a>
+            <a href="#competences">{navText.competences}</a>
+            <a href="#projets">{navText.projets}</a>
+            <a href="#parcours">{navText.parcours}</a>
+            <a href="#contact">{navText.contact}</a>
           </nav>
 
           <div className="footer-social-column">
-            <p className="footer-social-title">Retrouvez-moi</p>
+            <p className="footer-social-title">
+              {text.findMe}
+            </p>
 
             <div className="footer-socials">
               <a
                 href="https://github.com/olivierpolynice"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Consulter mon profil GitHub"
+                aria-label={
+                  language === 'en'
+                    ? 'View my GitHub profile'
+                    : 'Consulter mon profil GitHub'
+                }
                 title="GitHub"
               >
                 <GithubIcon />
@@ -125,7 +139,11 @@ function Footer() {
                 href="https://www.linkedin.com/in/olivier-polynice/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Consulter mon profil LinkedIn"
+                aria-label={
+                  language === 'en'
+                    ? 'View my LinkedIn profile'
+                    : 'Consulter mon profil LinkedIn'
+                }
                 title="LinkedIn"
               >
                 <LinkedinIcon />
@@ -133,7 +151,11 @@ function Footer() {
 
               <a
                 href="mailto:olivierpolynice7@gmail.com"
-                aria-label="M’envoyer un e-mail"
+                aria-label={
+                  language === 'en'
+                    ? 'Send me an email'
+                    : 'M’envoyer un e-mail'
+                }
                 title="E-mail"
               >
                 <MailIcon />
@@ -144,11 +166,11 @@ function Footer() {
 
         <div className="footer-bottom">
           <p>
-            © {currentYear} {profile.name}. Tous droits réservés.
+            © {currentYear} {profile.name}. {text.rightsReserved}
           </p>
 
           <a className="footer-top-link" href="#accueil">
-            Retour en haut
+            {text.backToTop}
             <ArrowUpIcon />
           </a>
         </div>
