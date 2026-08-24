@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T16:41:27.463599+00:00",
+  "updatedAt": "2026-08-24T20:33:37.507291+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "The Cloudflare Blog – Brought to you by EmDash",
+      "description": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
+      "publishedAt": "Mon, 24 Aug 2026 19:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Say it once: introducing Bot Preference Sync",
       "description": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/bot-preference-sync/",
       "publishedAt": "Fri, 21 Aug 2026 23:19:57 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "From all-or-nothing to task-based OAuth consent",
-      "description": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
-      "publishedAt": "Thu, 20 Aug 2026 17:03:03 GMT",
       "id": 6
     },
     {
