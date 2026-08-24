@@ -110,7 +110,7 @@ export const strings = {
       availability: 'Disponibilité',
       findMeAlso: 'Retrouvez-moi également sur :',
       sendMessage: 'Envoyer un message',
-      mailNote: 'Votre logiciel de messagerie s’ouvrira automatiquement.',
+      mailNote: 'Votre message me sera envoyé directement.',
       name: 'Nom',
       namePlaceholder: 'Votre nom',
       emailField: 'Adresse e-mail',
@@ -120,7 +120,15 @@ export const strings = {
       message: 'Message',
       messagePlaceholder:
         'Présentez votre message ou votre opportunité...',
-      submit: 'Préparer l’e-mail',
+      submit: 'Envoyer le message',
+      sending: 'Envoi en cours…',
+      successTitle: 'Message envoyé !',
+      successMessage:
+        'Merci, votre message m’a bien été transmis. Je vous répondrai dès que possible.',
+      errorTitle: 'Envoi impossible',
+      errorMessage:
+        'Une erreur est survenue. Vous pouvez réessayer ou m’écrire directement à',
+      sendAnother: 'Envoyer un autre message',
       formNote:
         'Aucun message ni aucune donnée ne sont enregistrés sur ce site.',
     },
@@ -251,7 +259,7 @@ export const strings = {
       availability: 'Availability',
       findMeAlso: 'Find me on:',
       sendMessage: 'Send a message',
-      mailNote: 'Your email client will open automatically.',
+      mailNote: 'Your message will be sent directly to me.',
       name: 'Name',
       namePlaceholder: 'Your name',
       emailField: 'Email address',
@@ -260,7 +268,15 @@ export const strings = {
       subjectPlaceholder: 'Subject of your message',
       message: 'Message',
       messagePlaceholder: 'Introduce your message or opportunity...',
-      submit: 'Prepare the email',
+      submit: 'Send message',
+      sending: 'Sending…',
+      successTitle: 'Message sent!',
+      successMessage:
+        'Thank you, your message was sent successfully. I’ll get back to you as soon as possible.',
+      errorTitle: 'Could not send',
+      errorMessage:
+        'Something went wrong. You can try again or email me directly at',
+      sendAnother: 'Send another message',
       formNote: 'No message or data is stored on this site.',
     },
     footer: {

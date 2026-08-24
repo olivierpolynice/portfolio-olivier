@@ -4,7 +4,9 @@ import {
 } from 'framer-motion'
 import { useState } from 'react'
 import {
+  AlertTriangle,
   BriefcaseBusiness,
+  CheckCircle2,
   Mail,
   MapPin,
   Send,
@@ -17,17 +19,25 @@ import { useLanguage } from '../i18n/LanguageContext'
 import { strings } from '../i18n/strings'
 import './Contact.css'
 
+const initialFormData = {
+  name: '',
+  email: '',
+  subject: '',
+  message: '',
+  // Honeypot field: left empty by real visitors, only bots fill it in.
+  company: '',
+}
+
 function Contact() {
   const shouldReduceMotion = useReducedMotion()
   const { language } = useLanguage()
   const text = strings[language].contact
 
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  })
+  const [formData, setFormData] = useState(
+    initialFormData,
+  )
+  const [status, setStatus] = useState('idle')
+  // status: 'idle' | 'sending' | 'success' | 'error'
 
   const handleChange = (event) => {
     const { name, value } = event.target
@@ -38,38 +48,43 @@ function Contact() {
     }))
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault()
 
-    const subject =
-      formData.subject.trim() ||
-      (language === 'en'
-        ? `Message from ${formData.name}`
-        : `Prise de contact de ${formData.name}`)
+    if (status === 'sending') {
+      return
+    }
 
-    const greeting =
-      language === 'en' ? 'Hi Olivier,' : 'Bonjour Olivier,'
+    setStatus('sending')
 
-    const nameLabel = language === 'en' ? 'Name' : 'Nom'
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
 
-    const emailLabel =
-      language === 'en' ? 'Email address' : 'Adresse e-mail'
+      if (!response.ok) {
+        throw new Error('Request failed')
+      }
 
-    const body = [
-      greeting,
-      '',
-      formData.message,
-      '',
-      `${nameLabel} : ${formData.name}`,
-      `${emailLabel} : ${formData.email}`,
-    ].join('\n')
+      setStatus('success')
+      setFormData(initialFormData)
+    } catch (error) {
+      console.error(
+        'Impossible d’envoyer le formulaire de contact :',
+        error,
+      )
 
-    const mailtoLink =
-      `mailto:${profile.email}` +
-      `?subject=${encodeURIComponent(subject)}` +
-      `&body=${encodeURIComponent(body)}`
+      setStatus('error')
+    }
+  }
 
-    window.location.href = mailtoLink
+  const handleReset = () => {
+    setStatus('idle')
+    setFormData(initialFormData)
   }
 
   const leftAnimation = shouldReduceMotion
@@ -190,9 +205,8 @@ function Contact() {
             </div>
           </motion.div>
 
-          <motion.form
+          <motion.div
             className="contact__form"
-            onSubmit={handleSubmit}
             {...rightAnimation}
           >
             <div className="contact__form-heading">
@@ -205,103 +219,174 @@ function Contact() {
               </div>
             </div>
 
-            <div className="contact__form-row">
-              <div className="contact__field">
-                <label htmlFor="contact-name">
-                  {text.name}
-                </label>
-
-                <input
-                  id="contact-name"
-                  name="name"
-                  type="text"
-                  value={formData.name}
-                  placeholder={text.namePlaceholder}
-                  autoComplete="name"
-                  onChange={handleChange}
-                  required
+            {status === 'success' ? (
+              <div
+                className="contact__status contact__status--success"
+                role="status"
+              >
+                <CheckCircle2
+                  size={28}
+                  aria-hidden="true"
                 />
+
+                <div>
+                  <strong>{text.successTitle}</strong>
+                  <p>{text.successMessage}</p>
+                </div>
+
+                <button
+                  className="contact__status-reset"
+                  type="button"
+                  onClick={handleReset}
+                >
+                  {text.sendAnother}
+                </button>
               </div>
+            ) : (
+              <form onSubmit={handleSubmit}>
+                <div className="contact__form-row">
+                  <div className="contact__field">
+                    <label htmlFor="contact-name">
+                      {text.name}
+                    </label>
 
-              <div className="contact__field">
-                <label htmlFor="contact-email">
-                  {text.emailField}
-                </label>
+                    <input
+                      id="contact-name"
+                      name="name"
+                      type="text"
+                      value={formData.name}
+                      placeholder={text.namePlaceholder}
+                      autoComplete="name"
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
 
-                <input
-                  id="contact-email"
-                  name="email"
-                  type="email"
-                  value={formData.email}
-                  placeholder={text.emailPlaceholder}
-                  autoComplete="email"
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-            </div>
+                  <div className="contact__field">
+                    <label htmlFor="contact-email">
+                      {text.emailField}
+                    </label>
 
-            <div className="contact__field">
-              <label htmlFor="contact-subject">
-                {text.subject}
-              </label>
+                    <input
+                      id="contact-email"
+                      name="email"
+                      type="email"
+                      value={formData.email}
+                      placeholder={text.emailPlaceholder}
+                      autoComplete="email"
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                </div>
 
-              <input
-                id="contact-subject"
-                name="subject"
-                type="text"
-                value={formData.subject}
-                placeholder={text.subjectPlaceholder}
-                onChange={handleChange}
-                required
-              />
-            </div>
+                <div className="contact__field">
+                  <label htmlFor="contact-subject">
+                    {text.subject}
+                  </label>
 
-            <div className="contact__field">
-              <label htmlFor="contact-message">
-                {text.message}
-              </label>
+                  <input
+                    id="contact-subject"
+                    name="subject"
+                    type="text"
+                    value={formData.subject}
+                    placeholder={text.subjectPlaceholder}
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
 
-              <textarea
-                id="contact-message"
-                name="message"
-                value={formData.message}
-                placeholder={text.messagePlaceholder}
-                rows={7}
-                onChange={handleChange}
-                required
-              />
-            </div>
+                <div className="contact__field">
+                  <label htmlFor="contact-message">
+                    {text.message}
+                  </label>
 
-            <motion.button
-              className="contact__submit"
-              type="submit"
-              whileHover={
-                shouldReduceMotion
-                  ? undefined
-                  : {
-                      y: -2,
-                    }
-              }
-              whileTap={
-                shouldReduceMotion
-                  ? undefined
-                  : {
-                      scale: 0.98,
-                    }
-              }
-              transition={{
-                duration: 0.16,
-              }}
-            >
-              {text.submit}
-              <Send size={18} aria-hidden="true" />
-            </motion.button>
+                  <textarea
+                    id="contact-message"
+                    name="message"
+                    value={formData.message}
+                    placeholder={text.messagePlaceholder}
+                    rows={7}
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
 
-            <p className="contact__form-note">
-              {text.formNote}
-            </p>
-          </motion.form>
+                {/* Honeypot: hidden from real visitors and screen readers, only bots fill it in. */}
+                <div
+                  className="contact__honeypot"
+                  aria-hidden="true"
+                >
+                  <label htmlFor="contact-company">
+                    Company
+                  </label>
+
+                  <input
+                    id="contact-company"
+                    name="company"
+                    type="text"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    value={formData.company}
+                    onChange={handleChange}
+                  />
+                </div>
+
+                {status === 'error' && (
+                  <p
+                    className="contact__status contact__status--error"
+                    role="alert"
+                  >
+                    <AlertTriangle
+                      size={18}
+                      aria-hidden="true"
+                    />
+
+                    <span>
+                      {text.errorMessage}{' '}
+                      <a href={`mailto:${profile.email}`}>
+                        {profile.email}
+                      </a>
+                    </span>
+                  </p>
+                )}
+
+                <motion.button
+                  className="contact__submit"
+                  type="submit"
+                  disabled={status === 'sending'}
+                  whileHover={
+                    shouldReduceMotion ||
+                    status === 'sending'
+                      ? undefined
+                      : {
+                          y: -2,
+                        }
+                  }
+                  whileTap={
+                    shouldReduceMotion ||
+                    status === 'sending'
+                      ? undefined
+                      : {
+                          scale: 0.98,
+                        }
+                  }
+                  transition={{
+                    duration: 0.16,
+                  }}
+                >
+                  {status === 'sending'
+                    ? text.sending
+                    : text.submit}
+                  <Send size={18} aria-hidden="true" />
+                </motion.button>
+
+                <p className="contact__form-note">
+                  {text.formNote}
+                </p>
+              </form>
+            )}
+          </motion.div>
         </div>
       </div>
     </MotionSection>
