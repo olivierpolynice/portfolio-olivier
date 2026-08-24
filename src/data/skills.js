@@ -81,4 +81,19 @@ export const skillCategories = [
       'dbt',
     ],
   },
+  {
+    id: 'ai',
+    icon: 'brain',
+    title: 'Intelligence artificielle',
+    description:
+      'Conception de systèmes de scoring intelligents et exploration des modèles de langage appliqués à des cas concrets.',
+    skills: [
+      'IBM AI Fundamentals',
+      'Prompt engineering',
+      'Scoring et matching intelligent',
+      'LLM (bases)',
+      'Python',
+      'Automatisation IA',
+    ],
+  },
 ]

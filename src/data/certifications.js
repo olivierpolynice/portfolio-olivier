@@ -38,4 +38,63 @@ export const certifications = [
       'https://www.credly.com/badges/e0fda95d-90be-4950-aa53-56ef9dd6a8e1/public_url',
     featured: true,
   },
+  {
+    id: 'ccna-enterprise-networking',
+    title: 'CCNA: Enterprise Networking, Security & Automation',
+    issuer: 'Cisco Networking Academy',
+    issuedAt: 'Juin 2024',
+    badge:
+      '/certifications/ccna-enterprise-networking-badge.png',
+    certificate:
+      '/certifications/cisco-ccna-enterprise-networking.pdf',
+    verification: null,
+    featured: false,
+  },
+  {
+    id: 'ccna-switching-routing-wireless',
+    title: 'CCNA: Switching, Routing, and Wireless Essentials',
+    issuer: 'Cisco Networking Academy',
+    issuedAt: 'Décembre 2023',
+    badge:
+      '/certifications/ccna-switching-routing-wireless-badge.png',
+    certificate:
+      '/certifications/cisco-ccna-switching-routing-wireless.pdf',
+    verification:
+      'https://www.credly.com/badges/a6b269f4-694f-477d-be29-b8fa9daa10e2',
+    featured: false,
+  },
+  {
+    id: 'iot-fundamentals-connecting-things',
+    title: 'IoT Fundamentals: Connecting Things',
+    issuer: 'Cisco Networking Academy',
+    issuedAt: 'Décembre 2023',
+    badge: null,
+    certificate:
+      '/certifications/iot-fundamentals-connecting-things.pdf',
+    verification: null,
+    featured: false,
+  },
+  {
+    id: 'ccna-introduction-to-networks',
+    title: 'CCNA: Introduction to Networks',
+    issuer: 'Cisco Networking Academy',
+    issuedAt: 'Mai 2023',
+    badge: null,
+    certificate:
+      '/certifications/cisco-ccna-introduction-to-networks.pdf',
+    verification: null,
+    featured: false,
+  },
+  {
+    id: 'it-essentials',
+    title: 'IT Essentials',
+    issuer: 'Cisco Networking Academy',
+    issuedAt: 'Décembre 2022',
+    badge:
+      '/certifications/it-essentials-badge.png',
+    certificate:
+      '/certifications/cisco-it-essentials.pdf',
+    verification: null,
+    featured: false,
+  },
 ]
