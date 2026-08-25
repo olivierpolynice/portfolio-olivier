@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T16:40:37.692569+00:00",
+  "updatedAt": "2026-08-25T20:32:44.365453+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Better tools for managing blocked users",
-      "description": "Managing blocked users is now faster and clearer for personal accounts and organizations. With this update, you can: Search by username, full name, or email. Sort and paginate long lists.… The post Better tools for…",
+      "title": "GitHub Copilot app Customize tab is generally available",
+      "description": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP… The post GitHub Copilot app Customize tab is…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
-      "publishedAt": "Fri, 21 Aug 2026 17:28:36 +0000",
+      "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+      "publishedAt": "Tue, 25 Aug 2026 20:05:26 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "The new GitHub Copilot experience in Slack",
-      "description": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to… The post The new GitHub Copilot experience…",
+      "title": "Block users directly from security advisories",
+      "description": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience… The post Block users…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
-      "publishedAt": "Fri, 21 Aug 2026 16:07:15 +0000",
+      "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+      "publishedAt": "Tue, 25 Aug 2026 18:38:57 +0000",
       "id": 8
     },
     {
