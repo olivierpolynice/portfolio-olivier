@@ -1,5 +1,121 @@
 export const projects = [
   {
+    id: 'sentinellog',
+    title: 'SentinelLog',
+    category: 'Cybersécurité et développement',
+    category_en: 'Cybersecurity and development',
+    filterCategories: [
+      'Cybersécurité',
+      'Développement',
+    ],
+    status: 'Terminé',
+    status_en: 'Completed',
+
+    shortDescription:
+      'Mini-SIEM qui analyse des logs d’authentification SSH et détecte les comportements suspects : brute-force, credential stuffing, connexions inhabituelles.',
+    shortDescription_en:
+      'A mini-SIEM that analyzes SSH authentication logs and flags suspicious behavior: brute-force, credential stuffing, unusual logins.',
+
+    description:
+      'SentinelLog analyse des journaux d’authentification SSH et applique des règles de détection classiques utilisées par les analystes SOC pour repérer les tentatives d’intrusion, avec un tableau de bord qui classe chaque alerte par niveau de sévérité.',
+
+    context:
+      'SentinelLog est un projet personnel réalisé pour mettre en pratique les fondamentaux de la détection d’intrusion côté SOC : construire soi-même les règles qu’un outil de sécurité applique, plutôt que de se limiter à les utiliser.',
+
+    problem:
+      'Un flux de logs d’authentification brut est difficile à surveiller manuellement : les tentatives de brute-force, les connexions compromises ou les comportements inhabituels se noient dans le volume d’événements sans un outil pour les faire ressortir.',
+    problem_en:
+      'A raw stream of authentication logs is hard to monitor by hand — brute-force attempts, compromised logins, or unusual behavior get lost in the volume of events without a tool to surface them.',
+
+    objectives: [
+      'Analyser des fichiers de logs d’authentification SSH',
+      'Détecter les tentatives de brute-force',
+      'Repérer les connexions réussies après plusieurs échecs',
+      'Identifier les connexions depuis une IP inhabituelle',
+      'Signaler les connexions en dehors des horaires habituels',
+      'Classer les alertes par niveau de sévérité',
+    ],
+
+    role:
+      'Conception et développement individuel : moteur de détection, parseur de logs, API et interface.',
+    role_en:
+      'Solo design and development: detection engine, log parser, API, and interface.',
+
+    architecture:
+      'SentinelLog repose sur une API FastAPI qui analyse les logs à la volée, sans base de données : chaque analyse est calculée en mémoire à partir du fichier fourni (ou d’un jeu de logs de démonstration intégré), puis le résultat est renvoyé à une interface HTML/CSS/JS servie par la même application.',
+
+    features: [
+      'Analyse d’un fichier de logs auth.log fourni par l’utilisateur',
+      'Jeu de logs de démonstration intégré',
+      'Détection des tentatives de brute-force',
+      'Détection des connexions réussies après plusieurs échecs',
+      'Détection des connexions depuis une IP inhabituelle',
+      'Détection des connexions hors horaires habituels',
+      'Tableau de bord avec alertes classées par sévérité',
+      'Suite de tests automatisés du moteur de détection et de l’API',
+    ],
+    features_en: [
+      'Analysis of a user-provided auth.log file',
+      'Built-in demo log dataset',
+      'Brute-force attempt detection',
+      'Detection of successful logins after repeated failures',
+      'Detection of logins from an unusual IP',
+      'Detection of off-hours logins',
+      'Dashboard with alerts ranked by severity',
+      'Automated test suite for the detection engine and API',
+    ],
+
+    difficulties: [
+      'Distinguer une rafale d’échecs légitime (mot de passe oublié) d’une attaque de brute-force',
+      'Éviter de signaler la toute première connexion d’un utilisateur comme « IP inhabituelle »',
+      'Mesurer la sévérité d’une alerte de façon cohérente selon le volume d’événements',
+    ],
+
+    solutions: [
+      'Fenêtre glissante qui calcule la plus grosse rafale d’échecs plutôt que le premier seuil franchi',
+      'La règle « IP inhabituelle » ignore la toute première connexion d’un compte, faute de comportement de référence',
+      'Sévérité calculée sur le nombre d’événements dans la fenêtre plutôt que sur un seuil binaire',
+    ],
+
+    results: [
+      'Application fonctionnelle et déployée en ligne',
+      '4 règles de détection SOC couvertes',
+      '22 tests automatisés validés',
+      'Jeu de démonstration intégré illustrant plusieurs scénarios réalistes',
+    ],
+
+    technologies: [
+      'Python',
+      'FastAPI',
+      'Pytest',
+      'HTML / CSS / JavaScript',
+      'Render',
+    ],
+
+    image: '/projects/sentinellog-cover.png',
+
+    screenshots: [
+      {
+        src: '/projects/sentinellog-screenshot-dark.png',
+        alt: 'Dashboard SentinelLog en mode sombre avec les alertes de démonstration',
+        caption: 'Dashboard en mode sombre',
+      },
+      {
+        src: '/projects/sentinellog-screenshot-light.png',
+        alt: 'Dashboard SentinelLog en mode clair avec les alertes de démonstration',
+        caption: 'Dashboard en mode clair',
+      },
+    ],
+
+    github:
+      'https://github.com/olivierpolynice/sentinellog',
+
+    demo: 'https://sentinellog.onrender.com',
+
+    featured: false,
+  },
+
+  {
     id: 'applymatch-ai',
     title: 'ApplyMatch AI',
     category: 'Intelligence artificielle et développement full-stack',
