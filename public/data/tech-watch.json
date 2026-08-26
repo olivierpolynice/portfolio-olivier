@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T16:49:56.780664+00:00",
+  "updatedAt": "2026-08-26T22:53:44.666050+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Global model policy generally available",
+      "description": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the… The post…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
+      "publishedAt": "Wed, 26 Aug 2026 22:08:38 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "GitHub Apps can now access enterprise billing data",
       "description": "Enterprise owners can now grant a GitHub App access to enterprise billing data. When you create or configure a GitHub App, you can select the enterprise billing permission and choose… The post GitHub Apps can now access…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data",
       "publishedAt": "Wed, 26 Aug 2026 12:18:59 +0000",
-      "id": 7
+      "id": 8
     },
     {
-      "category": "DevSecOps",
-      "title": "Rule insights dashboard generally available",
-      "description": "The rule insights dashboard is now generally available at both the repository and organization levels. You get a visual, high-level view of how GitHub evaluates and enforces your GitHub repository… The post Rule…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-25-rule-insights-dashboard-generally-available",
-      "publishedAt": "Tue, 25 Aug 2026 20:05:35 +0000",
-      "id": 8
+      "category": "IA",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "description": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "publishedAt": "Wed, 26 Aug 2026 17:01:00 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
       "publishedAt": "Fri, 21 Aug 2026 11:59:48 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Introducing Gemini 3.7 Flash",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "publishedAt": "Thu, 13 Aug 2026 17:04:18 +0000",
       "id": 10
     }
   ]
