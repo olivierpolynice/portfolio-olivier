@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T22:53:44.666050+00:00",
+  "updatedAt": "2026-08-27T08:19:53.824374+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
+      "description": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
+      "publishedAt": "Thu, 27 Aug 2026 01:52:19 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Global model policy generally available",
       "description": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the… The post…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
       "publishedAt": "Wed, 26 Aug 2026 22:08:38 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "GitHub Apps can now access enterprise billing data",
-      "description": "Enterprise owners can now grant a GitHub App access to enterprise billing data. When you create or configure a GitHub App, you can select the enterprise billing permission and choose… The post GitHub Apps can now access…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-26-github-apps-can-now-access-enterprise-billing-data",
-      "publishedAt": "Wed, 26 Aug 2026 12:18:59 +0000",
       "id": 8
     },
     {
