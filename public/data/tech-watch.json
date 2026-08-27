@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T08:19:53.824374+00:00",
+  "updatedAt": "2026-08-27T21:59:35.597796+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+      "description": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "publishedAt": "Thu, 27 Aug 2026 17:02:35 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "The Cloudflare Blog – Brought to you by EmDash",
       "description": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
       "publishedAt": "Mon, 24 Aug 2026 19:00:00 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "Say it once: introducing Bot Preference Sync",
-      "description": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/bot-preference-sync/",
-      "publishedAt": "Fri, 21 Aug 2026 23:19:57 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Close all open contributions authored by a blocked user",
+      "description": "You can now automatically close all open issues, discussions, and pull requests authored by a user when you block them from your personal account or organization. To use this option,… The post Close all open…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user",
+      "publishedAt": "Thu, 27 Aug 2026 16:30:52 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,33 +73,24 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
       "publishedAt": "Thu, 27 Aug 2026 01:52:19 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Global model policy generally available",
-      "description": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the… The post…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
-      "publishedAt": "Wed, 26 Aug 2026 22:08:38 +0000",
       "id": 8
     },
     {
       "category": "IA",
-      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-      "description": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "publishedAt": "Wed, 26 Aug 2026 17:01:00 +0000",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "publishedAt": "Thu, 27 Aug 2026 16:11:32 +0000",
       "id": 9
     },
     {
       "category": "IA",
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "description": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "description": "Piloting the world's first double-blind AI evaluations",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "publishedAt": "Fri, 21 Aug 2026 11:59:48 +0000",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "publishedAt": "Thu, 27 Aug 2026 12:59:16 +0000",
       "id": 10
     }
   ]
