@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T21:59:35.597796+00:00",
+  "updatedAt": "2026-08-28T10:21:06.562122+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Close all open contributions authored by a blocked user",
-      "description": "You can now automatically close all open issues, discussions, and pull requests authored by a user when you block them from your personal account or organization. To use this option,… The post Close all open…",
+      "title": "Better label management on issues is generally available",
+      "description": "We’re making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. Suggested Labels You can now find the right… The post Better label management on…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user",
-      "publishedAt": "Thu, 27 Aug 2026 16:30:52 +0000",
+      "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
+      "publishedAt": "Thu, 27 Aug 2026 23:33:22 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
-      "description": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace…",
+      "title": "Copilot code review: Resolution reasons and expanded capabilities",
+      "description": "Copilot code review can now review two types of pull requests it didn’t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large… The post Copilot code…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-      "publishedAt": "Thu, 27 Aug 2026 01:52:19 +0000",
+      "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
+      "publishedAt": "Thu, 27 Aug 2026 22:46:04 +0000",
       "id": 8
     },
     {
