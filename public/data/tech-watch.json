@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T10:21:06.562122+00:00",
+  "updatedAt": "2026-08-28T21:55:00.754475+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
+      "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+      "description": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/botbase-for-operators/",
+      "publishedAt": "Fri, 28 Aug 2026 12:59:44 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
       "description": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
       "publishedAt": "Thu, 27 Aug 2026 17:02:35 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "The Cloudflare Blog – Brought to you by EmDash",
-      "description": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
-      "publishedAt": "Mon, 24 Aug 2026 19:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Better label management on issues is generally available",
-      "description": "We’re making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. Suggested Labels You can now find the right… The post Better label management on…",
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "description": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s… The post GitHub Copilot in Visual…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-      "publishedAt": "Thu, 27 Aug 2026 23:33:22 +0000",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
+      "publishedAt": "Fri, 28 Aug 2026 20:24:20 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Copilot code review: Resolution reasons and expanded capabilities",
-      "description": "Copilot code review can now review two types of pull requests it didn’t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large… The post Copilot code…",
+      "title": "GitHub Copilot weekly releases — August 24",
+      "description": "This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases —…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-27-copilot-code-review-resolution-reasons-and-expanded-capabilities",
-      "publishedAt": "Thu, 27 Aug 2026 22:46:04 +0000",
+      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
+      "publishedAt": "Fri, 28 Aug 2026 20:13:22 +0000",
       "id": 8
     },
     {
