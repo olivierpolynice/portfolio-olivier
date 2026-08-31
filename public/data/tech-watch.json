@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T04:35:27.871253+00:00",
+  "updatedAt": "2026-08-31T15:58:43.845048+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,21 +23,30 @@
     },
     {
       "category": "Cloud",
+      "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+      "description": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+      "publishedAt": "Mon, 31 Aug 2026 14:45:25 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "Happy 20th Birthday, Amazon EC2",
       "description": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
       "publishedAt": "Tue, 25 Aug 2026 16:11:02 +0000",
-      "id": 3
+      "id": 4
     },
     {
-      "category": "Cloud",
-      "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
-      "description": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator.…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/",
-      "publishedAt": "Mon, 24 Aug 2026 16:20:15 +0000",
-      "id": 4
+      "category": "Réseaux",
+      "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
+      "description": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
+      "publishedAt": "Mon, 31 Aug 2026 12:59:00 GMT",
+      "id": 5
     },
     {
       "category": "Réseaux",
@@ -46,15 +55,6 @@
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/botbase-for-operators/",
       "publishedAt": "Fri, 28 Aug 2026 12:59:44 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
-      "description": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-      "publishedAt": "Thu, 27 Aug 2026 17:02:35 GMT",
       "id": 6
     },
     {
