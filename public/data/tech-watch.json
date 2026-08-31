@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T15:58:43.845048+00:00",
+  "updatedAt": "2026-08-31T21:25:46.047946+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,25 +23,25 @@
     },
     {
       "category": "Cloud",
+      "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+      "description": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+      "publishedAt": "Mon, 31 Aug 2026 19:53:34 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
       "description": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
       "publishedAt": "Mon, 31 Aug 2026 14:45:25 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "Happy 20th Birthday, Amazon EC2",
-      "description": "On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/",
-      "publishedAt": "Tue, 25 Aug 2026 16:11:02 +0000",
       "id": 4
     },
     {
       "category": "Réseaux",
-      "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
+      "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
       "description": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "GitHub Copilot in VS Code, August 2026 releases",
+      "description": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the… The post…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
+      "publishedAt": "Mon, 31 Aug 2026 08:39:54 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "GitHub Copilot in Visual Studio — August update",
       "description": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s… The post GitHub Copilot in Visual…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
       "publishedAt": "Fri, 28 Aug 2026 20:24:20 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "GitHub Copilot weekly releases — August 24",
-      "description": "This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases —…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-      "publishedAt": "Fri, 28 Aug 2026 20:13:22 +0000",
       "id": 8
     },
     {
