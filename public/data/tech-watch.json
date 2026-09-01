@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T13:16:08.583031+00:00",
+  "updatedAt": "2026-09-01T19:16:46.529635+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Copilot in VS Code, August 2026 releases",
-      "description": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the… The post…",
+      "title": "Block users from discussion comments in personal repositories",
+      "description": "You can now block or unblock users directly from discussion comments in repositories owned by personal GitHub accounts, extending the in-context blocking controls already available for issue and pull request… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-      "publishedAt": "Mon, 31 Aug 2026 08:39:54 +0000",
+      "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
+      "publishedAt": "Tue, 01 Sep 2026 16:30:01 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Copilot in Visual Studio — August update",
-      "description": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s… The post GitHub Copilot in Visual…",
+      "title": "Copilot model access update for GitHub Team plans",
+      "description": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is… The post Copilot model access update for…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
-      "publishedAt": "Fri, 28 Aug 2026 20:24:20 +0000",
+      "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+      "publishedAt": "Mon, 31 Aug 2026 21:58:46 +0000",
       "id": 8
+    },
+    {
+      "category": "IA",
+      "title": "Introducing agentic video understanding with Gemini",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "publishedAt": "Tue, 01 Sep 2026 17:08:51 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
       "publishedAt": "Thu, 27 Aug 2026 16:11:32 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "description": "Piloting the world's first double-blind AI evaluations",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-      "publishedAt": "Thu, 27 Aug 2026 12:59:16 +0000",
       "id": 10
     }
   ]
