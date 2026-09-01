@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T04:17:17.785017+00:00",
+  "updatedAt": "2026-09-01T13:16:08.583031+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+      "description": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cache-transcoding/",
+      "publishedAt": "Tue, 01 Sep 2026 12:59:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
       "description": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
       "publishedAt": "Mon, 31 Aug 2026 12:59:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-      "description": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/botbase-for-operators/",
-      "publishedAt": "Fri, 28 Aug 2026 12:59:44 GMT",
       "id": 6
     },
     {
