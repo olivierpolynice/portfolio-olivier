@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T19:16:46.529635+00:00",
+  "updatedAt": "2026-09-01T22:28:07.800420+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Block users from discussion comments in personal repositories",
-      "description": "You can now block or unblock users directly from discussion comments in repositories owned by personal GitHub accounts, extending the in-context blocking controls already available for issue and pull request… The post…",
+      "title": "Set an expiration date for individual user budgets",
+      "description": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available. The user then falls… The post Set an expiration date for…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories",
-      "publishedAt": "Tue, 01 Sep 2026 16:30:01 +0000",
+      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+      "publishedAt": "Tue, 01 Sep 2026 20:23:13 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Copilot model access update for GitHub Team plans",
-      "description": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is… The post Copilot model access update for…",
+      "title": "Copilot code review can now approve pull requests",
+      "description": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off… The post Copilot code review can now approve pull requests…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
-      "publishedAt": "Mon, 31 Aug 2026 21:58:46 +0000",
+      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
+      "publishedAt": "Tue, 01 Sep 2026 19:25:57 +0000",
       "id": 8
     },
     {
