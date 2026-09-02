@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T22:28:07.800420+00:00",
+  "updatedAt": "2026-09-02T03:39:53.961043+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
+      "description": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
+      "publishedAt": "Tue, 01 Sep 2026 22:24:27 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Set an expiration date for individual user budgets",
       "description": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available. The user then falls… The post Set an expiration date for…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
       "publishedAt": "Tue, 01 Sep 2026 20:23:13 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Copilot code review can now approve pull requests",
-      "description": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off… The post Copilot code review can now approve pull requests…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-      "publishedAt": "Tue, 01 Sep 2026 19:25:57 +0000",
       "id": 8
     },
     {
