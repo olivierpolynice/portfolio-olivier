@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T16:14:15.537491+00:00",
+  "updatedAt": "2026-09-02T22:27:11.391770+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,38 +59,38 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Enterprise Live Migrations from GHES to ghe.com generally available",
-      "description": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can…",
+      "title": "Enterprise-managed settings support any default model",
+      "description": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
-      "publishedAt": "Tue, 01 Sep 2026 22:24:27 +0000",
+      "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
+      "publishedAt": "Wed, 02 Sep 2026 18:51:12 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Set an expiration date for individual user budgets",
-      "description": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available. The user then falls… The post Set an expiration date for…",
+      "title": "Content exclusions generally available in Copilot app and CLI",
+      "description": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
-      "publishedAt": "Tue, 01 Sep 2026 20:23:13 +0000",
+      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "publishedAt": "Wed, 02 Sep 2026 18:14:23 +0000",
       "id": 8
     },
     {
       "category": "IA",
-      "title": "Introducing agentic video understanding with Gemini",
+      "title": "Proactive cyber defense for governments and enterprises",
       "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "publishedAt": "Tue, 01 Sep 2026 17:08:51 +0000",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "publishedAt": "Wed, 02 Sep 2026 16:24:24 +0000",
       "id": 9
     },
     {
       "category": "IA",
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
       "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "publishedAt": "Thu, 27 Aug 2026 16:11:32 +0000",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "publishedAt": "Wed, 02 Sep 2026 16:18:31 +0000",
       "id": 10
     }
   ]
