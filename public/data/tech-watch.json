@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T08:43:25.364777+00:00",
+  "updatedAt": "2026-09-03T16:04:08.584958+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
+      "title": "CodeQL 2.26.4 improves GitHub actions security detections",
+      "description": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.4, which adds support for Go 1.27,… The post CodeQL 2.26.4…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
+      "publishedAt": "Thu, 03 Sep 2026 14:04:59 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Enterprise-managed settings support any default model",
       "description": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.… The post…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
       "publishedAt": "Wed, 02 Sep 2026 18:51:12 +0000",
-      "id": 7
+      "id": 8
     },
     {
-      "category": "DevSecOps",
-      "title": "Content exclusions generally available in Copilot app and CLI",
-      "description": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-      "publishedAt": "Wed, 02 Sep 2026 18:14:23 +0000",
-      "id": 8
+      "category": "IA",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "publishedAt": "Thu, 03 Sep 2026 15:02:08 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
       "publishedAt": "Wed, 02 Sep 2026 16:24:24 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "publishedAt": "Wed, 02 Sep 2026 16:18:31 +0000",
       "id": 10
     }
   ]
