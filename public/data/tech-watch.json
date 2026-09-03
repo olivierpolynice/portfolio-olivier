@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T16:04:08.584958+00:00",
+  "updatedAt": "2026-09-03T22:24:25.667286+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
+      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+      "description": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+      "publishedAt": "Thu, 03 Sep 2026 21:03:02 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
       "description": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/cache-transcoding/",
       "publishedAt": "Tue, 01 Sep 2026 12:59:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
-      "description": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
-      "publishedAt": "Mon, 31 Aug 2026 12:59:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "CodeQL 2.26.4 improves GitHub actions security detections",
-      "description": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.4, which adds support for Go 1.27,… The post CodeQL 2.26.4…",
+      "title": "Multiple trusted publishing configurations for npm",
+      "description": "We’re continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Three updates to npm publishing are now generally available: Multiple trusted publishing configurations per…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-      "publishedAt": "Thu, 03 Sep 2026 14:04:59 +0000",
+      "url": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
+      "publishedAt": "Thu, 03 Sep 2026 20:34:34 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Enterprise-managed settings support any default model",
-      "description": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.… The post…",
+      "title": "GitHub Actions: Early September 2026 updates",
+      "description": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when… The post GitHub…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
-      "publishedAt": "Wed, 02 Sep 2026 18:51:12 +0000",
+      "url": "https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates",
+      "publishedAt": "Thu, 03 Sep 2026 20:30:53 +0000",
       "id": 8
     },
     {
