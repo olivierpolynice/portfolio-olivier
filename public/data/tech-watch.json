@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-09-04T08:38:50.337556+00:00",
+  "updatedAt": "2026-09-04T15:59:45.827810+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Campagne de notifications de menace envoyée par Apple (11 septembre 2025)",
-      "description": "Depuis 2021, Apple envoie des campagnes de notifications aux individus ciblés par des attaques menées à l’aide de logiciels espions. Ces logiciels, tels que Pegasus, Predator, Graphite ou Triangulation sont…",
+      "title": "Multiples vulnérabilités dans GitLab (26 août 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-010/",
-      "publishedAt": "Thu, 11 Sep 2025 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1086/",
+      "publishedAt": "Wed, 26 Aug 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (15 juillet 2026)",
-      "description": "Le 14 juillet 2026, Sonicwall a publié un avis de sécurité concernant deux vulnérabilités affectant les Secure Mobile Access (SMA) 1000. La vulnérabilité critique CVE-2026-15409 permet une falsification de requêtes côté…",
+      "title": "Multiples vulnérabilités dans SonicWall NetExtender (26 août 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans SonicWall NetExtender. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-006/",
-      "publishedAt": "Wed, 15 Jul 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1084/",
+      "publishedAt": "Wed, 26 Aug 2026 00:00:00 +0000",
       "id": 2
     },
     {
