@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T18:57:44.924327+00:00",
+  "updatedAt": "2026-09-04T22:13:24.417459+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Multiple trusted publishing configurations for npm",
-      "description": "We’re continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Three updates to npm publishing are now generally available: Multiple trusted publishing configurations per…",
+      "title": "GitHub Copilot weekly releases — August 31",
+      "description": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable… The post GitHub…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
-      "publishedAt": "Thu, 03 Sep 2026 20:34:34 +0000",
+      "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
+      "publishedAt": "Fri, 04 Sep 2026 21:05:01 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Actions: Early September 2026 updates",
-      "description": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when… The post GitHub…",
+      "title": "GPT-6 Astra is generally available in GitHub Copilot",
+      "description": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks. In our internal testing, GPT-6… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates",
-      "publishedAt": "Thu, 03 Sep 2026 20:30:53 +0000",
+      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+      "publishedAt": "Fri, 04 Sep 2026 18:59:51 +0000",
       "id": 8
     },
     {
