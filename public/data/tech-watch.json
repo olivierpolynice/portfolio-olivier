@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-09-08T08:43:14.760459+00:00",
+  "updatedAt": "2026-09-08T16:17:55.230583+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (28 août 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des…",
+      "title": "Multiples vulnérabilités dans Papercut (28 août 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Papercut. Elles permettent à un attaquant de contourner l'authentification et d'exécuter du code arbitraire à distance. Papercut indique que ces vulnérabilités sont…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1091/",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1095/",
       "publishedAt": "Fri, 28 Aug 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (28 août 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de…",
+      "title": "Multiples vulnérabilités dans SPIP (01 septembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1092/",
-      "publishedAt": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1102/",
+      "publishedAt": "Tue, 01 Sep 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+      "description": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+      "publishedAt": "Tue, 08 Sep 2026 13:10:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
       "description": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
       "publishedAt": "Thu, 03 Sep 2026 21:03:02 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
-      "description": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cache-transcoding/",
-      "publishedAt": "Tue, 01 Sep 2026 12:59:00 GMT",
       "id": 6
     },
     {
@@ -77,20 +77,20 @@
     },
     {
       "category": "IA",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "description": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "publishedAt": "Tue, 08 Sep 2026 14:00:15 +0000",
+      "id": 9
+    },
+    {
+      "category": "IA",
       "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
       "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
       "publishedAt": "Thu, 03 Sep 2026 15:02:08 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "publishedAt": "Wed, 02 Sep 2026 16:24:24 +0000",
       "id": 10
     }
   ]
