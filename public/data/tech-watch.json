@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T22:27:40.150429+00:00",
+  "updatedAt": "2026-09-09T03:50:43.793582+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "New customer portal help.github.com",
-      "description": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search… The post New…",
+      "title": "Enterprise-managed sandbox in Copilot for JetBrains",
+      "description": "This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com",
-      "publishedAt": "Tue, 08 Sep 2026 18:00:10 +0000",
+      "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
+      "publishedAt": "Wed, 09 Sep 2026 02:43:38 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Automatic Dependabot access to GitHub-hosted registries",
-      "description": "Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through “Manage Actions access” in the package settings,… The post…",
+      "title": "GitHub Enterprise Server 3.22 is now generally available",
+      "description": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to… The post GitHub…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries",
-      "publishedAt": "Tue, 08 Sep 2026 16:46:05 +0000",
+      "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
+      "publishedAt": "Tue, 08 Sep 2026 21:52:42 +0000",
       "id": 8
     },
     {
