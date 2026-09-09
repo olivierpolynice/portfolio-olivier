@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-09-09T08:49:26.430227+00:00",
+  "updatedAt": "2026-09-09T16:12:37.086349+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Papercut (28 août 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans Papercut. Elles permettent à un attaquant de contourner l'authentification et d'exécuter du code arbitraire à distance. Papercut indique que ces vulnérabilités sont…",
+      "title": "Multiples vulnérabilités dans Roundcube (10 août 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1095/",
-      "publishedAt": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0987/",
+      "publishedAt": "Mon, 10 Aug 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans SPIP (01 septembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (04 septembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1102/",
-      "publishedAt": "Tue, 01 Sep 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1117/",
+      "publishedAt": "Fri, 04 Sep 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+      "description": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+      "publishedAt": "Wed, 09 Sep 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
       "description": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
       "publishedAt": "Tue, 08 Sep 2026 13:10:00 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
-      "description": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-      "publishedAt": "Thu, 03 Sep 2026 21:03:02 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Remediate Code Quality findings with agentic autofix",
+      "description": "Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the… The post Remediate Code Quality findings with agentic…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
+      "publishedAt": "Wed, 09 Sep 2026 12:21:01 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
       "publishedAt": "Wed, 09 Sep 2026 02:43:38 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "GitHub Enterprise Server 3.22 is now generally available",
-      "description": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to… The post GitHub…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-      "publishedAt": "Tue, 08 Sep 2026 21:52:42 +0000",
       "id": 8
     },
     {
