@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T16:04:17.020732+00:00",
+  "updatedAt": "2026-09-10T22:20:48.484669+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Xcode 27 runner image now runs on macOS 27",
-      "description": "You can now validate your Apple apps against macOS 27 using the Xcode 27 runner image for GitHub-hosted macOS runners, available in public preview. The image previously ran on macOS… The post Xcode 27 runner image now…",
+      "title": "Refreshed repository pull requests page in public preview",
+      "description": "A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes… The post Refreshed…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
-      "publishedAt": "Thu, 10 Sep 2026 15:15:36 +0000",
+      "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
+      "publishedAt": "Thu, 10 Sep 2026 21:27:17 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "CodeQL 2.27.0 adds support for Linux ARM64",
-      "description": "CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL is… The post CodeQL…",
+      "title": "AI Scan for pull request APIs in public preview",
+      "description": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic… The post AI Scan for pull…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64",
-      "publishedAt": "Wed, 09 Sep 2026 21:45:06 +0000",
+      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+      "publishedAt": "Thu, 10 Sep 2026 20:20:58 +0000",
       "id": 8
     },
     {
