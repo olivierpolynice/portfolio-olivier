@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T16:07:59.558081+00:00",
+  "updatedAt": "2026-09-11T22:20:24.203204+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Copilot weekly releases — September 7",
-      "description": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code… The post…",
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "description": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s……",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-      "publishedAt": "Thu, 10 Sep 2026 22:55:07 +0000",
+      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+      "publishedAt": "Fri, 11 Sep 2026 21:30:30 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Refreshed repository pull requests page in public preview",
-      "description": "A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes… The post Refreshed…",
+      "title": "Auto-resolution and analysis updates in Copilot code review",
+      "description": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now… The post Auto-resolution and analysis…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
-      "publishedAt": "Thu, 10 Sep 2026 21:27:17 +0000",
+      "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "publishedAt": "Fri, 11 Sep 2026 20:00:07 +0000",
       "id": 8
     },
     {
