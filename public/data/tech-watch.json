@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T08:44:54.312740+00:00",
+  "updatedAt": "2026-09-11T16:07:59.558081+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -14,11 +14,11 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-038 (07 septembre 2026)",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le…",
+      "title": "Vulnérabilité dans les produits Adobe (08 septembre 2026)",
+      "description": "Une vulnérabilité a été découverte dans les produits Adobe. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Adobe indique que la vulnérabilité CVE-2026-75650 est activement exploitée.",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-038/",
-      "publishedAt": "Mon, 07 Sep 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1130/",
+      "publishedAt": "Tue, 08 Sep 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "Introducing automatic remediation policies with Cloudflare CASB",
+      "description": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/casb-policies/",
+      "publishedAt": "Fri, 11 Sep 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
       "description": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
       "publishedAt": "Thu, 10 Sep 2026 13:00:00 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
-      "description": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
-      "publishedAt": "Wed, 09 Sep 2026 13:00:00 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "GitHub Copilot weekly releases — September 7",
+      "description": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code… The post…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "publishedAt": "Thu, 10 Sep 2026 22:55:07 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
       "publishedAt": "Thu, 10 Sep 2026 21:27:17 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "AI Scan for pull request APIs in public preview",
-      "description": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic… The post AI Scan for pull…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
-      "publishedAt": "Thu, 10 Sep 2026 20:20:58 +0000",
       "id": 8
     },
     {
