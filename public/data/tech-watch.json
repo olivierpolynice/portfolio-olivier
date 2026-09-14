@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T04:05:30.418173+00:00",
+  "updatedAt": "2026-09-14T14:51:08.163697+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -14,11 +14,11 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Vulnérabilité dans les produits Adobe (08 septembre 2026)",
-      "description": "Une vulnérabilité a été découverte dans les produits Adobe. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Adobe indique que la vulnérabilité CVE-2026-75650 est activement exploitée.",
+      "title": "Multiples vulnérabilités dans Google Chrome (09 septembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur. Google indique que la vulnérabilité CVE-2026-87491 est…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1130/",
-      "publishedAt": "Tue, 08 Sep 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1139/",
+      "publishedAt": "Wed, 09 Sep 2026 00:00:00 +0000",
       "id": 2
     },
     {
