@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T04:04:45.262149+00:00",
+  "updatedAt": "2026-09-15T13:17:43.476765+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -14,11 +14,11 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Google Chrome (09 septembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur. Google indique que la vulnérabilité CVE-2026-87491 est…",
+      "title": "Multiples vulnérabilités dans Mattermost Server (01 septembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1139/",
-      "publishedAt": "Wed, 09 Sep 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1098/",
+      "publishedAt": "Tue, 01 Sep 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
-      "title": "Introducing automatic remediation policies with Cloudflare CASB",
-      "description": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky…",
+      "title": "Have it both ways: stay discoverable in search while disallowing AI training",
+      "description": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/casb-policies/",
-      "publishedAt": "Fri, 11 Sep 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "publishedAt": "Tue, 15 Sep 2026 13:00:00 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-      "description": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
+      "title": "Give every teammate and agent the right level of access to your Workers",
+      "description": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
-      "publishedAt": "Thu, 10 Sep 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/workers-granular-authorization/",
+      "publishedAt": "Tue, 15 Sep 2026 13:00:00 GMT",
       "id": 6
     },
     {
@@ -68,11 +68,11 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Add VS Code Agents to Copilot usage metrics",
-      "description": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s……",
+      "title": "Profiles now show your highest achievement badge tier",
+      "description": "Your GitHub profile now displays the highest tier you’ve earned for achievements with multiple levels. Previously, profiles could display the first tier earned, even after you had progressed to a… The post Profiles now…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-      "publishedAt": "Fri, 11 Sep 2026 21:30:30 +0000",
+      "url": "https://github.blog/changelog/2026-09-11-profiles-now-show-your-highest-achievement-badge-tier",
+      "publishedAt": "Fri, 11 Sep 2026 22:39:50 +0000",
       "id": 8
     },
     {
