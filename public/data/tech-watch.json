@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T13:17:43.476765+00:00",
+  "updatedAt": "2026-09-15T19:34:46.163702+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Configure cost and quality in Copilot auto model selection",
-      "description": "GitHub Copilot auto model selection now offers three tiers: efficiency, balance, and intelligence. Choose the tier that reflects how you want auto to weigh cost, quality, and response time for… The post Configure cost…",
+      "title": "GitHub Copilot suggests custom properties definitions",
+      "description": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot… The post GitHub Copilot…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
-      "publishedAt": "Mon, 14 Sep 2026 16:05:27 +0000",
+      "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+      "publishedAt": "Tue, 15 Sep 2026 19:07:47 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Profiles now show your highest achievement badge tier",
-      "description": "Your GitHub profile now displays the highest tier you’ve earned for achievements with multiple levels. Previously, profiles could display the first tier earned, even after you had progressed to a… The post Profiles now…",
+      "title": "SHA-1 in HTTPS on GitHub sunset",
+      "description": "Previously we announced we would be disabling SHA-1 in HTTPS for GitHub on September 15th, 2026. Following the planned schedule, GitHub has disabled SHA-1 in HTTPS for github.com and partner… The post SHA-1 in HTTPS on…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-11-profiles-now-show-your-highest-achievement-badge-tier",
-      "publishedAt": "Fri, 11 Sep 2026 22:39:50 +0000",
+      "url": "https://github.blog/changelog/2026-09-15-sha-1-in-https-on-github-sunset",
+      "publishedAt": "Tue, 15 Sep 2026 16:47:20 +0000",
       "id": 8
+    },
+    {
+      "category": "IA",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "publishedAt": "Tue, 15 Sep 2026 17:05:57 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
       "publishedAt": "Tue, 08 Sep 2026 14:00:15 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "publishedAt": "Thu, 03 Sep 2026 15:02:08 +0000",
       "id": 10
     }
   ]
