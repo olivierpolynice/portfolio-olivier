@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T13:15:20.983543+00:00",
+  "updatedAt": "2026-09-16T19:26:08.380295+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,20 +23,20 @@
     },
     {
       "category": "Cloud",
+      "title": "AWS reimagines the getting started experience",
+      "description": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
+      "publishedAt": "Wed, 16 Sep 2026 17:50:14 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
       "description": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar.…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
       "publishedAt": "Mon, 14 Sep 2026 15:56:33 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
-      "description": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
-      "publishedAt": "Wed, 09 Sep 2026 22:01:47 +0000",
       "id": 4
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Code scanning AI Scan no longer requires CodeQL default setup",
+      "description": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only… The post Code scanning AI Scan no…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
+      "publishedAt": "Wed, 16 Sep 2026 13:26:06 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Enforce GitHub Advanced Security configurations",
       "description": "Enterprise administrators can now enforce GitHub Advanced Security configurations across their organizations. This prevents both organization and repository administrators from overriding settings defined at the…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
       "publishedAt": "Tue, 15 Sep 2026 19:31:58 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "GitHub Copilot suggests custom properties definitions",
-      "description": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot… The post GitHub Copilot…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
-      "publishedAt": "Tue, 15 Sep 2026 19:07:47 +0000",
       "id": 8
     },
     {
