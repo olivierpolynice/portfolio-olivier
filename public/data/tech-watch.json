@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T19:26:08.380295+00:00",
+  "updatedAt": "2026-09-16T22:44:29.982293+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
+      "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+      "description": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+      "publishedAt": "Wed, 16 Sep 2026 20:06:17 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Have it both ways: stay discoverable in search while disallowing AI training",
       "description": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
       "publishedAt": "Tue, 15 Sep 2026 13:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Give every teammate and agent the right level of access to your Workers",
-      "description": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-granular-authorization/",
-      "publishedAt": "Tue, 15 Sep 2026 13:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Code scanning AI Scan no longer requires CodeQL default setup",
-      "description": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only… The post Code scanning AI Scan no…",
+      "title": "Automate SSO authorization for classic PATs and SSH keys",
+      "description": "Enterprise admins can now automate SSO authorization for existing classic personal access tokens (PATs) and SSH keys for organizations in GitHub Enterprise Cloud, replacing manual per-organization authorization by your…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "publishedAt": "Wed, 16 Sep 2026 13:26:06 +0000",
+      "url": "https://github.blog/changelog/2026-09-16-automate-sso-authorization-for-classic-pats-and-ssh-keys",
+      "publishedAt": "Wed, 16 Sep 2026 20:20:16 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Enforce GitHub Advanced Security configurations",
-      "description": "Enterprise administrators can now enforce GitHub Advanced Security configurations across their organizations. This prevents both organization and repository administrators from overriding settings defined at the…",
+      "title": "SCIM user responses now include a profileUrl attribute",
+      "description": "SCIM user responses from GitHub now include the standard profileUrl attribute defined by RFC 7643, containing the absolute URL of the GitHub account linked to the external identity. Previously, matching… The post SCIM…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-15-enforce-github-advanced-security-configurations",
-      "publishedAt": "Tue, 15 Sep 2026 19:31:58 +0000",
+      "url": "https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute",
+      "publishedAt": "Wed, 16 Sep 2026 20:19:58 +0000",
       "id": 8
     },
     {
