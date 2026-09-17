@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T19:36:54.793877+00:00",
+  "updatedAt": "2026-09-17T22:44:08.352835+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,20 +23,20 @@
     },
     {
       "category": "Cloud",
+      "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
+      "description": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
+      "publishedAt": "Thu, 17 Sep 2026 21:11:48 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "AWS Elastic Beanstalk introduces Cluster Mode",
       "description": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
       "publishedAt": "Thu, 17 Sep 2026 19:20:21 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "AWS reimagines the getting started experience",
-      "description": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
-      "publishedAt": "Wed, 16 Sep 2026 17:50:14 +0000",
       "id": 4
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Ubuntu 26 generally available and latest migration",
-      "description": "The Ubuntu 26.04 runner image for GitHub Actions is now out of public preview and fully supported for production workflows on both x64 and arm64. As part of this release,… The post Ubuntu 26 generally available and…",
+      "title": "Copilot impact dashboard now shows feature engagement",
+      "description": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more… The post Copilot…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
-      "publishedAt": "Thu, 17 Sep 2026 16:27:16 +0000",
+      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
+      "publishedAt": "Thu, 17 Sep 2026 21:47:27 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Workflow execution protections in GitHub Actions generally available",
-      "description": "Workflow execution protections for GitHub Actions, previously in public preview, are now generally available for GitHub Enterprise, organizations, and repositories. Execution protections let you define an allowlist that…",
+      "title": "Agentic CLI customizations now in the usage metrics API",
+      "description": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available",
-      "publishedAt": "Thu, 17 Sep 2026 15:45:26 +0000",
+      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
+      "publishedAt": "Thu, 17 Sep 2026 21:08:50 +0000",
       "id": 8
     },
     {
