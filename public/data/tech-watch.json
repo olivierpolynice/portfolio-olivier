@@ -1,17 +1,8 @@
 {
-  "updatedAt": "2026-09-18T08:53:31.785170+00:00",
+  "updatedAt": "2026-09-18T16:05:59.660734+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
-    {
-      "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Roundcube (10 août 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données…",
-      "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0987/",
-      "publishedAt": "Mon, 10 Aug 2026 00:00:00 +0000",
-      "id": 1
-    },
     {
       "category": "Cybersécurité",
       "title": "Multiples vulnérabilités dans Mattermost Server (01 septembre 2026)",
@@ -19,6 +10,15 @@
       "source": "CERT-FR",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1098/",
       "publishedAt": "Tue, 01 Sep 2026 00:00:00 +0000",
+      "id": 1
+    },
+    {
+      "category": "Cybersécurité",
+      "title": "Multiples vulnérabilités dans Mattermost Server (08 septembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "source": "CERT-FR",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
+      "publishedAt": "Tue, 08 Sep 2026 00:00:00 +0000",
       "id": 2
     },
     {
