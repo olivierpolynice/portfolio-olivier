@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T16:05:59.660734+00:00",
+  "updatedAt": "2026-09-18T22:23:53.742744+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
+      "title": "Saving another 100TB of RAM with math (and Rust)",
+      "description": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+      "publishedAt": "Fri, 18 Sep 2026 17:23:58 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
       "description": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
       "publishedAt": "Wed, 16 Sep 2026 20:06:17 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Have it both ways: stay discoverable in search while disallowing AI training",
-      "description": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-      "publishedAt": "Tue, 15 Sep 2026 13:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Copilot impact dashboard now shows feature engagement",
-      "description": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more… The post Copilot…",
+      "title": "Copilot code review: An improved review experience",
+      "description": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept… The post Copilot code…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-      "publishedAt": "Thu, 17 Sep 2026 21:47:27 +0000",
+      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+      "publishedAt": "Fri, 18 Sep 2026 20:17:22 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Agentic CLI customizations now in the usage metrics API",
-      "description": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in… The post…",
+      "title": "Manage the code coverage ruleset condition with the REST API",
+      "description": "You can now use the generally available REST API to manage the Restrict code coverage repository ruleset option, in addition to the existing UI support. This ruleset lets you enforce… The post Manage the code coverage…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-      "publishedAt": "Thu, 17 Sep 2026 21:08:50 +0000",
+      "url": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
+      "publishedAt": "Fri, 18 Sep 2026 19:23:49 +0000",
       "id": 8
     },
     {
