@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T04:05:11.781955+00:00",
+  "updatedAt": "2026-09-21T14:56:34.127757+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Python Workers are now generally available",
+      "description": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "publishedAt": "Mon, 21 Sep 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Saving another 100TB of RAM with math (and Rust)",
       "description": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
       "publishedAt": "Fri, 18 Sep 2026 17:23:58 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
-      "description": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
-      "publishedAt": "Wed, 16 Sep 2026 20:06:17 GMT",
       "id": 6
     },
     {
