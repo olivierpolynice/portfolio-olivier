@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T14:56:34.127757+00:00",
+  "updatedAt": "2026-09-21T20:18:34.843693+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,20 +23,20 @@
     },
     {
       "category": "Cloud",
+      "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+      "description": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
+      "publishedAt": "Mon, 21 Sep 2026 16:11:24 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
       "description": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
       "publishedAt": "Thu, 17 Sep 2026 21:11:48 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "AWS Elastic Beanstalk introduces Cluster Mode",
-      "description": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
-      "publishedAt": "Thu, 17 Sep 2026 19:20:21 +0000",
       "id": 4
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Grok 4.7 is now available in GitHub Copilot",
+      "description": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows. This model is… The post Grok 4.7 is now available…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+      "publishedAt": "Mon, 21 Sep 2026 14:54:12 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Copilot code review: An improved review experience",
       "description": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept… The post Copilot code…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
       "publishedAt": "Fri, 18 Sep 2026 20:17:22 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Manage the code coverage ruleset condition with the REST API",
-      "description": "You can now use the generally available REST API to manage the Restrict code coverage repository ruleset option, in addition to the existing UI support. This ruleset lets you enforce… The post Manage the code coverage…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-18-manage-the-code-coverage-ruleset-condition-with-the-rest-api",
-      "publishedAt": "Fri, 18 Sep 2026 19:23:49 +0000",
       "id": 8
     },
     {
