@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T20:18:34.843693+00:00",
+  "updatedAt": "2026-09-22T04:01:56.543814+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Grok 4.7 is now available in GitHub Copilot",
-      "description": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows. This model is… The post Grok 4.7 is now available…",
+      "title": "Refreshed repository pull requests page generally available",
+      "description": "The new repository pull requests page is now generally available to all GitHub users. Highlights The new page makes it easier to find and act on pull requests in a… The post Refreshed repository pull requests page…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
-      "publishedAt": "Mon, 21 Sep 2026 14:54:12 +0000",
+      "url": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
+      "publishedAt": "Tue, 22 Sep 2026 01:25:53 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Copilot code review: An improved review experience",
-      "description": "Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept… The post Copilot code…",
+      "title": "GitHub Enterprise adds credential inventory exports",
+      "description": "Enterprise owners can now export a complete inventory of every credential that can access their enterprise (e.g., SSH keys, classic and fine-grained personal access tokens, OAuth App access tokens, and… The post GitHub…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
-      "publishedAt": "Fri, 18 Sep 2026 20:17:22 +0000",
+      "url": "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports",
+      "publishedAt": "Mon, 21 Sep 2026 21:13:18 +0000",
       "id": 8
     },
     {
