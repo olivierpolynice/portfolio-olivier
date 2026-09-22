@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T13:13:03.148327+00:00",
+  "updatedAt": "2026-09-22T19:37:32.026328+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
-      "title": "Introducing Worker Previews: isolated preview environments for every change your agent makes",
-      "description": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
+      "title": "We just shipped support for the ugliest part of HTTP: Vary",
+      "description": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/worker-previews/",
-      "publishedAt": "Tue, 22 Sep 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/vary-support/",
+      "publishedAt": "Tue, 22 Sep 2026 14:04:31 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Python Workers are now generally available",
-      "description": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and…",
+      "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+      "description": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/python-workers-ga/",
-      "publishedAt": "Mon, 21 Sep 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/worker-previews/",
+      "publishedAt": "Tue, 22 Sep 2026 13:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Deprecation notice: All-platform CodeQL bundle",
-      "description": "Starting with CodeQL CLI 2.27.0, the all-platform CodeQL bundle (i.e., codeql-bundle.tar.gz and codeql-bundle.tar.zst), which includes the binaries for all supported platforms up to this release, is marked as…",
+      "title": "Claude Opus 5.5 is now available in GitHub Copilot",
+      "description": "Claude Opus 5.5, Anthropic’s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work. In early testing, Opus… The post Claude Opus 5.5 is…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle",
-      "publishedAt": "Tue, 22 Sep 2026 09:21:03 +0000",
+      "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
+      "publishedAt": "Tue, 22 Sep 2026 17:10:23 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Refreshed repository pull requests page generally available",
-      "description": "The new repository pull requests page is now generally available to all GitHub users. Highlights The new page makes it easier to find and act on pull requests in a… The post Refreshed repository pull requests page…",
+      "title": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available",
+      "description": "OpenAI’s GPT-6 family is expanding in GitHub Copilot with two additional models: GPT-6 Sol, and GPT-6 Luna. Joining the previously released GPT-6 Astra, these new options let you select the… The post OpenAI’s GPT-6 Sol…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
-      "publishedAt": "Tue, 22 Sep 2026 01:25:53 +0000",
+      "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
+      "publishedAt": "Tue, 22 Sep 2026 17:00:14 +0000",
       "id": 8
     },
     {
