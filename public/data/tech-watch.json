@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-09-22T04:01:56.543814+00:00",
+  "updatedAt": "2026-09-22T13:13:03.148327+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Mattermost Server (01 septembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "title": "Multiples vulnérabilités dans Microsoft Sharepoint (22 juillet 2026)",
+      "description": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérabilités CVE-2026-50522 et CVE-2026-58644…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1098/",
-      "publishedAt": "Tue, 01 Sep 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-008/",
+      "publishedAt": "Wed, 22 Jul 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Mattermost Server (08 septembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "title": "Multiples vulnérabilités dans les produits Cisco (15 septembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
-      "publishedAt": "Tue, 08 Sep 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1175/",
+      "publishedAt": "Tue, 15 Sep 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "Introducing Worker Previews: isolated preview environments for every change your agent makes",
+      "description": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/worker-previews/",
+      "publishedAt": "Tue, 22 Sep 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Python Workers are now generally available",
       "description": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/python-workers-ga/",
       "publishedAt": "Mon, 21 Sep 2026 13:00:00 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "Saving another 100TB of RAM with math (and Rust)",
-      "description": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
-      "publishedAt": "Fri, 18 Sep 2026 17:23:58 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Deprecation notice: All-platform CodeQL bundle",
+      "description": "Starting with CodeQL CLI 2.27.0, the all-platform CodeQL bundle (i.e., codeql-bundle.tar.gz and codeql-bundle.tar.zst), which includes the binaries for all supported platforms up to this release, is marked as…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-22-deprecation-notice-all-platform-codeql-bundle",
+      "publishedAt": "Tue, 22 Sep 2026 09:21:03 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-21-refreshed-repository-pull-requests-page-generally-available",
       "publishedAt": "Tue, 22 Sep 2026 01:25:53 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "GitHub Enterprise adds credential inventory exports",
-      "description": "Enterprise owners can now export a complete inventory of every credential that can access their enterprise (e.g., SSH keys, classic and fine-grained personal access tokens, OAuth App access tokens, and… The post GitHub…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-21-github-enterprise-adds-credential-inventory-exports",
-      "publishedAt": "Mon, 21 Sep 2026 21:13:18 +0000",
       "id": 8
     },
     {
