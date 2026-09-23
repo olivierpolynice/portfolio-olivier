@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T09:14:49.050408+00:00",
+  "updatedAt": "2026-09-23T16:26:07.129446+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,38 +59,38 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Local sandboxing in the GitHub Copilot app",
+      "description": "Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it… The post Local…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+      "publishedAt": "Wed, 23 Sep 2026 15:00:57 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "OpenTelemetry in the GitHub Copilot app",
       "description": "Understand how Copilot agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings. OTel is an open source observability…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app",
       "publishedAt": "Wed, 23 Sep 2026 02:14:54 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "New features and improvements in Copilot for JetBrains",
-      "description": "GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with the Codex… The post…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
-      "publishedAt": "Wed, 23 Sep 2026 00:34:18 +0000",
       "id": 8
     },
     {
       "category": "IA",
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "description": "Introducing private, server-side memory to Private AI Compute for personal AI.",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "publishedAt": "Tue, 15 Sep 2026 17:05:57 +0000",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "publishedAt": "Wed, 23 Sep 2026 16:00:57 +0000",
       "id": 9
     },
     {
       "category": "IA",
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "description": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "publishedAt": "Tue, 08 Sep 2026 14:00:15 +0000",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "publishedAt": "Wed, 23 Sep 2026 15:25:14 +0000",
       "id": 10
     }
   ]
