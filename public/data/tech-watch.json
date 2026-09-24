@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-09-24T09:08:07.206601+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-09-24T16:47:01.836704+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Microsoft Sharepoint (22 juillet 2026)",
-      "description": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérabilités CVE-2026-50522 et CVE-2026-58644…",
+      "title": "Bulletin d'actualité CERTFR-2014-ACT-004 (24 janvier 2014)",
+      "description": "1 - Création du CERT-FR Le 21 janvier 2014, le CERTA a changé de nom pour devenir le CERT-FR (Computer Emergency Response Team - France). Le CERT-FR est le CERT gouvernemental français. Il apporte son soutien en matière…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-008/",
-      "publishedAt": "Wed, 22 Jul 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2014-ACT-004/",
+      "publishedAt": "Fri, 24 Jan 2014 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans les produits Cisco (15 septembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
+      "title": "Bulletin d'actualité CERTFR-2015-ACT-006 (09 février 2015)",
+      "description": "1 - Rappel des vulnérabilités récentes dans Adobe Flash Player Adobe Flash Player est utilisé principalement par les navigateurs Internet pour afficher du contenu dynamique sur des pages web. Depuis le début de l'année,…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1175/",
-      "publishedAt": "Tue, 15 Sep 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2015-ACT-006/",
+      "publishedAt": "Mon, 09 Feb 2015 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+      "description": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+      "publishedAt": "Thu, 24 Sep 2026 15:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "We just shipped support for the ugliest part of HTTP: Vary",
       "description": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/vary-support/",
       "publishedAt": "Tue, 22 Sep 2026 14:04:31 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
-      "description": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/worker-previews/",
-      "publishedAt": "Tue, 22 Sep 2026 13:00:00 GMT",
       "id": 6
     },
     {
@@ -77,20 +77,20 @@
     },
     {
       "category": "IA",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "publishedAt": "Thu, 24 Sep 2026 16:20:39 +0000",
+      "id": 9
+    },
+    {
+      "category": "IA",
       "title": "Advancing Private AI Compute with secure, server-side memory",
       "description": "Introducing private, server-side memory to Private AI Compute for personal AI.",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
       "publishedAt": "Wed, 23 Sep 2026 16:00:57 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "publishedAt": "Wed, 23 Sep 2026 15:25:14 +0000",
       "id": 10
     }
   ]
