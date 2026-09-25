@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T19:54:42.644473+00:00",
+  "updatedAt": "2026-09-25T23:10:25.623161+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Changes to query results in the GitHub Actions API and UI",
-      "description": "Queries for workflow runs in the GitHub Actions API and UI now return a less precise but more accurate count of records when you search by workflow, event, status, branch,… The post Changes to query results in the…",
+      "title": "Usage metrics API adds pull request review stages",
+      "description": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
-      "publishedAt": "Fri, 25 Sep 2026 18:17:06 +0000",
+      "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+      "publishedAt": "Fri, 25 Sep 2026 21:09:40 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Agentic autofix now uses Copilot Memory",
-      "description": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts. When it… The post Agentic autofix…",
+      "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
+      "description": "Private saved views for repository issues Repository issues pages now support private saved views, making it easier to create and save personalized views of your issues. “Relates to” issue relationship… The post Private…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-      "publishedAt": "Fri, 25 Sep 2026 17:25:50 +0000",
+      "url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
+      "publishedAt": "Fri, 25 Sep 2026 19:05:03 +0000",
       "id": 8
     },
     {
