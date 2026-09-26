@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T23:10:25.623161+00:00",
+  "updatedAt": "2026-09-26T04:13:00.048884+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Enterprise managed settings in-product validator",
+      "description": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent… The…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+      "publishedAt": "Fri, 25 Sep 2026 23:24:57 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Usage metrics API adds pull request review stages",
       "description": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row… The post…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
       "publishedAt": "Fri, 25 Sep 2026 21:09:40 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
-      "description": "Private saved views for repository issues Repository issues pages now support private saved views, making it easier to create and save personalized views of your issues. “Relates to” issue relationship… The post Private…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
-      "publishedAt": "Fri, 25 Sep 2026 19:05:03 +0000",
       "id": 8
     },
     {
