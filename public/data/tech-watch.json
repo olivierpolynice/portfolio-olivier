@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T17:52:16.905040+00:00",
+  "updatedAt": "2026-09-29T23:32:35.061252+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "GPT-6.1 Sol in GitHub Copilot",
-      "description": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep… The post GPT-6.1 Sol in GitHub…",
+      "title": "Repository custom runner settings for Dependabot",
+      "description": "As a repository administrator, you can now configure the runner type, optional custom label, and optional runner group for Dependabot version and security updates. This extends the runner configuration already… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
-      "publishedAt": "Tue, 29 Sep 2026 17:02:27 +0000",
+      "url": "https://github.blog/changelog/2026-09-29-repository-custom-runner-settings-for-dependabot",
+      "publishedAt": "Tue, 29 Sep 2026 19:10:00 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Self-hosted runner version enforcement date has moved",
-      "description": "The enforcement date for GitHub Actions minimum version requirements for self-hosted runners on GitHub Enterprise Cloud has changed. The change ships Monday, September 28, 2026, and full enforcement now begins… The post…",
+      "title": "Bring business context with external custom properties",
+      "description": "You can now seamlessly bring business context about your repositories from an external system of record (e.g., a configuration management database (CMDB), an internal developer portal, or an in-house system)… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-28-self-hosted-runner-version-enforcement-date-has-moved",
-      "publishedAt": "Mon, 28 Sep 2026 19:22:46 +0000",
+      "url": "https://github.blog/changelog/2026-09-29-bring-business-context-with-external-custom-properties",
+      "publishedAt": "Tue, 29 Sep 2026 18:40:27 +0000",
       "id": 8
     },
     {
