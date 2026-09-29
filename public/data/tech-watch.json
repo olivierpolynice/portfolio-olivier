@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T16:35:08.228666+00:00",
+  "updatedAt": "2026-09-29T00:15:48.453688+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Enterprise managed settings in-product validator",
-      "description": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent… The…",
+      "title": "Self-hosted runner version enforcement date has moved",
+      "description": "The enforcement date for GitHub Actions minimum version requirements for self-hosted runners on GitHub Enterprise Cloud has changed. The change ships Monday, September 28, 2026, and full enforcement now begins… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-      "publishedAt": "Fri, 25 Sep 2026 23:24:57 +0000",
+      "url": "https://github.blog/changelog/2026-09-28-self-hosted-runner-version-enforcement-date-has-moved",
+      "publishedAt": "Mon, 28 Sep 2026 19:22:46 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Usage metrics API adds pull request review stages",
-      "description": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row… The post…",
+      "title": "Claude Sonnet 5.5 in GitHub Copilot",
+      "description": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early… The post Claude Sonnet…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
-      "publishedAt": "Fri, 25 Sep 2026 21:09:40 +0000",
+      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "publishedAt": "Mon, 28 Sep 2026 18:03:57 +0000",
       "id": 8
     },
     {
