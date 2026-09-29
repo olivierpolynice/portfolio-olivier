@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T10:30:28.566347+00:00",
+  "updatedAt": "2026-09-29T17:52:16.905040+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
-      "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
-      "description": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing…",
+      "title": "Using AI to chart a course for our post-quantum migration",
+      "description": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
-      "publishedAt": "Mon, 28 Sep 2026 14:51:57 GMT",
+      "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+      "publishedAt": "Tue, 29 Sep 2026 13:00:00 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
-      "description": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
+      "title": "Building a certificate authority for the whole Internet",
+      "description": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
-      "publishedAt": "Mon, 28 Sep 2026 14:50:37 GMT",
+      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+      "publishedAt": "Tue, 29 Sep 2026 13:00:00 GMT",
       "id": 6
+    },
+    {
+      "category": "DevSecOps",
+      "title": "GPT-6.1 Sol in GitHub Copilot",
+      "description": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep… The post GPT-6.1 Sol in GitHub…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+      "publishedAt": "Tue, 29 Sep 2026 17:02:27 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-28-self-hosted-runner-version-enforcement-date-has-moved",
       "publishedAt": "Mon, 28 Sep 2026 19:22:46 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Claude Sonnet 5.5 in GitHub Copilot",
-      "description": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs. In our early… The post Claude Sonnet…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
-      "publishedAt": "Mon, 28 Sep 2026 18:03:57 +0000",
       "id": 8
     },
     {
