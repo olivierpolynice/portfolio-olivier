@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T04:45:22.165342+00:00",
+  "updatedAt": "2026-09-30T14:44:42.522819+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
-      "title": "Using AI to chart a course for our post-quantum migration",
-      "description": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve…",
+      "title": "Cloudflare Impact reaches $100 million in donations",
+      "description": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
-      "publishedAt": "Tue, 29 Sep 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/100-million-donations/",
+      "publishedAt": "Wed, 30 Sep 2026 13:01:55 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Building a certificate authority for the whole Internet",
-      "description": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a…",
+      "title": "Cut your AI spend with AI Gateway's Auto Router",
+      "description": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
-      "publishedAt": "Tue, 29 Sep 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/auto-router/",
+      "publishedAt": "Wed, 30 Sep 2026 13:00:00 GMT",
       "id": 6
     },
     {
