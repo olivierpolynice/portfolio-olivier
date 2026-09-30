@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T14:44:42.522819+00:00",
+  "updatedAt": "2026-09-30T20:39:02.422205+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,20 +23,20 @@
     },
     {
       "category": "Cloud",
-      "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
-      "description": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this…",
+      "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+      "description": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG,…",
       "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
-      "publishedAt": "Mon, 28 Sep 2026 16:14:54 +0000",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
+      "publishedAt": "Wed, 30 Sep 2026 20:03:34 +0000",
       "id": 3
     },
     {
       "category": "Cloud",
-      "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
-      "description": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization,…",
+      "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+      "description": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this…",
       "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
-      "publishedAt": "Thu, 24 Sep 2026 20:58:46 +0000",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+      "publishedAt": "Wed, 30 Sep 2026 17:22:31 +0000",
       "id": 4
     },
     {
@@ -59,38 +59,38 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Repository custom runner settings for Dependabot",
-      "description": "As a repository administrator, you can now configure the runner type, optional custom label, and optional runner group for Dependabot version and security updates. This extends the runner configuration already… The post…",
+      "title": "GitHub Advanced Security trials for GitHub Team",
+      "description": "GitHub Team customers can now start self-serve trials of GitHub Advanced Security to evaluate GitHub Code Security and GitHub Secret Protection. Start a trial from your organization’s Overview page, Billing… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-29-repository-custom-runner-settings-for-dependabot",
-      "publishedAt": "Tue, 29 Sep 2026 19:10:00 +0000",
+      "url": "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team",
+      "publishedAt": "Wed, 30 Sep 2026 16:48:24 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Bring business context with external custom properties",
-      "description": "You can now seamlessly bring business context about your repositories from an external system of record (e.g., a configuration management database (CMDB), an internal developer portal, or an in-house system)… The post…",
+      "title": "HydraFusion in VS Code and the GitHub Copilot app",
+      "description": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being… The post HydraFusion in…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-29-bring-business-context-with-external-custom-properties",
-      "publishedAt": "Tue, 29 Sep 2026 18:40:27 +0000",
+      "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+      "publishedAt": "Wed, 30 Sep 2026 14:31:19 +0000",
       "id": 8
     },
     {
       "category": "IA",
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "publishedAt": "Thu, 24 Sep 2026 16:20:39 +0000",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "publishedAt": "Wed, 30 Sep 2026 20:01:45 +0000",
       "id": 9
     },
     {
       "category": "IA",
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "description": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "title": "Introducing SynthID Bio",
+      "description": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "publishedAt": "Wed, 23 Sep 2026 16:00:57 +0000",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "publishedAt": "Wed, 30 Sep 2026 15:03:07 +0000",
       "id": 10
     }
   ]
