@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T04:57:43.755532+00:00",
+  "updatedAt": "2026-10-01T15:14:09.636330+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
-      "title": "Cloudflare Impact reaches $100 million in donations",
-      "description": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management…",
+      "title": "One year later: Sovereign AI and the fight for choice",
+      "description": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/100-million-donations/",
-      "publishedAt": "Wed, 30 Sep 2026 13:01:55 GMT",
+      "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+      "publishedAt": "Thu, 01 Oct 2026 13:04:19 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Cut your AI spend with AI Gateway's Auto Router",
-      "description": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations…",
+      "title": "Introducing Workers KV Instant — powered by Quicksilver",
+      "description": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/auto-router/",
-      "publishedAt": "Wed, 30 Sep 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/workers-kv-instant/",
+      "publishedAt": "Thu, 01 Oct 2026 13:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Opt-in dist-tag permissions for npm trusted publishing",
-      "description": "Trusted publishing configurations for npm can now be granted permission to manage dist-tags (e.g., promoting a version to latest, updating next and beta pointers) using short-lived OIDC credentials instead of… The post…",
+      "title": "GitHub async merge API generally available",
+      "description": "You can now use the generally available GitHub async merge API to merge individual or stacked pull requests, add pull requests to a merge queue, or merge pull requests directly.… The post GitHub async merge API…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
-      "publishedAt": "Wed, 30 Sep 2026 21:03:09 +0000",
+      "url": "https://github.blog/changelog/2026-10-01-github-async-merge-api-generally-available",
+      "publishedAt": "Thu, 01 Oct 2026 14:00:51 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Advanced Security trials for GitHub Team",
-      "description": "GitHub Team customers can now start self-serve trials of GitHub Advanced Security to evaluate GitHub Code Security and GitHub Secret Protection. Start a trial from your organization’s Overview page, Billing… The post…",
+      "title": "Actions Runner Controller release 0.15.0",
+      "description": "GitHub Actions Runner Controller 0.15.0 includes reliability, scalability, and observability improvements for runner scale sets. These updates help you operate larger runner fleets with fewer disruptions during upgrades…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team",
-      "publishedAt": "Wed, 30 Sep 2026 16:48:24 +0000",
+      "url": "https://github.blog/changelog/2026-10-01-actions-runner-controller-release-0-15-0",
+      "publishedAt": "Thu, 01 Oct 2026 13:01:31 +0000",
       "id": 8
     },
     {
