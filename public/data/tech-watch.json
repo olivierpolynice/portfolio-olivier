@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T20:39:02.422205+00:00",
+  "updatedAt": "2026-10-01T04:57:43.755532+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,20 +23,20 @@
     },
     {
       "category": "Cloud",
+      "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+      "description": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+      "publishedAt": "Wed, 30 Sep 2026 22:10:00 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
       "description": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG,…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
       "publishedAt": "Wed, 30 Sep 2026 20:03:34 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
-      "description": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
-      "publishedAt": "Wed, 30 Sep 2026 17:22:31 +0000",
       "id": 4
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Opt-in dist-tag permissions for npm trusted publishing",
+      "description": "Trusted publishing configurations for npm can now be granted permission to manage dist-tags (e.g., promoting a version to latest, updating next and beta pointers) using short-lived OIDC credentials instead of… The post…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing",
+      "publishedAt": "Wed, 30 Sep 2026 21:03:09 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "GitHub Advanced Security trials for GitHub Team",
       "description": "GitHub Team customers can now start self-serve trials of GitHub Advanced Security to evaluate GitHub Code Security and GitHub Secret Protection. Start a trial from your organization’s Overview page, Billing… The post…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-09-30-github-advanced-security-trials-for-github-team",
       "publishedAt": "Wed, 30 Sep 2026 16:48:24 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "HydraFusion in VS Code and the GitHub Copilot app",
-      "description": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being… The post HydraFusion in…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
-      "publishedAt": "Wed, 30 Sep 2026 14:31:19 +0000",
       "id": 8
     },
     {
