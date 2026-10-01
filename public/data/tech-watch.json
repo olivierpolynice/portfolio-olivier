@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T15:14:09.636330+00:00",
+  "updatedAt": "2026-10-01T20:52:57.283604+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,21 +23,30 @@
     },
     {
       "category": "Cloud",
+      "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+      "description": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security,…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
+      "publishedAt": "Thu, 01 Oct 2026 20:04:04 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
       "description": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
       "publishedAt": "Wed, 30 Sep 2026 22:10:00 +0000",
-      "id": 3
+      "id": 4
     },
     {
-      "category": "Cloud",
-      "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
-      "description": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG,…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
-      "publishedAt": "Wed, 30 Sep 2026 20:03:34 +0000",
-      "id": 4
+      "category": "Réseaux",
+      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+      "description": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "publishedAt": "Thu, 01 Oct 2026 15:34:02 GMT",
+      "id": 5
     },
     {
       "category": "Réseaux",
@@ -46,33 +55,24 @@
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
       "publishedAt": "Thu, 01 Oct 2026 13:04:19 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Introducing Workers KV Instant — powered by Quicksilver",
-      "description": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-kv-instant/",
-      "publishedAt": "Thu, 01 Oct 2026 13:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub async merge API generally available",
-      "description": "You can now use the generally available GitHub async merge API to merge individual or stacked pull requests, add pull requests to a merge queue, or merge pull requests directly.… The post GitHub async merge API…",
+      "title": "Rate limits for private vulnerability reports",
+      "description": "Private vulnerability reporting now applies daily rate limits to new reports. This helps protect you from bulk and automated submissions, while legitimate researchers can still reach you. Open source maintainers… The…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-01-github-async-merge-api-generally-available",
-      "publishedAt": "Thu, 01 Oct 2026 14:00:51 +0000",
+      "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
+      "publishedAt": "Thu, 01 Oct 2026 19:57:39 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Actions Runner Controller release 0.15.0",
-      "description": "GitHub Actions Runner Controller 0.15.0 includes reliability, scalability, and observability improvements for runner scale sets. These updates help you operate larger runner fleets with fewer disruptions during upgrades…",
+      "title": "Structured forms for private vulnerability reports",
+      "description": "Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept. A single free-text… The post Structured…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-01-actions-runner-controller-release-0-15-0",
-      "publishedAt": "Thu, 01 Oct 2026 13:01:31 +0000",
+      "url": "https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports",
+      "publishedAt": "Thu, 01 Oct 2026 19:57:28 +0000",
       "id": 8
     },
     {
