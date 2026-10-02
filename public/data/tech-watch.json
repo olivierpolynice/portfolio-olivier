@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T20:52:57.283604+00:00",
+  "updatedAt": "2026-10-02T04:48:01.797081+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -60,7 +60,7 @@
     {
       "category": "DevSecOps",
       "title": "Rate limits for private vulnerability reports",
-      "description": "Private vulnerability reporting now applies daily rate limits to new reports. This helps protect you from bulk and automated submissions, while legitimate researchers can still reach you. Open source maintainers… The…",
+      "description": "Open source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit… The post Rate limits…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
       "publishedAt": "Thu, 01 Oct 2026 19:57:39 +0000",
