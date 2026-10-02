@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T04:48:01.797081+00:00",
+  "updatedAt": "2026-10-02T14:33:54.426843+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
-      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-      "description": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers…",
+      "title": "Introducing Web Search API via AI Gateway",
+      "description": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs,…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "publishedAt": "Thu, 01 Oct 2026 15:34:02 GMT",
+      "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+      "publishedAt": "Fri, 02 Oct 2026 13:28:10 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "One year later: Sovereign AI and the fight for choice",
-      "description": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
+      "title": "8 major updates to Cloudflare Observability",
+      "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
-      "publishedAt": "Thu, 01 Oct 2026 13:04:19 GMT",
+      "url": "https://blog.cloudflare.com/one-observability-platform/",
+      "publishedAt": "Fri, 02 Oct 2026 13:00:00 GMT",
       "id": 6
+    },
+    {
+      "category": "DevSecOps",
+      "title": "Confidential comments on repository security advisories",
+      "description": "You can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with… The post Confidential…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
+      "publishedAt": "Fri, 02 Oct 2026 13:15:40 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
       "publishedAt": "Thu, 01 Oct 2026 19:57:39 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Structured forms for private vulnerability reports",
-      "description": "Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept. A single free-text… The post Structured…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports",
-      "publishedAt": "Thu, 01 Oct 2026 19:57:28 +0000",
       "id": 8
     },
     {
