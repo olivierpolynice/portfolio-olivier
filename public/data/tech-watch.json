@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-02T14:33:54.426843+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-10-02T20:29:05.202235+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
+      "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+      "description": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/streamline/",
+      "publishedAt": "Fri, 02 Oct 2026 16:13:45 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Introducing Web Search API via AI Gateway",
       "description": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs,…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/introducing-web-search-api/",
       "publishedAt": "Fri, 02 Oct 2026 13:28:10 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "8 major updates to Cloudflare Observability",
-      "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/one-observability-platform/",
-      "publishedAt": "Fri, 02 Oct 2026 13:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Confidential comments on repository security advisories",
-      "description": "You can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with… The post Confidential…",
+      "title": "Selected models in GitHub Copilot deprecated",
+      "description": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model… The post Selected…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
-      "publishedAt": "Fri, 02 Oct 2026 13:15:40 +0000",
+      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+      "publishedAt": "Fri, 02 Oct 2026 18:24:19 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Rate limits for private vulnerability reports",
-      "description": "Open source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit… The post Rate limits…",
+      "title": "New fields for SecurityAdvisory GraphQL API",
+      "description": "You can now read more of the GitHub Advisory Database directly from the GraphQL API without falling back to the REST API. The SecurityAdvisory object gained five new fields: cveId:… The post New fields for…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
-      "publishedAt": "Thu, 01 Oct 2026 19:57:39 +0000",
+      "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
+      "publishedAt": "Fri, 02 Oct 2026 13:18:00 +0000",
       "id": 8
     },
     {
