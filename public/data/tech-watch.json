@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T19:19:10.450946+00:00",
+  "updatedAt": "2026-10-04T22:53:07.679927+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "8 major updates to Cloudflare Observability",
+      "description": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/one-observability-platform/",
+      "publishedAt": "Fri, 02 Oct 2026 18:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
       "description": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/streamline/",
       "publishedAt": "Fri, 02 Oct 2026 16:13:45 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Introducing Web Search API via AI Gateway",
-      "description": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs,…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-      "publishedAt": "Fri, 02 Oct 2026 13:28:10 GMT",
       "id": 6
     },
     {
