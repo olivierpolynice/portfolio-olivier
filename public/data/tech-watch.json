@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-06T18:06:19.227306+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-10-06T23:39:28.454052+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Stacked pull requests generally available",
+      "description": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together. Since the feature went into public… The post…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+      "publishedAt": "Tue, 06 Oct 2026 20:16:41 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Code scanning AI Scan enablement status in security overview",
       "description": "Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository… The post…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
       "publishedAt": "Tue, 06 Oct 2026 10:23:38 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
-      "description": "Secret scanning now detects new secret types from Lovable Labs, Pydantic Services Inc., and Supabase. New secret scanning partner The following provider joined the secret scanning partnership program. When one… The post…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
-      "publishedAt": "Mon, 05 Oct 2026 22:42:14 +0000",
       "id": 8
     },
     {
