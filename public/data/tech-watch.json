@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T01:12:22.215534+00:00",
+  "updatedAt": "2026-10-06T11:06:20.331005+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Code scanning AI Scan enablement status in security overview",
+      "description": "Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository… The post…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
+      "publishedAt": "Tue, 06 Oct 2026 10:23:38 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Secret scanning adds detectors for Lovable, Supabase, and more",
       "description": "Secret scanning now detects new secret types from Lovable Labs, Pydantic Services Inc., and Supabase. New secret scanning partner The following provider joined the secret scanning partnership program. When one… The post…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-05-secret-scanning-adds-detectors-for-lovable-supabase-and-more",
       "publishedAt": "Mon, 05 Oct 2026 22:42:14 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Stateless GitHub App installation tokens rolled out",
-      "description": "The staged rollout of the stateless GitHub App installation token format, which began on April 27, 2026, is complete. By default, all newly minted GitHub App installation tokens will be… The post Stateless GitHub App…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
-      "publishedAt": "Fri, 02 Oct 2026 22:18:23 +0000",
       "id": 8
     },
     {
