@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-06T11:06:20.331005+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-10-06T18:06:19.227306+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -14,12 +14,21 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (25 septembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à…",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (25 septembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1229/",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1232/",
       "publishedAt": "Fri, 25 Sep 2026 00:00:00 +0000",
       "id": 2
+    },
+    {
+      "category": "Cloud",
+      "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+      "description": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017,…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
+      "publishedAt": "Tue, 06 Oct 2026 16:09:36 +0000",
+      "id": 3
     },
     {
       "category": "Cloud",
@@ -28,16 +37,16 @@
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
       "publishedAt": "Mon, 05 Oct 2026 15:41:19 +0000",
-      "id": 3
+      "id": 4
     },
     {
-      "category": "Cloud",
-      "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
-      "description": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security,…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
-      "publishedAt": "Thu, 01 Oct 2026 20:04:04 +0000",
-      "id": 4
+      "category": "Réseaux",
+      "title": "The keys to the Internet change on October 11. Are you ready?",
+      "description": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+      "publishedAt": "Tue, 06 Oct 2026 17:50:11 GMT",
+      "id": 5
     },
     {
       "category": "Réseaux",
@@ -45,15 +54,6 @@
       "description": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-      "publishedAt": "Mon, 05 Oct 2026 13:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "description": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
       "publishedAt": "Mon, 05 Oct 2026 13:00:00 GMT",
       "id": 6
     },
