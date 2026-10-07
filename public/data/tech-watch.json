@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T15:19:04.891677+00:00",
+  "updatedAt": "2026-10-07T21:05:51.656755+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "description": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/agentic-security-operations/",
+      "publishedAt": "Wed, 07 Oct 2026 16:30:36 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "The keys to the Internet change on October 11. Are you ready?",
       "description": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
       "publishedAt": "Tue, 06 Oct 2026 17:50:11 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Everything we launched during Birthday Week 2026",
-      "description": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-      "publishedAt": "Mon, 05 Oct 2026 13:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Update your IDE to restore agent activity in Copilot usage metrics",
-      "description": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out… The post Update your IDE to restore agent…",
+      "title": "Claude Haiku 5.5 in GitHub Copilot",
+      "description": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early… The post Claude…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
-      "publishedAt": "Tue, 06 Oct 2026 23:43:00 +0000",
+      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+      "publishedAt": "Wed, 07 Oct 2026 20:12:18 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Stacked pull requests generally available",
-      "description": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together. Since the feature went into public… The post…",
+      "title": "Purpose-built model for leaked secret detection",
+      "description": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware… The post Purpose-built model…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
-      "publishedAt": "Tue, 06 Oct 2026 20:16:41 +0000",
+      "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
+      "publishedAt": "Wed, 07 Oct 2026 16:13:56 +0000",
       "id": 8
     },
     {
