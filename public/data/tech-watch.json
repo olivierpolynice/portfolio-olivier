@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-06T23:39:28.454052+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-10-07T05:05:02.208422+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Update your IDE to restore agent activity in Copilot usage metrics",
+      "description": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out… The post Update your IDE to restore agent…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+      "publishedAt": "Tue, 06 Oct 2026 23:43:00 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Stacked pull requests generally available",
       "description": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together. Since the feature went into public… The post…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
       "publishedAt": "Tue, 06 Oct 2026 20:16:41 +0000",
-      "id": 7
+      "id": 8
     },
     {
-      "category": "DevSecOps",
-      "title": "Code scanning AI Scan enablement status in security overview",
-      "description": "Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository… The post…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
-      "publishedAt": "Tue, 06 Oct 2026 10:23:38 +0000",
-      "id": 8
+      "category": "IA",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "publishedAt": "Tue, 06 Oct 2026 19:57:04 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "publishedAt": "Wed, 30 Sep 2026 20:01:45 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Introducing SynthID Bio",
-      "description": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "publishedAt": "Wed, 30 Sep 2026 15:03:07 +0000",
       "id": 10
     }
   ]
