@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T05:15:36.820043+00:00",
+  "updatedAt": "2026-10-08T15:22:38.973253+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -14,10 +14,10 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans CPython (01 octobre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans CPython. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
+      "title": "Vulnérabilité dans Cisco Catalyst SD-WAN (01 octobre 2026)",
+      "description": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Cisco indique que la vulnérabilité CVE-2026-76504 est activement…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1243/",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1246/",
       "publishedAt": "Thu, 01 Oct 2026 00:00:00 +0000",
       "id": 2
     },
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+      "description": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/radar-redesign/",
+      "publishedAt": "Thu, 08 Oct 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
       "description": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/agentic-security-operations/",
       "publishedAt": "Wed, 07 Oct 2026 16:30:36 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "The keys to the Internet change on October 11. Are you ready?",
-      "description": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
-      "publishedAt": "Tue, 06 Oct 2026 17:50:11 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Draft pull requests count toward pull request limits",
+      "description": "Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously,… The post Draft…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
+      "publishedAt": "Thu, 08 Oct 2026 14:25:53 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
       "publishedAt": "Wed, 07 Oct 2026 20:12:18 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Purpose-built model for leaked secret detection",
-      "description": "Secret protection should keep pace with the way you build software, whether you write code yourself or work with an AI agent. With our new purpose-built model, we’re bringing context-aware… The post Purpose-built model…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection",
-      "publishedAt": "Wed, 07 Oct 2026 16:13:56 +0000",
       "id": 8
     },
     {
