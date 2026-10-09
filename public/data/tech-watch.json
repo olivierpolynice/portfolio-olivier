@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-09T15:05:14.151419+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-10-09T20:40:00.518102+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "description": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+      "publishedAt": "Fri, 09 Oct 2026 18:27:34 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
       "description": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
       "publishedAt": "Fri, 09 Oct 2026 13:00:00 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "Deno is joining Cloudflare",
-      "description": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
-      "publishedAt": "Fri, 09 Oct 2026 12:50:00 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Copilot code review: New organization billing options and controls",
+      "description": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s… The post Copilot…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
+      "publishedAt": "Thu, 08 Oct 2026 19:43:05 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
       "publishedAt": "Thu, 08 Oct 2026 19:01:42 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Screen readers can navigate timelines as lists",
-      "description": "Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,… The post Screen readers…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
-      "publishedAt": "Thu, 08 Oct 2026 16:00:56 +0000",
       "id": 8
     },
     {
