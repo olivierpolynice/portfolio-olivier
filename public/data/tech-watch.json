@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-09T05:18:28.482508+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-10-09T15:05:14.151419+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Vulnérabilité dans Cisco Catalyst SD-WAN (01 octobre 2026)",
-      "description": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Cisco indique que la vulnérabilité CVE-2026-76504 est activement…",
+      "title": "Vulnérabilité dans Fortinet FortiMail (02 octobre 2026)",
+      "description": "Une vulnérabilité a été découverte dans Fortinet FortiMail. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Fortinet indique que la vulnérabilité CVE-2026-104286 est activement…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1246/",
-      "publishedAt": "Thu, 01 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1257/",
+      "publishedAt": "Fri, 02 Oct 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
-      "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
-      "description": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map…",
+      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "description": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/radar-redesign/",
-      "publishedAt": "Thu, 08 Oct 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
+      "publishedAt": "Fri, 09 Oct 2026 13:00:00 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
-      "description": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system…",
+      "title": "Deno is joining Cloudflare",
+      "description": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/agentic-security-operations/",
-      "publishedAt": "Wed, 07 Oct 2026 16:30:36 GMT",
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+      "publishedAt": "Fri, 09 Oct 2026 12:50:00 GMT",
       "id": 6
     },
     {
