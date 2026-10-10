@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-09T20:40:00.518102+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-10-10T05:03:10.697764+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Copilot code review: New organization billing options and controls",
-      "description": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s… The post Copilot…",
+      "title": "GitHub Copilot weekly releases — October 5",
+      "description": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
-      "publishedAt": "Thu, 08 Oct 2026 19:43:05 +0000",
+      "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
+      "publishedAt": "Fri, 09 Oct 2026 22:58:23 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Triage role users or higher can now archive pull requests",
-      "description": "Users with the triage role or higher in a repository can now archive and unarchive pull requests. Previously, archiving was limited to repository administrators, requiring trusted triagers to hand routine… The post…",
+      "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
+      "description": "CodeQL 2.27.2 is now available, adding a C++ regular-expression parser and analysis improvements across several languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
-      "publishedAt": "Thu, 08 Oct 2026 19:01:42 +0000",
+      "url": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis",
+      "publishedAt": "Fri, 09 Oct 2026 21:32:54 +0000",
       "id": 8
     },
     {
