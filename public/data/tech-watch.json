@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-12T05:06:46.038198+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-10-12T17:32:52.926536+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Vulnérabilité dans Fortinet FortiMail (02 octobre 2026)",
-      "description": "Une vulnérabilité a été découverte dans Fortinet FortiMail. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Fortinet indique que la vulnérabilité CVE-2026-104286 est activement…",
+      "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway (05 octobre 2026)",
+      "description": "Une vulnérabilité a été découverte dans Citrix NetScaler ADC et Gateway. Elle permet à un attaquant de provoquer un déni de service à distance. La CISA indique que la vulnérabilité CVE-2026-88779 est activement…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1257/",
-      "publishedAt": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1263/",
+      "publishedAt": "Mon, 05 Oct 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "Filter, reshape, and redact logs before export with Transformers",
+      "description": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/transformers-on-logpush/",
+      "publishedAt": "Mon, 12 Oct 2026 14:44:59 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
       "description": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
       "publishedAt": "Fri, 09 Oct 2026 18:27:34 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
-      "description": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
-      "publishedAt": "Fri, 09 Oct 2026 13:00:00 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Push attribution for commits in limited public preview",
+      "description": "GitHub now durably records the authenticated user who pushed each commit and surfaces that pusher identity in the UI and API alongside the existing author and committer fields. Commit author… The post Push attribution…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+      "publishedAt": "Mon, 12 Oct 2026 16:30:11 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
       "publishedAt": "Sat, 10 Oct 2026 18:53:39 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "GitHub Copilot weekly releases — October 5",
-      "description": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
-      "publishedAt": "Fri, 09 Oct 2026 22:58:23 +0000",
       "id": 8
     },
     {
