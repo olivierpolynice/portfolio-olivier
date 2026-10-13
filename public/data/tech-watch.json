@@ -1,25 +1,34 @@
 {
-  "updatedAt": "2026-10-13T11:32:05.180751+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-10-13T19:03:05.793213+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
-      "description": "**[Mise à jour du 05 octobre 2026]** Le 4 octobre 2026, Citrix a publié un avis concernant une nouvelle vulnérabilité (CVE-2026-88779) permettant un déni de service à distance. La CISA indique que cette vulnérabilité…",
+      "title": "Multiples vulnérabilités dans SonicWall Secure Mobile Access (02 septembre 2026)",
+      "description": "Le 01 septembre 2026, SonicWall a publié un avis de sécurité concernant deux vulnérabilités affectant les Secure Mobile Access (SMA) 1000. La vulnérabilité critique CVE-2026-83548 permet une falsification de requêtes…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
-      "publishedAt": "Mon, 28 Sep 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-009/",
+      "publishedAt": "Wed, 02 Sep 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway (05 octobre 2026)",
-      "description": "Une vulnérabilité a été découverte dans Citrix NetScaler ADC et Gateway. Elle permet à un attaquant de provoquer un déni de service à distance. La CISA indique que la vulnérabilité CVE-2026-88779 est activement…",
+      "title": "Vulnérabilité dans Metabase (10 septembre 2026)",
+      "description": "Le 06 août 2026, Metabase a publié un avis de sécurité concernant une vulnérabilité critique permettant à un attaquant non authentifié de provoquer une injection SQL (SQLi) dans la base de donnée de l'application…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1263/",
-      "publishedAt": "Mon, 05 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-010/",
+      "publishedAt": "Thu, 10 Sep 2026 00:00:00 +0000",
       "id": 2
+    },
+    {
+      "category": "Cloud",
+      "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
+      "description": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
+      "publishedAt": "Tue, 13 Oct 2026 15:59:06 +0000",
+      "id": 3
     },
     {
       "category": "Cloud",
@@ -28,51 +37,42 @@
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
       "publishedAt": "Mon, 12 Oct 2026 22:34:47 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
-      "description": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017,…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
-      "publishedAt": "Tue, 06 Oct 2026 16:09:36 +0000",
       "id": 4
     },
     {
       "category": "Réseaux",
-      "title": "Filter, reshape, and redact logs before export with Transformers",
-      "description": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data…",
+      "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "description": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/transformers-on-logpush/",
-      "publishedAt": "Mon, 12 Oct 2026 14:44:59 GMT",
+      "url": "https://blog.cloudflare.com/d1-control-plane/",
+      "publishedAt": "Tue, 13 Oct 2026 16:20:18 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-      "description": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to…",
+      "title": "Rewinding the exponential: How we keep hardware usage down",
+      "description": "Our strategies to optimize our data pipeline throughput without compromising data quality.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
-      "publishedAt": "Fri, 09 Oct 2026 18:27:34 GMT",
+      "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
+      "publishedAt": "Tue, 13 Oct 2026 15:51:41 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Client telemetry user attribution and configurable capture",
-      "description": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting…",
+      "title": "Audit GitHub Code Quality finding dismissals and reopenings",
+      "description": "You can now review manual dismissals and reopenings of GitHub Code Quality findings in your organization or enterprise audit log. Findings may appear in either your repository’s default-branch backlog or… The post Audit…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
-      "publishedAt": "Mon, 12 Oct 2026 22:38:00 +0000",
+      "url": "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings",
+      "publishedAt": "Tue, 13 Oct 2026 17:58:36 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Push attribution for commits in limited public preview",
-      "description": "GitHub now durably records the authenticated user who pushed each commit and surfaces that pusher identity in the UI and API alongside the existing author and committer fields. Commit author… The post Push attribution…",
+      "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
+      "description": "Secret scanning now detects new secret types from Salesforce, Anthropic, and Cloudsmith, with the new Anthropic secret types blocked with push protection by default. New secret scanning partner Salesforce is… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
-      "publishedAt": "Mon, 12 Oct 2026 16:30:11 +0000",
+      "url": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
+      "publishedAt": "Tue, 13 Oct 2026 16:12:36 +0000",
       "id": 8
     },
     {
