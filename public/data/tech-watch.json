@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T17:32:52.926536+00:00",
+  "updatedAt": "2026-10-13T01:53:48.181452+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
@@ -23,20 +23,20 @@
     },
     {
       "category": "Cloud",
+      "title": "Announcing AWS Lambda Web Functions",
+      "description": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+      "publishedAt": "Mon, 12 Oct 2026 22:34:47 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
       "description": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017,…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
       "publishedAt": "Tue, 06 Oct 2026 16:09:36 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
-      "description": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
-      "publishedAt": "Mon, 05 Oct 2026 15:41:19 +0000",
       "id": 4
     },
     {
@@ -68,11 +68,11 @@
     },
     {
       "category": "DevSecOps",
-      "title": "New controls and chat improvements in Copilot for JetBrains",
-      "description": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls…",
+      "title": "Anonymous organization-level registries for Dependabot",
+      "description": "You can now select Anonymous as the authentication method for an organization-level private registry. Use it for registries that Dependabot can reach without credentials, such as an internal package mirror… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-      "publishedAt": "Sat, 10 Oct 2026 18:53:39 +0000",
+      "url": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
+      "publishedAt": "Mon, 12 Oct 2026 14:04:16 +0000",
       "id": 8
     },
     {
