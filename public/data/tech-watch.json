@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T19:03:05.793213+00:00",
+  "updatedAt": "2026-10-13T23:39:05.496416+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,38 +59,38 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Gemini 4 Argon in GitHub Copilot",
+      "description": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The post Gemini 4 Argon in…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+      "publishedAt": "Tue, 13 Oct 2026 18:39:56 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Audit GitHub Code Quality finding dismissals and reopenings",
       "description": "You can now review manual dismissals and reopenings of GitHub Code Quality findings in your organization or enterprise audit log. Findings may appear in either your repository’s default-branch backlog or… The post Audit…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings",
       "publishedAt": "Tue, 13 Oct 2026 17:58:36 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
-      "description": "Secret scanning now detects new secret types from Salesforce, Anthropic, and Cloudsmith, with the new Anthropic secret types blocked with push protection by default. New secret scanning partner Salesforce is… The post…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
-      "publishedAt": "Tue, 13 Oct 2026 16:12:36 +0000",
       "id": 8
     },
     {
       "category": "IA",
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
       "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "publishedAt": "Tue, 06 Oct 2026 19:57:04 +0000",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "publishedAt": "Tue, 13 Oct 2026 19:43:07 +0000",
       "id": 9
     },
     {
       "category": "IA",
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "title": "Gemini 4 Argon for Robotics",
       "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "publishedAt": "Wed, 30 Sep 2026 20:01:45 +0000",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "publishedAt": "Tue, 13 Oct 2026 16:01:58 +0000",
       "id": 10
     }
   ]
