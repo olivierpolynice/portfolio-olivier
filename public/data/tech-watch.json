@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T01:53:48.181452+00:00",
+  "updatedAt": "2026-10-13T11:32:05.180751+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Client telemetry user attribution and configurable capture",
+      "description": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+      "publishedAt": "Mon, 12 Oct 2026 22:38:00 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Push attribution for commits in limited public preview",
       "description": "GitHub now durably records the authenticated user who pushed each commit and surfaces that pusher identity in the UI and API alongside the existing author and committer fields. Commit author… The post Push attribution…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
       "publishedAt": "Mon, 12 Oct 2026 16:30:11 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Anonymous organization-level registries for Dependabot",
-      "description": "You can now select Anonymous as the authentication method for an organization-level private registry. Use it for registries that Dependabot can reach without credentials, such as an internal package mirror… The post…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
-      "publishedAt": "Mon, 12 Oct 2026 14:04:16 +0000",
       "id": 8
     },
     {
