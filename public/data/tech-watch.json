@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T04:09:33.820822+00:00",
+  "updatedAt": "2026-10-14T13:26:43.055440+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "description": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
+      "publishedAt": "Wed, 14 Oct 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
       "description": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/d1-control-plane/",
       "publishedAt": "Tue, 13 Oct 2026 16:20:18 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Rewinding the exponential: How we keep hardware usage down",
-      "description": "Our strategies to optimize our data pipeline throughput without compromising data quality.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
-      "publishedAt": "Tue, 13 Oct 2026 15:51:41 GMT",
       "id": 6
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "category": "IA",
-      "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
       "description": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
