@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T13:26:43.055440+00:00",
+  "updatedAt": "2026-10-14T20:02:43.618296+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,20 +23,20 @@
     },
     {
       "category": "Cloud",
+      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+      "description": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
+      "publishedAt": "Wed, 14 Oct 2026 19:30:48 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
       "description": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
       "publishedAt": "Tue, 13 Oct 2026 15:59:06 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "Announcing AWS Lambda Web Functions",
-      "description": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
-      "publishedAt": "Mon, 12 Oct 2026 22:34:47 +0000",
       "id": 4
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "GitHub Actions workflow lockfiles in public preview",
+      "description": "GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud, GitHub Enterprise Cloud with data residency, Team, and Free plans. Tags and branches can move after… The post GitHub…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
+      "publishedAt": "Wed, 14 Oct 2026 13:49:15 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "GitHub App improvements for least privilege and management",
       "description": "We’re releasing several GitHub Apps improvements today that help developers move off of classic PATs, improve GitHub App management, and request fewer sensitive permissions. We’ve also made it easier for… The post…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
       "publishedAt": "Tue, 13 Oct 2026 23:17:55 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Gemini 4 Argon in GitHub Copilot",
-      "description": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks. In early testing, Gemini 4 Argon… The post Gemini 4 Argon in…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
-      "publishedAt": "Tue, 13 Oct 2026 18:39:56 +0000",
       "id": 8
     },
     {
