@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T20:02:43.618296+00:00",
+  "updatedAt": "2026-10-15T03:51:58.172802+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -24,7 +24,7 @@
     {
       "category": "Cloud",
       "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-      "description": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
+      "description": "Amazon Simple Storage Service (Amazon S3), including Amazon S3 Tables and Amazon S3 Vectors, is natively available on the Vercel Marketplace and v0 by Vercel.",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
       "publishedAt": "Wed, 14 Oct 2026 19:30:48 +0000",
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+      "description": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/yandex-outage/",
+      "publishedAt": "Wed, 14 Oct 2026 20:24:19 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
       "description": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
       "publishedAt": "Wed, 14 Oct 2026 13:00:00 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
-      "description": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/d1-control-plane/",
-      "publishedAt": "Tue, 13 Oct 2026 16:20:18 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "HydraFusion updates and new Max option",
+      "description": "HydraFusion has an updated model pool, improved orchestration workflows, and introduces HydraFusion Max. Both HydraFusion and HydraFusion Max are available across VS Code, the GitHub Copilot app, and GitHub Copilot… The…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+      "publishedAt": "Wed, 14 Oct 2026 20:01:35 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
       "publishedAt": "Wed, 14 Oct 2026 13:49:15 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "GitHub App improvements for least privilege and management",
-      "description": "We’re releasing several GitHub Apps improvements today that help developers move off of classic PATs, improve GitHub App management, and request fewer sensitive permissions. We’ve also made it easier for… The post…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
-      "publishedAt": "Tue, 13 Oct 2026 23:17:55 +0000",
       "id": 8
     },
     {
