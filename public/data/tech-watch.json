@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T22:56:46.731999+00:00",
+  "updatedAt": "2026-10-16T03:47:35.711045+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
+      "description": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests,…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
+      "publishedAt": "Fri, 16 Oct 2026 02:16:35 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Download GitHub Code Quality license usage as a CSV",
       "description": "You can now download a CSV report of your GitHub Code Quality license usage to reconcile your license count with your own records. The report includes: Each active committer who… The post Download GitHub Code Quality…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv",
       "publishedAt": "Thu, 15 Oct 2026 20:11:26 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
-      "description": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date… The post…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
-      "publishedAt": "Thu, 15 Oct 2026 19:35:13 +0000",
       "id": 8
     },
     {
