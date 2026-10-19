@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T18:31:22.026328+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-10-19T23:26:51.790907+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
-      "title": "Introducing Clairic, a new System One class of extraction models",
-      "description": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic is a new model from Cloudflare that is a System…",
+      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+      "description": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
-      "publishedAt": "Mon, 19 Oct 2026 17:48:26 GMT",
+      "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+      "publishedAt": "Mon, 19 Oct 2026 19:12:53 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
-      "description": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+      "title": "Introducing Clairic, a new System One class of extraction models",
+      "description": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
-      "publishedAt": "Mon, 19 Oct 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "publishedAt": "Mon, 19 Oct 2026 17:48:26 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Some Git over HTTPS may temporarily require authentication",
-      "description": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com’s availability. If an operation is affected,… The…",
+      "title": "Copilot model policy API for enterprise, orgs, and teams",
+      "description": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now… The post Copilot model policy…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication",
-      "publishedAt": "Mon, 19 Oct 2026 10:37:30 +0000",
+      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+      "publishedAt": "Mon, 19 Oct 2026 21:32:18 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
-      "description": "Starting with macOS 27 and Xcode 27, Apple no longer includes Intel (x86_64) code in some of the system binaries and libraries that CodeQL relies on to trace builds. As… The post CodeQL changes for macOS 27, Xcode 27,…",
+      "title": "GitHub Copilot models deprecated on October 19, 2026",
+      "description": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These… The post GitHub…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4",
-      "publishedAt": "Mon, 19 Oct 2026 10:29:09 +0000",
+      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "publishedAt": "Mon, 19 Oct 2026 21:27:10 +0000",
       "id": 8
     },
     {
