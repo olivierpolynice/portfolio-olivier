@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T09:43:02.125390+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-10-19T18:31:22.026328+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -14,12 +14,21 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Vulnérabilité dans Schneider Electric Harmony (13 octobre 2026)",
-      "description": "Une vulnérabilité a été découverte dans Schneider Electric Harmony. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "title": "Multiples vulnérabilités dans les produits Ivanti (14 octobre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1299/",
-      "publishedAt": "Tue, 13 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1311/",
+      "publishedAt": "Wed, 14 Oct 2026 00:00:00 +0000",
       "id": 2
+    },
+    {
+      "category": "Cloud",
+      "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
+      "description": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server with no adapter in…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
+      "publishedAt": "Mon, 19 Oct 2026 15:34:59 +0000",
+      "id": 3
     },
     {
       "category": "Cloud",
@@ -28,51 +37,42 @@
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
       "publishedAt": "Wed, 14 Oct 2026 19:30:48 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
-      "description": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
-      "publishedAt": "Tue, 13 Oct 2026 15:59:06 +0000",
       "id": 4
     },
     {
       "category": "Réseaux",
-      "title": "Continuous accountability for Verified bots",
-      "description": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain…",
+      "title": "Introducing Clairic, a new System One class of extraction models",
+      "description": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic is a new model from Cloudflare that is a System…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/verified-bots-accountability/",
-      "publishedAt": "Fri, 16 Oct 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "publishedAt": "Mon, 19 Oct 2026 17:48:26 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "A fully programmable secure web gateway",
-      "description": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
+      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+      "description": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
-      "publishedAt": "Thu, 15 Oct 2026 17:11:12 GMT",
+      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+      "publishedAt": "Mon, 19 Oct 2026 13:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Open source license compliance generally available",
-      "description": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub…",
+      "title": "Some Git over HTTPS may temporarily require authentication",
+      "description": "During periods of unusual traffic, GitHub may temporarily require authentication for some clones and fetches of public repositories over HTTPS to help protect github.com’s availability. If an operation is affected,… The…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
-      "publishedAt": "Fri, 16 Oct 2026 14:00:32 +0000",
+      "url": "https://github.blog/changelog/2026-10-19-some-git-over-https-may-temporarily-require-authentication",
+      "publishedAt": "Mon, 19 Oct 2026 10:37:30 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Xcode 27 runner image generally available",
-      "description": "You can now use the generally available Xcode 27 runner image to build and test your Apple applications in GitHub Actions. Previously in public preview, this GitHub-hosted image runs on… The post Xcode 27 runner image…",
+      "title": "CodeQL changes for macOS 27, Xcode 27, and Swift 6.4",
+      "description": "Starting with macOS 27 and Xcode 27, Apple no longer includes Intel (x86_64) code in some of the system binaries and libraries that CodeQL relies on to trace builds. As… The post CodeQL changes for macOS 27, Xcode 27,…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available",
-      "publishedAt": "Fri, 16 Oct 2026 04:36:30 +0000",
+      "url": "https://github.blog/changelog/2026-10-19-codeql-changes-for-macos-27-xcode-27-and-swift-6-4",
+      "publishedAt": "Mon, 19 Oct 2026 10:29:09 +0000",
       "id": 8
     },
     {
