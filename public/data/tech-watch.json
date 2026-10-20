@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-20T04:05:59.562301+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-10-20T13:25:13.928771+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Introducing tsrs: a Port of TypeScript to Rust",
+      "description": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "publishedAt": "Tue, 20 Oct 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Cutting our inference bill by 68% by being obsessive about optimization",
       "description": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
       "publishedAt": "Mon, 19 Oct 2026 19:12:53 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Introducing Clairic, a new System One class of extraction models",
-      "description": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
-      "publishedAt": "Mon, 19 Oct 2026 17:48:26 GMT",
       "id": 6
     },
     {
