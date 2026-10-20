@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T19:54:20.271340+00:00",
+  "updatedAt": "2026-10-20T23:01:08.850530+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+      "description": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+      "publishedAt": "Tue, 20 Oct 2026 22:20:16 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Introducing tsrs: A port of TypeScript to Rust",
       "description": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/typescript-rust-port/",
       "publishedAt": "Tue, 20 Oct 2026 13:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-      "description": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
-      "publishedAt": "Mon, 19 Oct 2026 19:12:53 GMT",
       "id": 6
     },
     {
