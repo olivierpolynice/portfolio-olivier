@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T16:51:59.008552+00:00",
+  "updatedAt": "2026-10-21T23:04:40.140737+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
+      "description": "You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a… The post GitHub CLI: Opt in to expiring,…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
+      "publishedAt": "Wed, 21 Oct 2026 16:43:23 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Bulk migrate branch protections to rulesets for a repository",
       "description": "You can now convert all branch protection rules of a repository to rulesets in a single action. This is an extension of the ability to convert a single branch protection… The post Bulk migrate branch protections to…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-20-bulk-migrate-branch-protections-to-rulesets-for-a-repository",
       "publishedAt": "Tue, 20 Oct 2026 18:06:21 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Updates to GitHub secret scanning",
-      "description": "This update covers improvements and bug fixes for GitHub secret scanning. Update to audit log events On November 12, 2026, the business field in affected secret_scanning_alert.* and…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-20-updates-to-github-secret-scanning",
-      "publishedAt": "Tue, 20 Oct 2026 18:03:55 +0000",
       "id": 8
     },
     {
