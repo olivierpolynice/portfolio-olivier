@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-22T09:16:06.754197+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-10-22T16:52:03.077172+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération (12 octobre 2026)",
-      "description": "Le CERT-FR a connaissance de nombreuses compromissions des controleurs à distance d'installation de réfrigération Danfoss série AK-SM, AK-SC ainsi que Copeland xweb et Dixell xweb. De manière générale l'exposition d'une…",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (16 octobre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
-      "publishedAt": "Mon, 12 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1334/",
+      "publishedAt": "Fri, 16 Oct 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans les produits Symfony (15 octobre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "title": "Multiples vulnérabilités dans les produits Microsoft (16 octobre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1324/",
-      "publishedAt": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1332/",
+      "publishedAt": "Fri, 16 Oct 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+      "description": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/k-isms/",
+      "publishedAt": "Thu, 22 Oct 2026 13:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Introducing full transaction detection for Cloudflare WAF",
       "description": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/full-transaction-waf/",
       "publishedAt": "Wed, 21 Oct 2026 14:10:42 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Cloudflare deploys protections against php2shell vulnerability",
-      "description": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-      "publishedAt": "Wed, 21 Oct 2026 13:56:45 GMT",
       "id": 6
     },
     {
@@ -77,20 +77,20 @@
     },
     {
       "category": "IA",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "description": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "publishedAt": "Thu, 22 Oct 2026 14:30:24 +0000",
+      "id": 9
+    },
+    {
+      "category": "IA",
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
       "description": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
       "publishedAt": "Thu, 15 Oct 2026 16:08:03 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "description": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "publishedAt": "Wed, 14 Oct 2026 02:00:14 +0000",
       "id": 10
     }
   ]
