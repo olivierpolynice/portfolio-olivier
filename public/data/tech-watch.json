@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-23T03:58:47.386121+00:00",
+  "updatedAt": "2026-10-23T09:16:01.229188+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
+    {
+      "category": "Cybersécurité",
+      "title": "Recommandations à destination des acteurs du secteur de l’énergie et de l’eau (22 janvier 2026)",
+      "description": "**Objet** : Recommandations de sécurisation des systèmes d’information à destination des producteurs, des intégrateurs et des installateurs des systèmes de production industriels du secteur de l’énergie et de l’eau en…",
+      "source": "CERT-FR",
+      "url": "https://www.cert.ssi.gouv.fr/dur/CERTFR-2025-DUR-003/",
+      "publishedAt": "Thu, 22 Jan 2026 00:00:00 +0000",
+      "id": 1
+    },
     {
       "category": "Cybersécurité",
       "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (16 octobre 2026)",
       "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
       "source": "CERT-FR",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1334/",
-      "publishedAt": "Fri, 16 Oct 2026 00:00:00 +0000",
-      "id": 1
-    },
-    {
-      "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans les produits Microsoft (16 octobre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un…",
-      "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1332/",
       "publishedAt": "Fri, 16 Oct 2026 00:00:00 +0000",
       "id": 2
     },
