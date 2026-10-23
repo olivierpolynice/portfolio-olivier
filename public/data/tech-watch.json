@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T09:16:01.229188+00:00",
+  "updatedAt": "2026-10-23T16:43:46.567278+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -14,11 +14,11 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (16 octobre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
+      "title": "Multiples vulnérabilités dans les produits F5 (19 octobre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1334/",
-      "publishedAt": "Fri, 16 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1341/",
+      "publishedAt": "Mon, 19 Oct 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Enterprise installations for GitHub Apps generally available",
+      "description": "Installing GitHub Apps on your enterprise is now generally available. You can replace classic PATs with GitHub Apps in more of your enterprise and organization automation with the expanded API… The post Enterprise…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available",
+      "publishedAt": "Fri, 23 Oct 2026 15:03:30 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "GitHub Copilot in Visual Studio — September update",
       "description": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
       "publishedAt": "Fri, 23 Oct 2026 00:17:51 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Custom skills, agents, and MCP servers in usage metrics API",
-      "description": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under… The post Custom…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
-      "publishedAt": "Thu, 22 Oct 2026 22:19:17 +0000",
       "id": 8
     },
     {
