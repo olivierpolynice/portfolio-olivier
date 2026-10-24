@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T22:57:37.665165+00:00",
+  "updatedAt": "2026-10-24T03:53:08.276950+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Turn notifications into code with the GitHub app in Teams",
-      "description": "The new GitHub app in Teams brings notifications and copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group… The post Turn…",
+      "title": "Usage metrics API adds usage from tools like OpenCode",
+      "description": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports.… The post Usage metrics API…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
-      "publishedAt": "Fri, 23 Oct 2026 21:29:58 +0000",
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+      "publishedAt": "Fri, 23 Oct 2026 23:42:03 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "EMU deletions fix",
-      "description": "Between June 1 and June 13, 2026, some Enterprise Managed User accounts that were deprovisioned through SCIM were incorrectly deleted instead of being suspended and obfuscated as expected. As a… The post EMU deletions…",
+      "title": "Turn notifications into code with GitHub Copilot in Teams",
+      "description": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group… The post Turn…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-23-emu-deletions-fix",
-      "publishedAt": "Fri, 23 Oct 2026 18:56:18 +0000",
+      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "publishedAt": "Fri, 23 Oct 2026 21:29:58 +0000",
       "id": 8
     },
     {
