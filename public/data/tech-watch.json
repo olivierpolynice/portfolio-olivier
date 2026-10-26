@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-26T18:27:59.508939+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-10-26T23:38:31.171549+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "description": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "publishedAt": "Mon, 26 Oct 2026 22:01:23 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Origin Range Requests: Serving large files without range-request tuning",
       "description": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/origin-range-requests/",
       "publishedAt": "Fri, 23 Oct 2026 18:22:59 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "Bringing post-quantum cryptography to geographically fenced key management",
-      "description": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-      "publishedAt": "Fri, 23 Oct 2026 18:06:56 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "description": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In… The post GPT-6.1 Terra in GitHub…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+      "publishedAt": "Mon, 26 Oct 2026 19:15:53 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
       "publishedAt": "Fri, 23 Oct 2026 23:42:03 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Turn notifications into code with GitHub Copilot in Teams",
-      "description": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group… The post Turn…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
-      "publishedAt": "Fri, 23 Oct 2026 21:29:58 +0000",
       "id": 8
     },
     {
