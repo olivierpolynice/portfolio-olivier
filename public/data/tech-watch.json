@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T09:57:58.166100+00:00",
+  "updatedAt": "2026-10-26T18:27:59.508939+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -8,18 +8,27 @@
       "title": "Recommandations à destination des acteurs du secteur de l’énergie et de l’eau (22 janvier 2026)",
       "description": "**Objet** : Recommandations de sécurisation des systèmes d’information à destination des producteurs, des intégrateurs et des installateurs des systèmes de production industriels du secteur de l’énergie et de l’eau en…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/dur/CERTFR-2025-DUR-003/",
+      "url": "https://www.cert.cyber.gouv.fr/dur/CERTFR-2025-DUR-003/",
       "publishedAt": "Thu, 22 Jan 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans les produits F5 (19 octobre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
+      "title": "Multiples vulnérabilités dans Oracle Virtualization (21 octobre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et…",
       "source": "CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1341/",
-      "publishedAt": "Mon, 19 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1354/",
+      "publishedAt": "Wed, 21 Oct 2026 00:00:00 +0000",
       "id": 2
+    },
+    {
+      "category": "Cloud",
+      "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+      "description": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
+      "publishedAt": "Mon, 26 Oct 2026 15:02:24 +0000",
+      "id": 3
     },
     {
       "category": "Cloud",
@@ -28,15 +37,6 @@
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
       "publishedAt": "Thu, 22 Oct 2026 20:33:10 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
-      "description": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
-      "publishedAt": "Tue, 20 Oct 2026 17:03:38 +0000",
       "id": 4
     },
     {
