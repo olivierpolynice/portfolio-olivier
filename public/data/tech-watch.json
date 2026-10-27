@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T04:17:42.610671+00:00",
+  "updatedAt": "2026-10-27T14:10:09.789067+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
-      "description": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "description": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "publishedAt": "Mon, 26 Oct 2026 22:01:23 GMT",
+      "url": "https://blog.cloudflare.com/php-ctf/",
+      "publishedAt": "Tue, 27 Oct 2026 13:00:00 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Origin Range Requests: Serving large files without range-request tuning",
-      "description": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+      "title": "What took the Internet offline in Q3 2026",
+      "description": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/origin-range-requests/",
-      "publishedAt": "Fri, 23 Oct 2026 18:22:59 GMT",
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+      "publishedAt": "Tue, 27 Oct 2026 13:00:00 GMT",
       "id": 6
     },
     {
