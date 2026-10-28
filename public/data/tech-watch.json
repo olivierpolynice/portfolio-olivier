@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-27T20:30:10.569438+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-10-28T04:47:25.094810+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
+      "title": "GitHub Copilot supports server-to-server authentication",
+      "description": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on… The…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "publishedAt": "Tue, 27 Oct 2026 21:36:55 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "GitHub Copilot assisted permissions generally available",
       "description": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,… The post GitHub Copilot…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
       "publishedAt": "Mon, 26 Oct 2026 22:31:30 +0000",
-      "id": 7
+      "id": 8
     },
     {
-      "category": "DevSecOps",
-      "title": "GPT-6.1 Terra in GitHub Copilot",
-      "description": "GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol. In… The post GPT-6.1 Terra in GitHub…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
-      "publishedAt": "Mon, 26 Oct 2026 19:15:53 +0000",
-      "id": 8
+      "category": "IA",
+      "title": "Genie 4: A new generation of world simulation",
+      "description": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "publishedAt": "Tue, 27 Oct 2026 16:01:38 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
       "publishedAt": "Thu, 22 Oct 2026 14:30:24 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "description": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "publishedAt": "Thu, 15 Oct 2026 16:08:03 +0000",
       "id": 10
     }
   ]
