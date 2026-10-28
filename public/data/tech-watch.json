@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-10-28T14:56:44.773319+00:00",
+  "updatedAt": "2026-10-28T20:51:15.578690+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Recommandations à destination des acteurs du secteur de l’énergie et de l’eau (22 janvier 2026)",
-      "description": "**Objet** : Recommandations de sécurisation des systèmes d’information à destination des producteurs, des intégrateurs et des installateurs des systèmes de production industriels du secteur de l’énergie et de l’eau en…",
+      "title": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
+      "description": "**[Mise à jour du 26 octobre 2026]** Le 23 octobre 2026, PHP a publié un avis de sécurité concernant la vulnérabilité CVE-2026-115560. Celle-ci permet une exécution de code arbitraire à distance. L'éditeur estime que…",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/dur/CERTFR-2025-DUR-003/",
-      "publishedAt": "Thu, 22 Jan 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+      "publishedAt": "Wed, 21 Oct 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans PHP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "title": "Multiples vulnérabilités dans les produits Red Hat (23 octobre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni de service et un problème…",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1359/",
-      "publishedAt": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1373/",
+      "publishedAt": "Fri, 23 Oct 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Copilot supports server-to-server authentication",
-      "description": "GitHub Copilot now supports server-to-server authentication for GitHub Apps installed on organizations, available in public preview. Services and agents built with the GitHub Copilot SDK can now make requests on… The…",
+      "title": "Route and orchestrate models with GitHub Copilot Fusion",
+      "description": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.… The post Route and…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
-      "publishedAt": "Tue, 27 Oct 2026 21:36:55 +0000",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "publishedAt": "Wed, 28 Oct 2026 16:00:00 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Copilot assisted permissions generally available",
-      "description": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,… The post GitHub Copilot…",
+      "title": "GitHub Copilot app, Universe releases",
+      "description": "Work doesn’t always fit in a single repository or session. A feature can span several repositories. A launch plan can pull in specs, designs, and assets without touching a repository… The post GitHub Copilot app,…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
-      "publishedAt": "Mon, 26 Oct 2026 22:31:30 +0000",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
+      "publishedAt": "Wed, 28 Oct 2026 15:55:00 +0000",
       "id": 8
+    },
+    {
+      "category": "IA",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "publishedAt": "Wed, 28 Oct 2026 17:00:58 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "publishedAt": "Tue, 27 Oct 2026 16:01:38 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "description": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "publishedAt": "Thu, 22 Oct 2026 14:30:24 +0000",
       "id": 10
     }
   ]
