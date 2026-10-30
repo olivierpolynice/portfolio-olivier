@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T04:58:07.872535+00:00",
+  "updatedAt": "2026-10-30T14:55:20.630672+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Cloudflare services for private origins is now generally available",
+      "description": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+      "publishedAt": "Fri, 30 Oct 2026 14:23:43 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
       "description": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
       "publishedAt": "Thu, 29 Oct 2026 12:55:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-      "description": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/php-ctf/",
-      "publishedAt": "Tue, 27 Oct 2026 13:00:00 GMT",
       "id": 6
     },
     {
