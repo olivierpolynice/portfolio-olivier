@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T05:07:55.952379+00:00",
+  "updatedAt": "2026-11-02T17:59:36.913122+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
@@ -14,12 +14,21 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
-      "description": "**[Mise à jour du 26 octobre 2026]** Le 23 octobre 2026, PHP a publié un avis de sécurité concernant la vulnérabilité CVE-2026-115560. Celle-ci permet une exécution de code arbitraire à distance. L'éditeur estime que…",
+      "title": "[MàJ] Multiples vulnérabilités dans Ivanti Connect Secure (ICS) (14 octobre 2026)",
+      "description": "[Mise à jour du 2 novembre 2026] Le 29 octobre 2026, Ivanti a mis à jour son avis de sécurité du 13 octobre 2026 pour ajouter deux vulnérabilités (CVE-2026-111357 et CVE-2026-118527). Celles-ci permettent à un attaquant…",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-014/",
-      "publishedAt": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-013/",
+      "publishedAt": "Wed, 14 Oct 2026 00:00:00 +0000",
       "id": 2
+    },
+    {
+      "category": "Cloud",
+      "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+      "description": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
+      "publishedAt": "Mon, 02 Nov 2026 16:45:48 +0000",
+      "id": 3
     },
     {
       "category": "Cloud",
@@ -28,16 +37,16 @@
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
       "publishedAt": "Mon, 26 Oct 2026 15:02:24 +0000",
-      "id": 3
+      "id": 4
     },
     {
-      "category": "Cloud",
-      "title": "AWS Continuum for code vulnerabilities is now generally available",
-      "description": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
-      "publishedAt": "Thu, 22 Oct 2026 20:33:10 +0000",
-      "id": 4
+      "category": "Réseaux",
+      "title": "How we halved DNS build delay and cut memory use by 85%",
+      "description": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "publishedAt": "Mon, 02 Nov 2026 14:00:00 GMT",
+      "id": 5
     },
     {
       "category": "Réseaux",
@@ -46,33 +55,24 @@
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/emudhra-patching/",
       "publishedAt": "Fri, 30 Oct 2026 17:38:50 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Cloudflare services for private origins is now generally available",
-      "description": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
-      "publishedAt": "Fri, 30 Oct 2026 14:23:43 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Webhook IP ranges added to the Meta API",
-      "description": "We’re adding IP ranges for GitHub webhook deliveries on github.com. The Meta API now includes these additional ranges in the hooks field. If you maintain a static network allowlist for… The post Webhook IP ranges added…",
+      "title": "Security risk assessments include repository protection status",
+      "description": "The GitHub code security risk assessment and secret risk assessment now show whether findings are in protected or unprotected repositories, helping you identify where to extend your security coverage. Organization… The…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
-      "publishedAt": "Thu, 29 Oct 2026 17:14:38 +0000",
+      "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+      "publishedAt": "Mon, 02 Nov 2026 15:47:21 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Route and orchestrate models with GitHub Copilot Fusion",
-      "description": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.… The post Route and…",
+      "title": "pull_request_target blocked by default December 2",
+      "description": "Starting December 2, 2026, GitHub Actions will block pull_request_target events by default in all public repositories, unless an applicable Actions event policy explicitly allows them. Enforcement was previously…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
-      "publishedAt": "Wed, 28 Oct 2026 16:00:00 +0000",
+      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+      "publishedAt": "Mon, 02 Nov 2026 15:14:46 +0000",
       "id": 8
     },
     {
