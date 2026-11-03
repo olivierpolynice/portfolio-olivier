@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:43:27.974925+00:00",
+  "updatedAt": "2026-11-03T19:16:05.543038+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,39 +41,48 @@
     },
     {
       "category": "Réseaux",
+      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "description": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/zero-wire/",
+      "publishedAt": "Tue, 03 Nov 2026 14:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "How we halved DNS build delay and cut memory use by 85%",
       "description": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
       "publishedAt": "Mon, 02 Nov 2026 14:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
-      "description": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation,…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/emudhra-patching/",
-      "publishedAt": "Fri, 30 Oct 2026 17:38:50 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Security risk assessments include repository protection status",
-      "description": "The GitHub code security risk assessment and secret risk assessment now show whether findings are in protected or unprotected repositories, helping you identify where to extend your security coverage. Organization… The…",
+      "title": "Look up a resource’s cost center with the GitHub REST API",
+      "description": "You can now use the GitHub REST API to find which cost center a user, organization, repository, or enterprise team belongs to. Previously, you had to list every cost center… The post Look up a resource’s cost center…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
-      "publishedAt": "Mon, 02 Nov 2026 15:47:21 +0000",
+      "url": "https://github.blog/changelog/2026-11-03-look-up-a-resources-cost-center-with-the-github-rest-api",
+      "publishedAt": "Tue, 03 Nov 2026 15:27:13 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "pull_request_target blocked by default December 2",
-      "description": "Starting December 2, 2026, GitHub Actions will block pull_request_target events by default in all public repositories, unless an applicable Actions event policy explicitly allows them. Enforcement was previously…",
+      "title": "GitHub Copilot is now available in JetBrains Air",
+      "description": "You can now delegate coding tasks, guide execution, and review results with GitHub Copilot in JetBrains Air. The integration uses the Agent Client Protocol (ACP) and supports tasks in your… The post GitHub Copilot is…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
-      "publishedAt": "Mon, 02 Nov 2026 15:14:46 +0000",
+      "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+      "publishedAt": "Tue, 03 Nov 2026 15:11:46 +0000",
       "id": 8
+    },
+    {
+      "category": "IA",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "description": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "publishedAt": "Tue, 03 Nov 2026 17:01:49 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
       "publishedAt": "Fri, 30 Oct 2026 14:18:30 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "publishedAt": "Wed, 28 Oct 2026 17:00:58 +0000",
       "id": 10
     }
   ]
