@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-04T11:55:59.303202+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-11-04T19:36:37.953496+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "description": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+      "publishedAt": "Wed, 04 Nov 2026 14:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
       "description": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/zero-wire/",
       "publishedAt": "Tue, 03 Nov 2026 14:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "How we halved DNS build delay and cut memory use by 85%",
-      "description": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
-      "publishedAt": "Mon, 02 Nov 2026 14:00:00 GMT",
       "id": 6
     },
     {
