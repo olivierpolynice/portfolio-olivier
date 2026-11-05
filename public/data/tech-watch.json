@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T11:58:53.105271+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-11-05T19:51:02.839073+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
+      "title": "Agents aren’t humans (but they kinda are)",
+      "description": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+      "publishedAt": "Thu, 05 Nov 2026 17:03:04 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "See the agents, set the terms: new visibility and control for personal agents",
       "description": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
       "publishedAt": "Wed, 04 Nov 2026 14:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
-      "description": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/zero-wire/",
-      "publishedAt": "Tue, 03 Nov 2026 14:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-      "description": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.4 with query accuracy improvements across several… The post…",
+      "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
+      "description": "This update expands secret scanning’s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detectors: Alibaba, AWS, Google,…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-      "publishedAt": "Wed, 04 Nov 2026 20:04:52 +0000",
+      "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+      "publishedAt": "Thu, 05 Nov 2026 15:48:50 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-      "description": "You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with… The post GitHub…",
+      "title": "New pull request overview page in public preview",
+      "description": "On a long pull request, checking what’s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you’re there, you still… The post New pull request overview page…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-      "publishedAt": "Wed, 04 Nov 2026 19:10:40 +0000",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
+      "publishedAt": "Thu, 05 Nov 2026 08:00:00 +0000",
       "id": 8
     },
     {
