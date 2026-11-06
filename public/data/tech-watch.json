@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T19:04:17.246543+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-11-06T23:59:28.433551+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Usage metrics API adds code review details and addressed rate",
-      "description": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many…",
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+      "description": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption… The post Copilot impact…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-      "publishedAt": "Fri, 06 Nov 2026 00:19:07 +0000",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+      "publishedAt": "Fri, 06 Nov 2026 22:17:28 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Usage metrics API flags telemetry and version gaps",
-      "description": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in… The post Usage metrics API flags…",
+      "title": "GitHub Copilot weekly releases — November 2",
+      "description": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge… The post GitHub Copilot weekly…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
-      "publishedAt": "Fri, 06 Nov 2026 00:08:31 +0000",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+      "publishedAt": "Fri, 06 Nov 2026 21:00:26 +0000",
       "id": 8
     },
     {
