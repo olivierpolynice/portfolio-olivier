@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T19:51:02.839073+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-11-06T00:53:41.543339+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Secret scanning upgrades detectors, adds SpaceX as partner",
-      "description": "This update expands secret scanning’s detection coverage: New partner: SpaceX is now a secret scanning partner. New detector: GitHub now detects starlink_public_api_v2_secret. Upgraded detectors: Alibaba, AWS, Google,…",
+      "title": "Usage metrics API adds code review details and addressed rate",
+      "description": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
-      "publishedAt": "Thu, 05 Nov 2026 15:48:50 +0000",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+      "publishedAt": "Fri, 06 Nov 2026 00:19:07 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "New pull request overview page in public preview",
-      "description": "On a long pull request, checking what’s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you’re there, you still… The post New pull request overview page…",
+      "title": "Usage metrics API flags telemetry and version gaps",
+      "description": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in… The post Usage metrics API flags…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
-      "publishedAt": "Thu, 05 Nov 2026 08:00:00 +0000",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+      "publishedAt": "Fri, 06 Nov 2026 00:08:31 +0000",
       "id": 8
+    },
+    {
+      "category": "IA",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "publishedAt": "Thu, 05 Nov 2026 17:05:16 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
       "publishedAt": "Tue, 03 Nov 2026 17:01:49 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Speeding up planning decisions with AI",
-      "description": "Google DeepMind and UK government work together to reduce planning assessment times",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-      "publishedAt": "Fri, 30 Oct 2026 14:18:30 +0000",
       "id": 10
     }
   ]
