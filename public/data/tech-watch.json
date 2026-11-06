@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-06T11:55:06.869526+00:00",
+  "updatedAt": "2026-11-06T19:04:17.246543+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Campagne de notifications de menace envoyée par Apple (11 septembre 2025)",
-      "description": "Depuis 2021, Apple envoie des campagnes de notifications aux individus ciblés par des attaques menées à l’aide de logiciels espions. Ces logiciels, tels que Pegasus, Predator, Graphite ou Triangulation sont…",
+      "title": "Multiples vulnérabilités dans Roundcube Webmail (19 octobre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté…",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-010/",
-      "publishedAt": "Thu, 11 Sep 2025 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1340/",
+      "publishedAt": "Mon, 19 Oct 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "[MàJ] Multiples vulnérabilités dans Ivanti Connect Secure (ICS) (14 octobre 2026)",
-      "description": "[Mise à jour du 2 novembre 2026] Le 29 octobre 2026, Ivanti a mis à jour son avis de sécurité du 13 octobre 2026 pour ajouter deux vulnérabilités (CVE-2026-111357 et CVE-2026-118527). Celles-ci permettent à un attaquant…",
+      "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-013/",
-      "publishedAt": "Wed, 14 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
+      "publishedAt": "Tue, 03 Nov 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "The post-quantum future of web privacy",
+      "description": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/vole-mole/",
+      "publishedAt": "Fri, 06 Nov 2026 14:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Agents aren’t humans (but they kinda are)",
       "description": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
       "publishedAt": "Thu, 05 Nov 2026 17:03:04 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "See the agents, set the terms: new visibility and control for personal agents",
-      "description": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-      "publishedAt": "Wed, 04 Nov 2026 14:00:00 GMT",
       "id": 6
     },
     {
