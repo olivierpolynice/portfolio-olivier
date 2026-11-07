@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T23:59:28.433551+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-11-07T05:47:34.219572+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "Copilot code review: API management and review overview updates",
+      "description": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,… The post Copilot…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+      "publishedAt": "Sat, 07 Nov 2026 00:27:19 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Copilot impact dashboard adds chat and VS Code agent usage",
       "description": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption… The post Copilot impact…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
       "publishedAt": "Fri, 06 Nov 2026 22:17:28 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "GitHub Copilot weekly releases — November 2",
-      "description": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge… The post GitHub Copilot weekly…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
-      "publishedAt": "Fri, 06 Nov 2026 21:00:26 +0000",
       "id": 8
     },
     {
