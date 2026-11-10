@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-09T18:30:27.657315+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-11-10T02:35:58.767243+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Copilot code review: API management and review overview updates",
-      "description": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,… The post Copilot…",
+      "title": "Claude Fable 5.2 in GitHub Copilot",
+      "description": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
-      "publishedAt": "Sat, 07 Nov 2026 00:27:19 +0000",
+      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+      "publishedAt": "Mon, 09 Nov 2026 16:46:43 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
-      "description": "The Agent adoption chart in the Copilot impact dashboard now includes Copilot Chat and the VS Code Agents window, so you can see engagement across nine Copilot experiences. The adoption… The post Copilot impact…",
+      "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
+      "description": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. How… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
-      "publishedAt": "Fri, 06 Nov 2026 22:17:28 +0000",
+      "url": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+      "publishedAt": "Mon, 09 Nov 2026 09:01:37 +0000",
       "id": 8
     },
     {
