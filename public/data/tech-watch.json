@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T12:18:11.449163+00:00",
+  "updatedAt": "2026-11-10T21:41:54.802521+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -14,11 +14,11 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et…",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (05 novembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
-      "publishedAt": "Wed, 04 Nov 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1466/",
+      "publishedAt": "Thu, 05 Nov 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Claude Fable 5.2 in GitHub Copilot",
-      "description": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable…",
+      "title": "Gemini 4 Carbon in GitHub Copilot",
+      "description": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
-      "publishedAt": "Mon, 09 Nov 2026 16:46:43 +0000",
+      "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+      "publishedAt": "Tue, 10 Nov 2026 19:26:51 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
-      "description": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. How… The post…",
+      "title": "C++ language server now auto-configures MSBuild builds",
+      "description": "The Microsoft C++ Language Server for GitHub Copilot CLI now bundles its MSBuild compile commands extractor and invokes it automatically. An agent no longer needs to discover and run a… The post C++ language server now…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
-      "publishedAt": "Mon, 09 Nov 2026 09:01:37 +0000",
+      "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+      "publishedAt": "Tue, 10 Nov 2026 17:04:10 +0000",
       "id": 8
+    },
+    {
+      "category": "IA",
+      "title": "Gemini 4 Carbon is now available",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "publishedAt": "Tue, 10 Nov 2026 16:03:47 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
       "publishedAt": "Tue, 10 Nov 2026 12:02:28 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "publishedAt": "Thu, 05 Nov 2026 17:05:16 +0000",
       "id": 10
     }
   ]
