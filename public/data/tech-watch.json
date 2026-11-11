@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T05:22:56.622582+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-11-11T15:57:00.373965+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+      "publishedAt": "Wed, 11 Nov 2026 14:24:46 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Launching the Vite Ecosystem Fund",
       "description": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
       "publishedAt": "Mon, 09 Nov 2026 13:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "The post-quantum future of web privacy",
-      "description": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/vole-mole/",
-      "publishedAt": "Fri, 06 Nov 2026 14:00:00 GMT",
       "id": 6
     },
     {
@@ -77,20 +77,20 @@
     },
     {
       "category": "IA",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "description": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "publishedAt": "Wed, 11 Nov 2026 15:00:15 +0000",
+      "id": 9
+    },
+    {
+      "category": "IA",
       "title": "Gemini 4 Carbon is now available",
       "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
       "publishedAt": "Tue, 10 Nov 2026 16:03:47 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "description": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "publishedAt": "Tue, 10 Nov 2026 12:02:28 +0000",
       "id": 10
     }
   ]
