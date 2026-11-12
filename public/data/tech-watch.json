@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-12T06:26:47.416292+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-11-12T16:40:02.977388+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans WordPress (29 octobre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à…",
+      "title": "Multiples vulnérabilités dans les produits SAP (10 novembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1420/",
-      "publishedAt": "Thu, 29 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1497/",
+      "publishedAt": "Tue, 10 Nov 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (05 novembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
+      "title": "Vulnérabilité dans Atlassian Confluence Data Center (10 novembre 2026)",
+      "description": "Une vulnérabilité a été découverte dans Atlassian Confluence Data Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1466/",
-      "publishedAt": "Thu, 05 Nov 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1492/",
+      "publishedAt": "Tue, 10 Nov 2026 00:00:00 +0000",
       "id": 2
     },
     {
