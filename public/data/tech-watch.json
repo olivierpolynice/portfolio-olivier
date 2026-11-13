@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-13T11:57:50.556889+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-11-13T19:31:31.949983+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans les produits SAP (10 novembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
+      "title": "Point de situation de l’opération REACTIV – octobre 2026 (12 novembre 2026)",
+      "description": "Face à l’intensification des attaques cybercriminelles liées à des violations de données affectant les services de l’État, le Premier ministre a demandé le 1er septembre 2026 à l’Agence nationale de la sécurité des…",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1497/",
-      "publishedAt": "Tue, 10 Nov 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
+      "publishedAt": "Thu, 12 Nov 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Vulnérabilité dans Atlassian Confluence Data Center (10 novembre 2026)",
-      "description": "Une vulnérabilité a été découverte dans Atlassian Confluence Data Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "title": "Vulnérabilité dans Sonicwall SonicOS (12 novembre 2026)",
+      "description": "Une vulnérabilité a été découverte dans Sonicwall SonicOS. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1492/",
-      "publishedAt": "Tue, 10 Nov 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1507/",
+      "publishedAt": "Thu, 12 Nov 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
-      "title": "Choosing QuePaxa, an unusual consensus algorithm",
-      "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "description": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
-      "publishedAt": "Wed, 11 Nov 2026 14:24:46 GMT",
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+      "publishedAt": "Fri, 13 Nov 2026 19:26:07 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Launching the Vite Ecosystem Fund",
-      "description": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed…",
+      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "description": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
-      "publishedAt": "Mon, 09 Nov 2026 13:00:00 GMT",
+      "url": "https://blog.cloudflare.com/spend-management/",
+      "publishedAt": "Fri, 13 Nov 2026 14:00:00 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Actions for ARM32 Linux & Windows retirement",
-      "description": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows…",
+      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+      "description": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
-      "publishedAt": "Thu, 12 Nov 2026 20:59:36 +0000",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "publishedAt": "Fri, 13 Nov 2026 18:27:13 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Secret scanning detects Cloudflare service tokens",
-      "description": "Secret scanning now detects Cloudflare service tokens. Detectors added Secret scanning now automatically detects the following new secret type in your repositories. Provider Secret type Cloudflare…",
+      "title": "Manage AI Scan for repositories using the REST API",
+      "description": "You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan… The post Manage AI Scan for…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
-      "publishedAt": "Thu, 12 Nov 2026 14:38:25 +0000",
+      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "publishedAt": "Fri, 13 Nov 2026 12:22:41 +0000",
       "id": 8
     },
     {
