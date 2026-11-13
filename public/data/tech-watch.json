@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13T00:56:48.363564+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-11-13T11:57:50.556889+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -77,20 +77,20 @@
     },
     {
       "category": "IA",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "publishedAt": "Thu, 12 Nov 2026 18:00:50 +0000",
+      "id": 9
+    },
+    {
+      "category": "IA",
       "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
       "description": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "publishedAt": "Wed, 11 Nov 2026 15:00:15 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Gemini 4 Carbon is now available",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "publishedAt": "Tue, 10 Nov 2026 16:03:47 +0000",
       "id": 10
     }
   ]
