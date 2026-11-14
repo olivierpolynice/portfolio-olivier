@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13T19:31:31.949983+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-11-14T00:46:52.701907+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "Kitesurf is now open source",
+      "description": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "publishedAt": "Fri, 13 Nov 2026 20:20:21 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
       "description": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended…",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
       "publishedAt": "Fri, 13 Nov 2026 19:26:07 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
-      "description": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/spend-management/",
-      "publishedAt": "Fri, 13 Nov 2026 14:00:00 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "description": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "publishedAt": "Fri, 13 Nov 2026 20:40:05 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
       "publishedAt": "Fri, 13 Nov 2026 18:27:13 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Manage AI Scan for repositories using the REST API",
-      "description": "You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan… The post Manage AI Scan for…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
-      "publishedAt": "Fri, 13 Nov 2026 12:22:41 +0000",
       "id": 8
     },
     {
