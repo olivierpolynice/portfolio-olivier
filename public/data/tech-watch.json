@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T12:53:15.722850+00:00",
+  "updatedAt": "2026-11-17T23:23:54.598770+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
@@ -23,21 +23,30 @@
     },
     {
       "category": "Cloud",
+      "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
+      "description": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026/",
+      "publishedAt": "Tue, 17 Nov 2026 17:06:43 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
       "description": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
       "publishedAt": "Mon, 16 Nov 2026 17:55:46 +0000",
-      "id": 3
+      "id": 4
     },
     {
-      "category": "Cloud",
-      "title": "Test your applications against AWS locally with AWS Emulator",
-      "description": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
-      "publishedAt": "Wed, 11 Nov 2026 19:00:44 +0000",
-      "id": 4
+      "category": "Réseaux",
+      "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+      "description": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "publishedAt": "Tue, 17 Nov 2026 20:24:27 GMT",
+      "id": 5
     },
     {
       "category": "Réseaux",
@@ -46,33 +55,24 @@
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/kitesurf-open-source/",
       "publishedAt": "Fri, 13 Nov 2026 20:20:21 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
-      "description": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
-      "publishedAt": "Fri, 13 Nov 2026 19:26:07 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "Dependabot alert dismissal requests now last one year",
-      "description": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires… The post Dependabot alert dismissal…",
+      "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
+      "description": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6… The post OpenAI’s…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
-      "publishedAt": "Tue, 17 Nov 2026 00:09:27 +0000",
+      "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+      "publishedAt": "Tue, 17 Nov 2026 20:20:29 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Copilot weekly releases — November 9",
-      "description": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude… The post GitHub Copilot weekly releases —…",
+      "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
+      "description": "Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare… The post GitHub…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
-      "publishedAt": "Mon, 16 Nov 2026 21:34:53 +0000",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+      "publishedAt": "Tue, 17 Nov 2026 18:04:48 +0000",
       "id": 8
     },
     {
