@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T18:07:17.569537+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-11-17T02:49:11.451469+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Bulk start AI Scan for repositories",
-      "description": "AI Scan for repositories finds security vulnerabilities on your repository’s default branch. It covers languages CodeQL doesn’t support and finds additional issues in languages CodeQL already analyzes. Findings appear…",
+      "title": "Dependabot alert dismissal requests now last one year",
+      "description": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires… The post Dependabot alert dismissal…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories",
-      "publishedAt": "Mon, 16 Nov 2026 15:50:22 +0000",
+      "url": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+      "publishedAt": "Tue, 17 Nov 2026 00:09:27 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Take GitHub Mobile with you on iPhone Duo",
-      "description": "GitHub Mobile now supports iPhone Duo, with a layout that adapts when unfolded and vertical tabs to help you move between key areas like Copilot, Pull Requests, Issues, and Notifications.… The post Take GitHub Mobile…",
+      "title": "GitHub Copilot weekly releases — November 9",
+      "description": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude… The post GitHub Copilot weekly releases —…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-16-take-github-mobile-with-you-on-iphone-duo",
-      "publishedAt": "Mon, 16 Nov 2026 14:30:07 +0000",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+      "publishedAt": "Mon, 16 Nov 2026 21:34:53 +0000",
       "id": 8
     },
     {
