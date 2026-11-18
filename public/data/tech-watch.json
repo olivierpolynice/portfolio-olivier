@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T06:36:15.255365+00:00",
+  "updatedAt": "2026-11-18T17:01:44.220024+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
@@ -14,11 +14,11 @@
     },
     {
       "category": "Cybersécurité",
-      "title": "Vulnérabilité dans NetApp ONTAP tools pour VMware vSphere 10 (12 novembre 2026)",
-      "description": "Une vulnérabilité a été découverte dans NetApp ONTAP tools pour VMware vSphere 10. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
+      "title": "Multiples vulnérabilités dans Progress Telerik (13 novembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Progress Telerik. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une…",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1518/",
-      "publishedAt": "Thu, 12 Nov 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1533/",
+      "publishedAt": "Fri, 13 Nov 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+      "description": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default.…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
+      "publishedAt": "Wed, 18 Nov 2026 14:52:10 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Quad9’s withdrawal from France: A canary in the coal mine",
       "description": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
       "publishedAt": "Tue, 17 Nov 2026 20:24:27 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "Kitesurf is now open source",
-      "description": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
-      "publishedAt": "Fri, 13 Nov 2026 20:20:21 GMT",
       "id": 6
     },
     {
