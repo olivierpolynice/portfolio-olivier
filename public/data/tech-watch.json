@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T01:46:18.471965+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-11-19T12:37:39.797446+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -42,7 +42,7 @@
     {
       "category": "Réseaux",
       "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
-      "description": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins…",
+      "description": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/open-clairic/",
       "publishedAt": "Wed, 18 Nov 2026 22:00:00 GMT",
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "S3 audit log streaming with OpenID Connect expands to GHE.com",
+      "description": "You can now stream enterprise audit logs to Amazon S3 using OpenID Connect (OIDC) on GitHub Enterprise Cloud with data residency (GHE.com). This extends the existing github.com capability, letting you… The post S3 audit…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
+      "publishedAt": "Thu, 19 Nov 2026 08:27:16 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Wait for pull request events with GitHub CLI",
       "description": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
       "publishedAt": "Thu, 19 Nov 2026 00:00:13 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
-      "description": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like… The post Connect Supabase,…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
-      "publishedAt": "Wed, 18 Nov 2026 22:04:50 +0000",
       "id": 8
     },
     {
