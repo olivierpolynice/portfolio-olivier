@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-19T12:37:39.797446+00:00",
+  "updatedAt": "2026-11-19T22:56:44.341337+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
-      "description": "**[Mise à jour du 05 octobre 2026]** Le 4 octobre 2026, Citrix a publié un avis concernant une nouvelle vulnérabilité (CVE-2026-88779) permettant un déni de service à distance. La CISA indique que cette vulnérabilité…",
+      "title": "Multiples vulnérabilités dans Mattermost Server (20 octobre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la…",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-011/",
-      "publishedAt": "Mon, 28 Sep 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1344/",
+      "publishedAt": "Tue, 20 Oct 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Progress Telerik (13 novembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans Progress Telerik. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une…",
+      "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur.",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1533/",
-      "publishedAt": "Fri, 13 Nov 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
+      "publishedAt": "Wed, 04 Nov 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
+      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "description": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+      "publishedAt": "Thu, 19 Nov 2026 14:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
       "description": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/open-clairic/",
       "publishedAt": "Wed, 18 Nov 2026 22:00:00 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
-      "description": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default.…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
-      "publishedAt": "Wed, 18 Nov 2026 14:52:10 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "S3 audit log streaming with OpenID Connect expands to GHE.com",
-      "description": "You can now stream enterprise audit logs to Amazon S3 using OpenID Connect (OIDC) on GitHub Enterprise Cloud with data residency (GHE.com). This extends the existing github.com capability, letting you… The post S3 audit…",
+      "title": "Enterprise Live Migrations from Azure DevOps generally available",
+      "description": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then… The post…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
-      "publishedAt": "Thu, 19 Nov 2026 08:27:16 +0000",
+      "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+      "publishedAt": "Thu, 19 Nov 2026 18:50:57 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Wait for pull request events with GitHub CLI",
-      "description": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub…",
+      "title": "Red Hat Enterprise Linux runner images now generally available",
+      "description": "Red Hat Enterprise Linux (RHEL) 9 and RHEL 10 images for GitHub-hosted larger runners are now generally available. Originally introduced in public preview in June 2026 in partnership with Red… The post Red Hat…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
-      "publishedAt": "Thu, 19 Nov 2026 00:00:13 +0000",
+      "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
+      "publishedAt": "Thu, 19 Nov 2026 18:48:46 +0000",
       "id": 8
     },
     {
