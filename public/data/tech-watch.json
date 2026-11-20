@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-20T06:25:35.365985+00:00",
-  "successfulSources": 4,
+  "updatedAt": "2026-11-20T16:48:22.711778+00:00",
+  "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "GitHub Desktop now supports multiple accounts per host",
+      "description": "GitHub Desktop now lets you sign in with more than one account on the same host, including GitHub.com, GitHub Enterprise Server, and GHE.com. This has been one of the most… The post GitHub Desktop now supports multiple…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
+      "publishedAt": "Fri, 20 Nov 2026 02:06:01 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Improvements on the pull request overview in public preview",
       "description": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
       "publishedAt": "Fri, 20 Nov 2026 00:02:21 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Enterprise Live Migrations from Azure DevOps generally available",
-      "description": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then… The post…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
-      "publishedAt": "Thu, 19 Nov 2026 18:50:57 +0000",
       "id": 8
     },
     {
