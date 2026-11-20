@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T22:56:44.341337+00:00",
+  "updatedAt": "2026-11-20T06:25:35.365985+00:00",
   "successfulSources": 4,
   "totalSources": 5,
   "articles": [
@@ -41,21 +41,30 @@
     },
     {
       "category": "Réseaux",
+      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "description": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of…",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/nginx2root/",
+      "publishedAt": "Fri, 20 Nov 2026 01:58:29 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
       "description": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
       "publishedAt": "Thu, 19 Nov 2026 14:00:00 GMT",
-      "id": 5
+      "id": 6
     },
     {
-      "category": "Réseaux",
-      "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
-      "description": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/open-clairic/",
-      "publishedAt": "Wed, 18 Nov 2026 22:00:00 GMT",
-      "id": 6
+      "category": "DevSecOps",
+      "title": "Improvements on the pull request overview in public preview",
+      "description": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
+      "publishedAt": "Fri, 20 Nov 2026 00:02:21 +0000",
+      "id": 7
     },
     {
       "category": "DevSecOps",
@@ -64,15 +73,6 @@
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
       "publishedAt": "Thu, 19 Nov 2026 18:50:57 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Red Hat Enterprise Linux runner images now generally available",
-      "description": "Red Hat Enterprise Linux (RHEL) 9 and RHEL 10 images for GitHub-hosted larger runners are now generally available. Originally introduced in public preview in June 2026 in partnership with Red… The post Red Hat…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
-      "publishedAt": "Thu, 19 Nov 2026 18:48:46 +0000",
       "id": 8
     },
     {
