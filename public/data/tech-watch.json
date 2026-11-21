@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-20T16:48:22.711778+00:00",
-  "successfulSources": 5,
+  "updatedAt": "2026-11-21T01:11:34.108264+00:00",
+  "successfulSources": 4,
   "totalSources": 5,
   "articles": [
     {
@@ -41,38 +41,38 @@
     },
     {
       "category": "Réseaux",
-      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
-      "description": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of…",
+      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+      "description": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/nginx2root/",
-      "publishedAt": "Fri, 20 Nov 2026 01:58:29 GMT",
+      "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+      "publishedAt": "Fri, 20 Nov 2026 20:24:38 GMT",
       "id": 5
     },
     {
       "category": "Réseaux",
-      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
-      "description": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "description": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the…",
       "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
-      "publishedAt": "Thu, 19 Nov 2026 14:00:00 GMT",
+      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+      "publishedAt": "Fri, 20 Nov 2026 20:00:45 GMT",
       "id": 6
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Desktop now supports multiple accounts per host",
-      "description": "GitHub Desktop now lets you sign in with more than one account on the same host, including GitHub.com, GitHub Enterprise Server, and GHE.com. This has been one of the most… The post GitHub Desktop now supports multiple…",
+      "title": "Security advisory permissions are now generally available",
+      "description": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give……",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
-      "publishedAt": "Fri, 20 Nov 2026 02:06:01 +0000",
+      "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+      "publishedAt": "Fri, 20 Nov 2026 21:49:29 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "Improvements on the pull request overview in public preview",
-      "description": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the…",
+      "title": "GitHub Enterprise Server 3.23 release candidate",
+      "description": "GitHub Enterprise Server (GHES) 3.23 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.23 release: When working in GitHub Projects, you… The post GitHub Enterprise…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-      "publishedAt": "Fri, 20 Nov 2026 00:02:21 +0000",
+      "url": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
+      "publishedAt": "Fri, 20 Nov 2026 20:41:26 +0000",
       "id": 8
     },
     {
