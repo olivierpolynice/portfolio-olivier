@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:37:49.383529+00:00",
+  "updatedAt": "2026-11-23T14:11:39.046500+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -41,20 +41,20 @@
     },
     {
       "category": "Réseaux",
+      "title": "Probing DNS at Cloudflare",
+      "description": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "publishedAt": "Mon, 23 Nov 2026 14:00:00 GMT",
+      "id": 5
+    },
+    {
+      "category": "Réseaux",
       "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
       "description": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
       "source": "Cloudflare Blog",
       "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
       "publishedAt": "Fri, 20 Nov 2026 20:24:38 GMT",
-      "id": 5
-    },
-    {
-      "category": "Réseaux",
-      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
-      "description": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the…",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
-      "publishedAt": "Fri, 20 Nov 2026 20:00:45 GMT",
       "id": 6
     },
     {
