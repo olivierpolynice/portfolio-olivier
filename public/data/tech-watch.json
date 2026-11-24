@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-23T14:11:39.046500+00:00",
+  "updatedAt": "2026-11-24T02:47:44.855557+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans Mattermost Server (20 octobre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la…",
+      "title": "Multiples vulnérabilités dans les produits Mitel (19 novembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1344/",
-      "publishedAt": "Tue, 20 Oct 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/",
+      "publishedAt": "Thu, 19 Nov 2026 00:00:00 +0000",
       "id": 1
     },
     {
       "category": "Cybersécurité",
-      "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur.",
+      "title": "Multiples vulnérabilités dans Wireshark (19 novembre 2026)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance.",
       "source": "CERT-FR",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
-      "publishedAt": "Wed, 04 Nov 2026 00:00:00 +0000",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/",
+      "publishedAt": "Thu, 19 Nov 2026 00:00:00 +0000",
       "id": 2
     },
     {
@@ -59,21 +59,30 @@
     },
     {
       "category": "DevSecOps",
-      "title": "Security advisory permissions are now generally available",
-      "description": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give……",
+      "title": "Issue statuses and repository boards are in public preview",
+      "description": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight… The post Issue statuses and repository boards are…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
-      "publishedAt": "Fri, 20 Nov 2026 21:49:29 +0000",
+      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "publishedAt": "Mon, 23 Nov 2026 20:37:11 +0000",
       "id": 7
     },
     {
       "category": "DevSecOps",
-      "title": "GitHub Enterprise Server 3.23 release candidate",
-      "description": "GitHub Enterprise Server (GHES) 3.23 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.23 release: When working in GitHub Projects, you… The post GitHub Enterprise…",
+      "title": "Secret scanning reduces false positives for Slack",
+      "description": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secret type Improvement…",
       "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
-      "publishedAt": "Fri, 20 Nov 2026 20:41:26 +0000",
+      "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+      "publishedAt": "Mon, 23 Nov 2026 18:32:59 +0000",
       "id": 8
+    },
+    {
+      "category": "IA",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "description": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "publishedAt": "Mon, 23 Nov 2026 16:59:40 +0000",
+      "id": 9
     },
     {
       "category": "IA",
@@ -82,15 +91,6 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
       "publishedAt": "Wed, 18 Nov 2026 21:35:43 +0000",
-      "id": 9
-    },
-    {
-      "category": "IA",
-      "title": "Genie 4 is now available",
-      "description": "Consultez cette publication pour découvrir les dernières informations de cette source.",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/genie-4-is-now-available/",
-      "publishedAt": "Wed, 18 Nov 2026 18:13:42 +0000",
       "id": 10
     }
   ]
