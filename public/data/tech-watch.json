@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T14:39:07.893965+00:00",
+  "updatedAt": "2026-11-25T00:27:23.130008+00:00",
   "successfulSources": 5,
   "totalSources": 5,
   "articles": [
@@ -23,20 +23,20 @@
     },
     {
       "category": "Cloud",
+      "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+      "description": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight years. Last week the…",
+      "source": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+      "publishedAt": "Tue, 24 Nov 2026 15:39:59 +0000",
+      "id": 3
+    },
+    {
+      "category": "Cloud",
       "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
       "description": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda…",
       "source": "AWS News Blog",
       "url": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
       "publishedAt": "Wed, 18 Nov 2026 19:39:07 +0000",
-      "id": 3
-    },
-    {
-      "category": "Cloud",
-      "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
-      "description": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools…",
-      "source": "AWS News Blog",
-      "url": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026/",
-      "publishedAt": "Tue, 17 Nov 2026 17:06:43 +0000",
       "id": 4
     },
     {
@@ -59,20 +59,20 @@
     },
     {
       "category": "DevSecOps",
+      "title": "More predictable notifications on GitHub.com",
+      "description": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.… The post…",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+      "publishedAt": "Tue, 24 Nov 2026 16:40:59 +0000",
+      "id": 7
+    },
+    {
+      "category": "DevSecOps",
       "title": "Issue statuses and repository boards are in public preview",
       "description": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight… The post Issue statuses and repository boards are…",
       "source": "GitHub Changelog",
       "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
       "publishedAt": "Mon, 23 Nov 2026 20:37:11 +0000",
-      "id": 7
-    },
-    {
-      "category": "DevSecOps",
-      "title": "Secret scanning reduces false positives for Slack",
-      "description": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secret type Improvement…",
-      "source": "GitHub Changelog",
-      "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
-      "publishedAt": "Mon, 23 Nov 2026 18:32:59 +0000",
       "id": 8
     },
     {
